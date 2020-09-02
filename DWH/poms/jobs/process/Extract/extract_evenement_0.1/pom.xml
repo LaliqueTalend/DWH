@@ -3,30 +3,30 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.example.dwh_test</groupId>
+    <groupId>org.example.dwh</groupId>
     <artifactId>code.Master</artifactId>
     <version>7.2.1</version>
     <relativePath>../../../../</relativePath>
   </parent>
-  <groupId>org.example.dwh_test.job</groupId>
+  <groupId>org.example.dwh.job</groupId>
   <artifactId>Extract_Evenement</artifactId>
   <version>0.1.0</version>
-  <name>DWH_TEST Extract_Evenement-0.1.0 (0.1,Jobs)</name>
+  <name>DWH Extract_Evenement-0.1.0 (0.1,Jobs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
     <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
     <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
     <talend.job.version>0.1</talend.job.version>
-    <talend.project.name.lowercase>dwh_test</talend.project.name.lowercase>
-    <talend.job.path>dwh_test/extract_evenement_0_1</talend.job.path>
+    <talend.project.name.lowercase>dwh</talend.project.name.lowercase>
+    <talend.job.path>dwh/extract_evenement_0_1</talend.job.path>
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
-    <talend.project.name>DWH_TEST</talend.project.name>
+    <talend.project.name>DWH</talend.project.name>
     <talend.product.version>7.2.1.20190909_1200_patch</talend.product.version>
     <talend.job.finalName>extract_evenement_0_1</talend.job.finalName>
-    <talend.pigudf.groupid>org.example.dwh_test.pigudf</talend.pigudf.groupid>
-    <talend.routine.groupid>org.example.dwh_test.code</talend.routine.groupid>
+    <talend.pigudf.groupid>org.example.dwh.pigudf</talend.pigudf.groupid>
+    <talend.routine.groupid>org.example.dwh.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
     <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
     <talend.job.stat>true</talend.job.stat>
@@ -138,7 +138,7 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
-      <groupId>org.example.dwh_test.code</groupId>
+      <groupId>org.example.dwh.code</groupId>
       <artifactId>routines</artifactId>
       <version>7.2.1</version>
     </dependency>
