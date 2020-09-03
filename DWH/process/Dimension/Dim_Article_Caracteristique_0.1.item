@@ -251,7 +251,7 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables name="Var" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="row2.UMCONV != 0 &amp;&amp; row2.UMCNV1 != 0 ? row2.UMCONV/row2.UMCNV1 : '0.00' " name="test" type="id_Double"/>
+        <mapperTableEntries expression="row2.UMCONV.divide(row2.UMCNV1) " name="test" type="id_Double"/>
       </varTables>
       <outputTables name="out1" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row1.IMITM" name="codearticletechnique" nullable="true" type="id_String"/>
@@ -274,8 +274,8 @@
         <mapperTableEntries name="UMUM" type="id_String"/>
         <mapperTableEntries name="UMRUM" type="id_String"/>
         <mapperTableEntries name="UMUSTR" nullable="true" type="id_String"/>
-        <mapperTableEntries name="UMCONV" nullable="true" type="id_Double"/>
-        <mapperTableEntries name="UMCNV1" nullable="true" type="id_Double"/>
+        <mapperTableEntries name="UMCONV" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="UMCNV1" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="UMUSER" nullable="true" type="id_String"/>
         <mapperTableEntries name="UMPID" nullable="true" type="id_String"/>
         <mapperTableEntries name="UMJOBN" nullable="true" type="id_String"/>
@@ -370,10 +370,10 @@
       <column key="false" length="20" name="UMUSTR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="20" name="UMCONV" nullable="true" pattern="" precision="0" sourceType="FLOAT8" type="id_Double" usefulColumn="true">
+      <column key="false" length="20" name="UMCONV" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="20" name="UMCNV1" nullable="true" pattern="" precision="0" sourceType="FLOAT8" type="id_Double" usefulColumn="true">
+      <column key="false" length="20" name="UMCNV1" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="10" name="UMUSER" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -517,10 +517,10 @@
       <column comment="" key="true" length="15" name="UMRUM" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="UMUSTR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="20" name="UMUSTR" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="UMCONV" nullable="true" pattern="" precision="0" sourceType="FLOAT8" type="id_Double" usefulColumn="true">
+      <column comment="" key="false" length="20" name="UMCONV" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="20" name="UMCNV1" nullable="true" pattern="" precision="0" sourceType="FLOAT8" type="id_Double" usefulColumn="true">
@@ -637,10 +637,10 @@
       <column comment="" key="true" length="15" name="UMRUM" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="UMUSTR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="20" name="UMUSTR" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="UMCONV" nullable="true" pattern="" precision="0" sourceType="FLOAT8" type="id_Double" usefulColumn="true">
+      <column comment="" key="false" length="20" name="UMCONV" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="20" name="UMCNV1" nullable="true" pattern="" precision="0" sourceType="FLOAT8" type="id_Double" usefulColumn="true">
@@ -715,13 +715,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_cf9006e5-aa5e-43fc-8a22-a3c618f0eef5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1dAnWQYwF9UrGue7HrXkdo6m+sr8qQMRQnRJdvO1FtzZHWz1AiP+7ZG5rij+XHmoYEa6BY1Ev5Sz&#13;
-NyXKyobh1w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fc322545-2b98-49d0-87a4-9c533213a899"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qJYr4a4NWeiBK/ngwSmk0kM9TR3bLcDwg4OPu0983MqY065bXCAUVQL8/bNOV/Ehjp8+KRrk3l52&#13;
-wwtSB72LYA==</DigestValue></Reference></SignedInfo><SignatureValue>LuDyfIw9p54NVtWu9LrJBvGreabOCxUDlCvOungulH+p5wb9EixvzTrGE+ZdSXsUrIcGJkb7Cc9J&#13;
-iTrtYeYUJjRaYr7HoQtlgWnia/i2KGDZ0rNfcsg9CNRdl+DZDeULur5EMbt4+xfI4haBry/1hzlN&#13;
-Dvq0LsPnbHD71obHsmbsS+ETmzoli3Dh1DrO0BPmO7uUX1YauzBUi2Uhl51qf9Qt4l/UsyHeKsbm&#13;
-nIrh6EqXJixQAfmXbZTwE8RZWN/GLyMJoiXx9aRKBbFh57idlf74xscndaePgqJL6SrKxBbpB9kc&#13;
-b6mJ4S8m36S2K4Q9g6jxZVidwcx07Lc21y14aA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5357755f-ef63-4d04-a8df-25c00da6dd3e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9nuQ412AzyyXuIVNeoU5pKqnQlNQOIS7dV4xXeo30HmdRpkNTT12d3L7U4myHJy+qa90WOEN045L&#13;
+qWtxyQANdw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_23da1876-b3e3-4512-b37a-84b4dbb9eeed"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9IG2K/J6ovy7ZDFsjc2/gbTjPwiKNHw3DrKdrjdk1sAGO6bOw+30UiB6v9pt30+UTvR3ljzwymOi&#13;
+wf3c3FeeEA==</DigestValue></Reference></SignedInfo><SignatureValue>mfu6e0/QAR8jM78uYBsbwFf/4wxFlG5KDRGDvLnV7429NWwv92loeF+Q4WdjL0ejH6tqNeNeFraw&#13;
+sHVrgN7RWLTE68FMuPcbag8p7o6yDlMXnjy1967JWO1bhb5mvy2CVIx6j7BhT46h4tATXHyr2l2q&#13;
+3Kpuk17yUCSjwnJBmXNAGR9nAn2WdC8lESLETOukvuEM+5MwE65ciY5zYvPj1jaIXbun2pbgLWPK&#13;
+7C2cpNcBhi64IeUK+W14XPhssqM6HkH4UTvMOJRW9sf9+9a9SfnPsbu3lfmupHjrc9a40s8AURUg&#13;
+GD+LMg0h0lKTpxEd6+pC+v9+jOVauEjEXYJgdg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -743,4 +743,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fc322545-2b98-49d0-87a4-9c533213a899" Target="#_cf9006e5-aa5e-43fc-8a22-a3c618f0eef5"><Timestamp>2020-09-03 13:56:46</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_23da1876-b3e3-4512-b37a-84b4dbb9eeed" Target="#_5357755f-ef63-4d04-a8df-25c00da6dd3e"><Timestamp>2020-09-03 14:03:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
