@@ -407,7 +407,7 @@
       <column comment="" key="false" length="21" name="codearticletechnique" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="emplacement" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="true" length="20" name="emplacement" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="true" length="12" name="magasin" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -426,9 +426,10 @@
       <column comment="" key="false" length="21" name="ecart" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="21" name="PJSTUN" nullable="false" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" key="true" length="21" name="PJSTUN" nullable="false" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
+      <column comment="" key="true" length="-1" name="PJLOTN" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
@@ -446,6 +447,7 @@
         <mapperTableEntries expression="Relational.ISNULL(row1.PJTQCT ) ? row1.PJTQCT     : row1.PJTQCT .divide(new BigDecimal(10000)) " name="quantitecomptee" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries expression="row1.PJTQOH " name="ecart" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries expression="row1.PJSTUN " name="PJSTUN" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.PJLOTN" name="PJLOTN" nullable="true" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
         <mapperTableEntries name="PJCYNO" type="id_BigDecimal"/>
@@ -872,6 +874,11 @@
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PJLOTN"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
     </elementParameter>
     <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
@@ -890,7 +897,7 @@
       <column comment="" key="false" length="21" name="codearticletechnique" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="emplacement" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="true" length="20" name="emplacement" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="true" length="12" name="magasin" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -909,9 +916,10 @@
       <column comment="" key="false" length="21" name="ecart" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="21" name="PJSTUN" nullable="false" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" key="true" length="21" name="PJSTUN" nullable="false" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
+      <column comment="" key="true" length="-1" name="PJLOTN" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
       <column comment="" key="false" length="-1" name="source" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -924,7 +932,7 @@
       <column comment="" key="false" length="21" name="codearticletechnique" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="emplacement" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="true" length="20" name="emplacement" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="true" length="12" name="magasin" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -943,9 +951,10 @@
       <column comment="" key="false" length="21" name="ecart" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="21" name="PJSTUN" nullable="false" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" key="true" length="21" name="PJSTUN" nullable="false" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
+      <column comment="" key="true" length="-1" name="PJLOTN" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
@@ -974,6 +983,9 @@
       <elementValue elementRef="TRACE_COLUMN" value="codearticletechnique"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PJLOTN"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out1"/>
@@ -996,13 +1008,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_804868e8-3ff2-4f97-aef4-a4f250c75658"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>SGdr1cheMAFJ/z+3PXq84ctEax5ikgpJDyLA9I+yREVodVkJkW/dLfRFAOORsHaDa9uZSbP4r2cZ&#13;
-vyU2F6T8cw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_cbcd15d4-d289-4fbc-84d7-212e654257cd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>NVmoiAhitHamuo7arQqTxVkt3vlggJKdixMMEVVDlKiZYKJfxj7Bdi6dA1+hP4I6o3EAZHz1appT&#13;
-F3p7+wf7Hg==</DigestValue></Reference></SignedInfo><SignatureValue>OADoWQG7y8OsHLMkoNUf67O8GPT/PKP0jktNQ2kX1zi8RbkrOfvkVyMXXE0iTKCy05H/31/itCQX&#13;
-JUrbhiLM7M+orVFjp1CcgQ0OM0FeL8C18pc1dZmIpxD5O7gdpcdPuLbAfNRH1LtHkiM8dzz6zNQN&#13;
-TF1dvSreuJ1xJUjl+xoXWAamdKbSUc+iUJuXecT/7roEWCx9TG3PiHPlFZnux4tAmk+mS+b0a1Fm&#13;
-Ez1xZXK1hS3qxGdznO/wqiitN1z94BLpP8FiKZv7DjjtGmcKdv3sQQ9XjLzW8Z3AV7KaOdc5fnA5&#13;
-gKClOfXA8E32bRHymrUfHmE4tMfNH4evO9hHgw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_038f2bdd-367a-47ec-92b2-b5a54d304341"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>sqmgnaoh7oWBBTfOZM2i7VVgsPYU8hMo3BO25oLUgT+jCKW7w9DznGbUMi/7xTnLFdJCrVZ/IYcl&#13;
+zE26WmR9ng==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fdd2fd96-280c-4a7a-a18b-514c75b260ee"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CJAJyvYNicwMoTkZUh1KKOBpnrU4FBR8C7/l8G7hqqMKuEfE+dvlUwZk0kA3UJARrEWf8HZyV69Z&#13;
+mXoyFCNNtg==</DigestValue></Reference></SignedInfo><SignatureValue>RAVwecLZdFfqLAfQB1fTsag6jC0aZxT3lzjVbIBttQrAkOirQjRuSmtBnp6Q7luyAZOfzmXKhpuy&#13;
+Z+nQm0TeyihErJmTzRdgAVVlrAm6efVPuZYn6ygjrpp2Kb2/wV5NV0r8RqCJqFxu2dbbbzmVVdTL&#13;
+yH4SVjdI9yhJ9uBZr6J5eYNZxQQh8f4wvG97qbozhHh52UWox2TOHdAHRMCKrmbqIqpIseAgy00U&#13;
+vcTeHwrq9kPBdxHpoRuw37ihNRI+G/ZJGYCCQ0kEpVglxyJVjxwZWc8QMjfnazLGrj1/gcElLqNe&#13;
+TsgJKGR5yEHDOfvgGoB81Tfa/9FV93kBy1HhTg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1024,4 +1036,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_cbcd15d4-d289-4fbc-84d7-212e654257cd" Target="#_804868e8-3ff2-4f97-aef4-a4f250c75658"><Timestamp>2020-09-03 08:37:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fdd2fd96-280c-4a7a-a18b-514c75b260ee" Target="#_038f2bdd-367a-47ec-92b2-b5a54d304341"><Timestamp>2020-09-03 08:39:29</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
