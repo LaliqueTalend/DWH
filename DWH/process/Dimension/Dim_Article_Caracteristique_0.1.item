@@ -246,13 +246,17 @@
     <metadata connector="FLOW" name="out1">
       <column comment="" key="true" length="-1" name="codearticletechnique" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="codearticle" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
-      <varTables name="Var" sizeState="INTERMEDIATE"/>
+      <varTables name="Var" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="Mathematical.DIV(row2.UMCONV ,row2.UMCNV1) " name="test" type="id_Double"/>
+      </varTables>
       <outputTables name="out1" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row1.IMITM" name="codearticletechnique" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.IMLITM" name="codearticle" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.test" name="newColumn" nullable="true" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
         <mapperTableEntries name="IMITM" type="id_String"/>
@@ -270,8 +274,8 @@
         <mapperTableEntries name="UMUM" type="id_String"/>
         <mapperTableEntries name="UMRUM" type="id_String"/>
         <mapperTableEntries name="UMUSTR" nullable="true" type="id_String"/>
-        <mapperTableEntries name="UMCONV" nullable="true" type="id_Integer"/>
-        <mapperTableEntries name="UMCNV1" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="UMCONV" nullable="true" type="id_Double"/>
+        <mapperTableEntries name="UMCNV1" nullable="true" type="id_Double"/>
         <mapperTableEntries name="UMUSER" nullable="true" type="id_String"/>
         <mapperTableEntries name="UMPID" nullable="true" type="id_String"/>
         <mapperTableEntries name="UMJOBN" nullable="true" type="id_String"/>
@@ -366,10 +370,10 @@
       <column key="false" length="20" name="UMUSTR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="20" name="UMCONV" nullable="true" pattern="" precision="0" sourceType="INT8" type="id_Integer" usefulColumn="true">
+      <column key="false" length="20" name="UMCONV" nullable="true" pattern="" precision="0" sourceType="FLOAT8" type="id_Double" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="20" name="UMCNV1" nullable="true" pattern="" precision="0" sourceType="INT8" type="id_Integer" usefulColumn="true">
+      <column key="false" length="20" name="UMCNV1" nullable="true" pattern="" precision="0" sourceType="FLOAT8" type="id_Double" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="10" name="UMUSER" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -419,6 +423,8 @@
       <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="codearticle"/>
       <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn"/>
+      <elementValue elementRef="LENGTH" value="10"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
@@ -426,6 +432,7 @@
     <metadata connector="FLOW" name="tLogRow_1">
       <column comment="" key="true" length="-1" name="codearticletechnique" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="codearticle" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="-256">
@@ -513,10 +520,10 @@
       <column comment="" key="false" length="20" name="UMUSTR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="UMCONV" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+      <column comment="" key="false" length="20" name="UMCONV" nullable="true" pattern="" precision="0" sourceType="FLOAT8" type="id_Double" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="UMCNV1" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+      <column comment="" key="false" length="20" name="UMCNV1" nullable="true" pattern="" precision="0" sourceType="FLOAT8" type="id_Double" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="10" name="UMUSER" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -633,10 +640,10 @@
       <column comment="" key="false" length="20" name="UMUSTR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="UMCONV" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+      <column comment="" key="false" length="20" name="UMCONV" nullable="true" pattern="" precision="0" sourceType="FLOAT8" type="id_Double" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="UMCNV1" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+      <column comment="" key="false" length="20" name="UMCNV1" nullable="true" pattern="" precision="0" sourceType="FLOAT8" type="id_Double" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="10" name="UMUSER" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -676,6 +683,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
   </connection>
   <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tLogRow_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out1"/>
   </connection>
@@ -703,13 +715,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_39516fbf-56a1-4d8a-86b2-2148165903da"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>PMLNO0D/1WYkG7hBRW9hWMEf1klln4mTA7V0SHF/8g41GkCxa8c95FktKb/yN52Gm5EjY6AWrqnJ&#13;
-wBjXEU50nw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d53032fe-c48f-4bfc-8ab5-c2ec3aa7963f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>uBWukTeh0xjf6cko0WC+z9GZnWDPPbR5xpx++GSHdcTOjENJfUB0VmOXsqmG25bHlSTtmtDQGaoL&#13;
-w+eFBV42og==</DigestValue></Reference></SignedInfo><SignatureValue>TRx28SsCZZl8fhgyUFbZeLm4U6kCOPPPZlMH09JmralarFkDRyfjQYKTkywjYo0Jro1SnjO+3Xlo&#13;
-quhl5MejLtEF6bYUIE/+orI2l2BZ88lskLgZ1d/BDM1xHfkmeNsqmBLLUuOljx3iWNfDyGL8xeY9&#13;
-xglq+uUh1B4e8qc12QqaJnSbObSf5ePHajXJMpx6DE4bgcQLpogkbT3XOn8eQdH/rNoldk7TlwfC&#13;
-ECK+g/epnH8va2TMXsHZr4BXATkaGpB39rVF5kBlGVIUCSMNZZrbr2LKe8MDdRr/8mC9OgOsnbje&#13;
-FdQWXD0ehtvVlxImK2dU+62UcshRhdlgb4RQmQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6535beeb-796d-407c-941b-b55041a088b9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8mWDS9GvN9+nco16wJhSXh4aJJ6MnAJaK4CEWPYZ7H1TxsPJW6W5f0j9Oz6Mznha3XtnrUuUKdPr&#13;
+bKmDapajFw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f95fbe21-428a-4ce6-832d-9bcf944b79cd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Ni809wN8YHS18ReTbQTxe/SKPRY6Rs0ouPN21IL/2apHVHmibap0OFlznkLbz9Pzc8wAdzg6EUKj&#13;
+y0MKecd8Rg==</DigestValue></Reference></SignedInfo><SignatureValue>p4Lii9vNWtM5dXRd+NN1jKo5DbhNhrTmRTX73bdQXhFZR5OiOddNpxFnhV3ijHPXAGXWSl9glCQo&#13;
+x1mrjAOezSEGA+oLhSq5CnjU2afSGpG0j2xr+Y/imq4D8ikb8t8sbscxMVSY8yFxfmkzTWtVNXBC&#13;
+uaYBgOIWsh0mlVefguWYoElePsu3/0EVqqTmJnHEjuno+xMX/bGvxWs9qXVsHbln+YTOJX8SFo7N&#13;
+TIz+0BRgD0PB9clpqwxbq+mmjwc51guUy0kXCKCTRDCk+DOE8pGs2hWcfwX8XlHlFVTI8CpB4sZ3&#13;
+j989Zx9HuYkK7DHDPySio7L2oypLrkywpi3J8g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -731,4 +743,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d53032fe-c48f-4bfc-8ab5-c2ec3aa7963f" Target="#_39516fbf-56a1-4d8a-86b2-2148165903da"><Timestamp>2020-09-03 13:47:20</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f95fbe21-428a-4ce6-832d-9bcf944b79cd" Target="#_6535beeb-796d-407c-941b-b55041a088b9"><Timestamp>2020-09-03 13:55:37</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
