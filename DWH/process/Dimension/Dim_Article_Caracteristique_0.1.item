@@ -299,7 +299,7 @@
         <mapperTableEntries name="UMRUM" type="id_String"/>
         <mapperTableEntries name="UMUSTR" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="UMCONV" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries name="UMCNV1" nullable="true" type="id_Double"/>
+        <mapperTableEntries name="UMCNV1" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="UMUSER" nullable="true" type="id_String"/>
         <mapperTableEntries name="UMPID" nullable="true" type="id_String"/>
         <mapperTableEntries name="UMJOBN" nullable="true" type="id_String"/>
@@ -317,7 +317,7 @@
         <mapperTableEntries name="UMRUM" type="id_String"/>
         <mapperTableEntries name="UMUSTR" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="UMCONV" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries name="UMCNV1" nullable="true" type="id_Double"/>
+        <mapperTableEntries name="UMCNV1" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="UMUSER" nullable="true" type="id_String"/>
         <mapperTableEntries name="UMPID" nullable="true" type="id_String"/>
         <mapperTableEntries name="UMJOBN" nullable="true" type="id_String"/>
@@ -497,8 +497,6 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="USER" show="false" value="context.Postgres_Login"/>
     <elementParameter field="PASSWORD" name="PASS" show="false" value="8pW6Nmy2kuf34mRcfxBSVYmQq//tkRgucEBEWve6NrY="/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_MC4UwAFxEeqyKvuObbcQGw - f41002"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f41002&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -570,7 +568,7 @@
       <column comment="" key="false" length="20" name="UMCONV" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="UMCNV1" nullable="true" pattern="" precision="0" sourceType="FLOAT8" type="id_Double" usefulColumn="true">
+      <column comment="" key="false" length="20" name="UMCNV1" nullable="true" pattern="" precision="0" sourceType="FLOAT8" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="10" name="UMUSER" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -616,8 +614,6 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="USER" show="false" value="context.Postgres_Login"/>
     <elementParameter field="PASSWORD" name="PASS" show="false" value="8pW6Nmy2kuf34mRcfxBSVYmQq//tkRgucEBEWve6NrY="/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_MC4UwAFxEeqyKvuObbcQGw - f41002"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f41002&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -689,7 +685,7 @@
       <column comment="" key="false" length="20" name="UMCONV" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="UMCNV1" nullable="true" pattern="" precision="0" sourceType="FLOAT8" type="id_Double" usefulColumn="true">
+      <column comment="" key="false" length="20" name="UMCNV1" nullable="true" pattern="" precision="0" sourceType="FLOAT8" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="10" name="UMUSER" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -765,13 +761,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7928c14f-337e-4365-b42c-e6b6d9d9cb5e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+sgvmwjKz00glml+CuTskK1yXFSiGKUY0MgOgURVZOpxb16/t9O9jV3HwuYQSwdEELhME4hmt5hT&#13;
-n/8EDF8UAg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_dae0d994-c593-46c4-9683-5f9c3e46adcc"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>STez3VT9nr3vUl24ssER+IORu78jF6Uw8eRJ0aZvhRo+xkg9EdF9rK0fZVDm80XG0UyvtlEhMvJ6&#13;
-6SuUkVBWEQ==</DigestValue></Reference></SignedInfo><SignatureValue>OYkD/Ghd2iyY/mq6X+TDELzY8WBA6aaolHGECoRRQ7v+xmeUAFzaoZx90DjcEqbDYHZ0SrgS7vEs&#13;
-d3Fh9Y3HbidP2rnMk9wdTbyXsj/OkHboSIq1vi17GjuMf0Z8ayPd9ecIpwvZA/2koAu4MSAbTlWz&#13;
-I2w/+IpUIOgDqKAEXf34SF6/KbhQtg8mD+hVN5ClIO/2nqV5HVUhXd/jZijI6S23znVzSgjBCv/f&#13;
-Ix4/bLAPbAj7366TBTeYKojYSibMbxdN5mvIRWyBRPXjm3SZhPQCFjfG6ZXPHm/MJCgcPG02DL+e&#13;
-wgVtnHVA3Lac1bMtkm8P59vtlk8LAzLuXngQRw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c94aeabc-9568-491f-9d3b-a9cd12b8b28a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>YSI5WB0smAHdXg/lCAyzoR9IpD98nwngzCv+FS68Xk56TLx5ABDjXpRuVVkksuZVoNGAWRUCakDB&#13;
+8QN9bfnDaA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_acfdf6ce-842a-4048-b638-5e12f6bc17e9"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>PNHSb2frJ5J0O0+F3WpNgXtxkXvw0oiFmpHvVTpkwAEVxT8RCVjIrZ7/4RnTC0QThrjqwaU7XtRw&#13;
+3ZyE3it1Og==</DigestValue></Reference></SignedInfo><SignatureValue>Cr0mCdd3EHeiigHPwALMFg6HbwdZjXQ8fxUMzVlhyXvwbyd58fAwyLwZO2ajMOS4Fz/UuU2fQLKV&#13;
+FPIFSMgYpZL+IeMGXjAgewOW4PRkDbRzmIE0L1ezSZHs1ESMN3Srh8dcaLC5n+NT/CVANCo9b7RF&#13;
+QrbDvZ4FVBa4FdyL/fkQONDrgVwR9Qb0izeE/OSxctjfbpQYmnNl/fnaxdBpMt/FDbSl5x1KTVCh&#13;
+6mEAvhAuC9TgZMmqFzZ/L3yO9kLP4KPss8m3oyZsTzg+SPrKTMQL9Ea2/0fyw3ZKixXA/pr7WhaB&#13;
+LIL6EmhcbhWQ/zc81El4oZthPMKchye83cQleg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -793,4 +789,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_dae0d994-c593-46c4-9683-5f9c3e46adcc" Target="#_7928c14f-337e-4365-b42c-e6b6d9d9cb5e"><Timestamp>2020-09-07 08:25:20</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_acfdf6ce-842a-4048-b638-5e12f6bc17e9" Target="#_c94aeabc-9568-491f-9d3b-a9cd12b8b28a"><Timestamp>2020-09-07 08:32:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
