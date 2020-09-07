@@ -497,6 +497,8 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="USER" show="false" value="context.Postgres_Login"/>
     <elementParameter field="PASSWORD" name="PASS" show="false" value="8pW6Nmy2kuf34mRcfxBSVYmQq//tkRgucEBEWve6NrY="/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_MC4UwAFxEeqyKvuObbcQGw - f41002"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f41002&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -562,7 +564,7 @@
       <column comment="" key="true" length="15" name="UMRUM" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="UMUSTR" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="20" name="UMUSTR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="20" name="UMCONV" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
@@ -614,6 +616,8 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="USER" show="false" value="context.Postgres_Login"/>
     <elementParameter field="PASSWORD" name="PASS" show="false" value="8pW6Nmy2kuf34mRcfxBSVYmQq//tkRgucEBEWve6NrY="/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_MC4UwAFxEeqyKvuObbcQGw - f41002"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f41002&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -679,7 +683,7 @@
       <column comment="" key="true" length="15" name="UMRUM" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="UMUSTR" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="20" name="UMUSTR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="20" name="UMCONV" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
@@ -761,13 +765,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8bd2abba-9ff7-4e21-a189-9a7918d75249"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>XvVTbytGuBuB2o4rVtmeLxgRSo82CbaHiXFqrmoeAwEBmm+Qtgs8SgoNad6AgVHKZE47eS2xFh25&#13;
-hqDBaq+JOw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_45f92a82-3fea-4493-b869-d7581ab213fb"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>tD77n3NiS2yECO0t6E7jB029bubZTWLNhnhUBVJXF4pUiiauUjITg1Dg3rhcCvRqBLZ9NNYHS328&#13;
-eEhN/dmjEg==</DigestValue></Reference></SignedInfo><SignatureValue>AotG8uXJFHRKUgq4AVKtXDL2i3su35EszrAjAaiwKuYNs+MvHu8KemnzjkkSUhRNoTx9cyHz6kCi&#13;
-LIerFo61MszwpWa0AUJu+ayu55/06KlbxQm+qjMN3xaYk3qOKV4eJ4EpLP2Dv1XNv7nzSdeVm33B&#13;
-H/uelEaoBDijBkRC0DdLT2dlozk4r6QMxIZmwGT9ZIf28NedzyPzTR3+YhNPhjAFP6c8zVgwagrg&#13;
-GmYsSlt6O8ZT4xQe1wJ4bhsSSmw5Y4yEQH5jCEaNAWRhRz4pBa4zFCLkcsVJ4PsGJ8aH84HNRnR0&#13;
-sUhuk7ROx+DQdWO1MHrfF+okoeQtGOJt07n/aQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1b3ed5a8-b9f6-4df8-8199-13e167234ac5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>tUkywb0FsX2wYJFAXeJRDlOGfoG8itw+lSATUe2NXtFpslaPIsaPB2kvEtrgp25iO0ROmKkqu21g&#13;
+i6BsDqSGHw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8a540aa5-5291-4927-a11b-358b1cd661b8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JH14pV89hLabK9hfBDHQi6QW493A0i6L9Ps2hgd1SCfUmxV0e4SaiEe0q/UU3N7JI4opBdx+fIHg&#13;
+ALdQnXVlEw==</DigestValue></Reference></SignedInfo><SignatureValue>amvwV7v25D/Ff6hG9N7mehGPGmyTqFA4rSAsUZw0rJ5wxNDv7vT3Z8omaX15mqnXMX+1AnPTNnWr&#13;
+y92kJib9lYpiYmvhsG5oalb+WLDSWGsfaoFn2+ti3fL8Y+Y3ft6m4Tj/+3dAGaCRE4Be+PASjYzH&#13;
+M17CPyezvYrulOP7OFp6tdJ1fxtShyCZS4InDo28JNjwFAZog2cYVL6Cl5yaGLjFVq2fNmGwQap/&#13;
+b7zgCtPcfRfUnEcKiZO9To1CPM30XANMVIRl7Dc3qqqBbMwREmk7yQ1TWVMN7vbKcfAF1gAmxOq8&#13;
+au+RhGnfza5ERJY1SI5ou0rEHab4OvVtT+dXmw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -789,4 +793,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_45f92a82-3fea-4493-b869-d7581ab213fb" Target="#_8bd2abba-9ff7-4e21-a189-9a7918d75249"><Timestamp>2020-09-07 08:38:22</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8a540aa5-5291-4927-a11b-358b1cd661b8" Target="#_1b3ed5a8-b9f6-4df8-8199-13e167234ac5"><Timestamp>2020-09-07 08:41:34</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
