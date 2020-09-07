@@ -28,7 +28,7 @@
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="320"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="352"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
@@ -274,7 +274,7 @@
         <mapperTableEntries name="IMSRNR" nullable="true" type="id_String"/>
         <mapperTableEntries name="IMUPCN" nullable="true" type="id_String"/>
       </inputTables>
-      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row2" sizeState="INTERMEDIATE">
+      <inputTables activateCondensedTool="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row2" sizeState="INTERMEDIATE">
         <mapperTableEntries name="UMMCU" type="id_String"/>
         <mapperTableEntries expression="row1.IMITM" name="UMITM" type="id_String"/>
         <mapperTableEntries name="UMUM" type="id_String"/>
@@ -292,9 +292,9 @@
         <mapperTableEntries name="UMPUPC" nullable="true" type="id_String"/>
         <mapperTableEntries name="UMSEPC" nullable="true" type="id_String"/>
       </inputTables>
-      <inputTables lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row3" sizeState="INTERMEDIATE">
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row3" sizeState="INTERMEDIATE">
         <mapperTableEntries name="UMMCU" type="id_String"/>
-        <mapperTableEntries name="UMITM" type="id_String"/>
+        <mapperTableEntries expression="row1.IMITM" name="UMITM" type="id_String"/>
         <mapperTableEntries name="UMUM" type="id_String"/>
         <mapperTableEntries name="UMRUM" type="id_String"/>
         <mapperTableEntries name="UMUSTR" nullable="true" type="id_String"/>
@@ -310,9 +310,9 @@
         <mapperTableEntries name="UMPUPC" nullable="true" type="id_String"/>
         <mapperTableEntries name="UMSEPC" nullable="true" type="id_String"/>
       </inputTables>
-      <inputTables lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row4" sizeState="INTERMEDIATE">
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row4" sizeState="INTERMEDIATE">
         <mapperTableEntries name="UMMCU" type="id_String"/>
-        <mapperTableEntries name="UMITM" type="id_String"/>
+        <mapperTableEntries expression="row1.IMITM" name="UMITM" type="id_String"/>
         <mapperTableEntries name="UMUM" type="id_String"/>
         <mapperTableEntries name="UMRUM" type="id_String"/>
         <mapperTableEntries name="UMUSTR" nullable="true" type="id_String"/>
@@ -330,7 +330,7 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="-256">
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="-288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_MC4UwAFxEeqyKvuObbcQGw"/>
@@ -483,7 +483,7 @@
       <column comment="" key="false" length="20" name="dimension" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="-256">
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="-288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_3"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_MC4UwAFxEeqyKvuObbcQGw"/>
@@ -602,7 +602,7 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="-256">
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="896" posY="-288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_4"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_MC4UwAFxEeqyKvuObbcQGw"/>
@@ -765,13 +765,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e38b45c9-33d5-4f1a-871c-0a78e7af3e32"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JO+vgFgImjuwuHssQs2soPy2CSTPMTjyZ/9sevHB8PRyeOVCBIT27IKFbSpXsRXMsBtmLnOp5ghD&#13;
-gU3r+8gvTg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7e0417ab-b023-4b2c-8be7-2fef773f298f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>g37Ctc4v31LI17n/dKgCdIBE6ACfzVUdLTenNhEbRbv4nXWIijBJaxdOVtl7TOoNlxwaScUrHxWw&#13;
-hXwEcUJ47g==</DigestValue></Reference></SignedInfo><SignatureValue>cqeud5OxjunZtbNFCIzpJLtTENGSPH81vIyOJ5lYg5snkcGwJaikFr1UNZo824FPGZNnh+d/qYMm&#13;
-O2DwWV8KpmD/Db6eB1es6xSQPVU19RW2iiLcypchPQ2GRCMUZwX6uVvqaG1b5wcyeYDueClD9vmJ&#13;
-ihJC9YaW6tFiTfXBhTVsyaphGsEy6zgWiKHI0ct/crFillepqLrBOApHFP/wOCos8uiGaS5LLiKM&#13;
-ySznbONkVSwXPoqF/ZBY6MXm8XdnWag5A9diUUHK4tAp34jHfyG3oSunnIeItyYux5M59WZenP1U&#13;
-gXH7cBW3C6dTE3+SKblctCkEhLEh20rU1cNnZg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ec38feb2-d421-43fb-9699-58c2fd3fd397"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>cr0leS5UoxMfx/8gBqlivTmgnQ62ASQazaNfCTwpVZAmwfWnq0rvzXSHuDTg6/GrcmHs9MWQt8nw&#13;
+5hkruiBvUA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_99c003b7-1fd5-49bf-a9e5-a782840aa9c4"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hCRYYppa8YSSYfQoEvbc+75/bWAb+xWXxbQUdvw9vooBLqfGnTRuweHz+wPL7IbsRPbwlo4ewbwH&#13;
+gpLYDJs16w==</DigestValue></Reference></SignedInfo><SignatureValue>Cq/nmO89lRsNQvA1nqWi29vII+2lPB4anbxrcokKXmNMwAqth0cCy1s4II4T8vjWGXHuhOnvKNuW&#13;
+VSRw42AuegSp8adg19I30lSnnJUp9YKG+PW5z9qo/X6bXq6Tjjoir301x5v+ThOLWJ2smF8M8DNP&#13;
+7ZZvWcowRVQEcjcRqAJkDkkifr+3MSxtvj33nQytuh9GutO2bzu8kOnUJzAY1JjV3InYBOFPN0Sc&#13;
+HfRKvJH5c6Zy/AJxjLzN2VbgsTfUOHLPDv7HNEA11GPS/dpR+bSTEunXBgMGzi+0vHdNTl4lw0NP&#13;
+0L+xV0/LJI3vZTjBgn8Lk4sH84UWKxHGFRG18A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -793,4 +793,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7e0417ab-b023-4b2c-8be7-2fef773f298f" Target="#_e38b45c9-33d5-4f1a-871c-0a78e7af3e32"><Timestamp>2020-09-07 08:43:39</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_99c003b7-1fd5-49bf-a9e5-a782840aa9c4" Target="#_ec38feb2-d421-43fb-9699-58c2fd3fd397"><Timestamp>2020-09-07 08:46:23</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
