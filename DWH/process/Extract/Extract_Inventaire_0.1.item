@@ -7,7 +7,7 @@
     <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="&quot;crpdta&quot;"/>
     <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
-    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="sD5Cb6gFKMiRxRhfatD7ouvhcVY0Jhwh"/>
+    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:SmKzV3aBlzRjI5yw6bmnY4KER/eaMqV5HiLwT5jaq5gofGgeubCj+M8SMyU="/>
   </context>
   <context confirmationNeeded="false" name="PROD">
     <contextParameter comment="" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
@@ -16,7 +16,7 @@
     <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="&quot;crpdta&quot;"/>
     <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
-    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="sD5Cb6gFKMiRxRhfatD7ouvhcVY0Jhwh"/>
+    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:h41FUMIPH8tzaVIHZX4yFJq6WJyiWklJZFqxfG5YupPKuEjAj2H3A0CD0kE="/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -57,7 +57,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:dmi5GvDbOehb3K1/VHuwfSzf5o3e8GKwEKqRvG2z" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -94,7 +94,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;talend&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;datawarehouse&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="FpiNYXl0TtqeUM3kXKatWJaZtJs0xOR5"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:UX/GrisMvNjaXIV8Fv1icNnUCi52kb0ShQEUQ2U8PJY4yw+Am4+4CjZq2RGdwA=="/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;talend_stat&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;talend_log&quot;"/>
@@ -139,13 +139,13 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;JDE92NP&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;CRPDTA&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;JDE&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="7ZDcgcvXxdEW4qp3ko62eg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:K2ytN5l1VHxzuW/d1RHjrx3VaYEy5d0zdP4/TUSJA1fjHsHONA=="/>
     <elementParameter field="CHECK" name="USE_SSL" value="false" show="false"/>
     <elementParameter field="FILE" name="SSL_TRUSTSERVER_TRUSTSTORE" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" value="enc:system.encryption.key.v1:TytTvxt/9LD2ETYqaIC8v9Bxqfp0+mf46Dm3Nxv/" show="false"/>
     <elementParameter field="CHECK" name="NEED_CLIENT_AUTH" value="false" show="false"/>
     <elementParameter field="FILE" name="SSL_KEYSTORE" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" value="enc:system.encryption.key.v1:6e7jDBFITu/gQOLk3aGK9O5oce++CuH6YJ04Y36H" show="false"/>
     <elementParameter field="CHECK" name="DISABLE_CBC_PROTECTION" value="true" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -184,7 +184,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;JDE92NP&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;CRPDTA&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;JDE&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="7ZDcgcvXxdEW4qp3ko62eg==" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:vQv0OFLAoiOml1VqmlsU8GKw0zIGmLHffjErKK7dCQWQK4J0HA==" show="false"/>
     <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@talend&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;F4140&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -281,7 +281,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Postgres_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kuf34mRcfxBSVYmQq//tkRgucEBEWve6NrY="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mM5G3VFF8o8N1WHPZvREwnv1NISOfwhlSuN/ulo00+n91612F5kZmspOUuGljRY9Sumifkk="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f4140&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -452,7 +452,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;JDE92NP&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;CRPDTA&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;JDE&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="7ZDcgcvXxdEW4qp3ko62eg==" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Q+7AiQ64no3VuQqt0KvhqfzPOqKA3yDLkheQph8aSXP4peqvvg==" show="false"/>
     <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@talend&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_4oducPczEem9t-95jomc4w - F4141" show="false"/>
@@ -666,7 +666,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Postgres_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kuf34mRcfxBSVYmQq//tkRgucEBEWve6NrY="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:oYzfsYJXy7Be/rlfZwEwTwVV43nb2ivABXY53Vn4LWfYyCutMS1nS85/WstCQwlyUeUUCsg="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f4141&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1090,7 +1090,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;JDE92NP&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;CRPDTA&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;JDE&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="7ZDcgcvXxdEW4qp3ko62eg==" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3ylRrqoi+flssXSXXDEKVNMjmrOoM8XVpYstrSm9sS9BAHKamw==" show="false"/>
     <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@talend&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_4oducPczEem9t-95jomc4w - F4105" show="false"/>
@@ -1259,7 +1259,7 @@
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Postgres_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kuf34mRcfxBSVYmQq//tkRgucEBEWve6NrY="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:j9zI7urTQgeBDvXrled8ishWgnDu56m02AxP4T5zU2nM4SSSsBb5z0z0hhTi3BUV0Danmio="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f4105&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
