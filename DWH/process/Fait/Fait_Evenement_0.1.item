@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="DEV" jobType="Standard">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="DEV" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="DEV">
     <contextParameter comment="" name="Modélisation_Login" prompt="Modélisation_Login?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Modélisation_Database" prompt="Modélisation_Database?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="Modelisation"/>
-    <contextParameter comment="" name="Modélisation_Password" prompt="Modélisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:lhAmReWNkO/KOsZUqlOQRxOyBUO1OcLV/z0CH7QpXgLL02mELa7PLJD61Lk="/>
+    <contextParameter comment="" name="Modélisation_Password" prompt="Modélisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:UEZdxgYgYU8Mcxn3/jPgxEwCLPiBSB6F7GmRsWFNm4+YwP5/JyPrPpxdpZ4="/>
     <contextParameter comment="" name="Modélisation_AdditionalParams" prompt="Modélisation_AdditionalParams?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value=""/>
     <contextParameter comment="" name="Modélisation_Port" prompt="Modélisation_Port?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="5432"/>
     <contextParameter comment="" name="Modélisation_Server" prompt="Modélisation_Server?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Modélisation_Schema" prompt="Modélisation_Schema?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="modelisation"/>
     <contextParameter comment="" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:i+QXdDMxE0Zi8HdZuoTnhKodAI76+vlaGUkrgKufm0du65w161sg4GC+Aus="/>
+    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:T4vsQ+317cVE49TDVIOjNT9ASMic5k8vIKk/5drGBcWzUDBzLsbhNR/zx6M="/>
     <contextParameter comment="" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
     <contextParameter comment="" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
@@ -19,114 +18,115 @@
   <context confirmationNeeded="false" name="PROD">
     <contextParameter comment="" name="Modélisation_Login" prompt="Modélisation_Login?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Modélisation_Database" prompt="Modélisation_Database?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="Modelisation"/>
-    <contextParameter comment="" name="Modélisation_Password" prompt="Modélisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:OqbxfbkjPRUP6L0paucajXKSYt1nKe/zjm21a5g0Wf8RHuGTMTtzyIKuAYI="/>
+    <contextParameter comment="" name="Modélisation_Password" prompt="Modélisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:TpvZrjw/N4ZyrwKnqXonuQjAzxK1hH9kUYpAjxCJow5fcJcnwyk9ytf8Jwk="/>
     <contextParameter comment="" name="Modélisation_AdditionalParams" prompt="Modélisation_AdditionalParams?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value=""/>
     <contextParameter comment="" name="Modélisation_Port" prompt="Modélisation_Port?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="5432"/>
     <contextParameter comment="" name="Modélisation_Server" prompt="Modélisation_Server?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Modélisation_Schema" prompt="Modélisation_Schema?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="modelisation"/>
     <contextParameter comment="" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:ftwwZnodfe2OER3F8WnXy/tHv08egg4cJoFExdNJSDG1FE4zwEDgdmhtksA="/>
+    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:l29rCSIIbk+c9HZ4AzPo6V+ww9RrY/aX0eWdRy+4HZDnhLm90ESuPy9oISM="/>
     <contextParameter comment="" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
     <contextParameter comment="" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
     <contextParameter comment="" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="&quot;crpdta&quot;"/>
   </context>
   <parameters>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="64" show="false"/>
-    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
-    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
-    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
-    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
-    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
-    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
-    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
-    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
-    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
-    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
-    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
-    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
-    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
-    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
-    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
-    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="64"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
     <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
     <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
     <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
-    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
-    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
-    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
-    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
-    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:TlpN7hERWIUvaqSEP2YfsyTlgtXFEm6nSTYpyGg7" show="false"/>
-    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
-    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
-    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
-    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
-    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
-    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="true"/>
-    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="true"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:Sn2DcUEF2UwXKwZwEwbiHyOk0Q7q1tSCAdSIjQ0S"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
-    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
-    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/Oussama/Downloads/Portal _ Talend/Talend-Studio-20190620_1446-V7.2.1/workspace/.metadata&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
-    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="true"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value="_kK2wgG6BEeqo36j-Kvo4RA" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tPostgresqlOutput"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="URL" value="" show="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/Oussama/Downloads/Portal _ Talend/Talend-Studio-20190620_1446-V7.2.1/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
     <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
-    <elementParameter field="TEXT" name="DRIVER_CLASS" value="" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;10.160.103.199&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
-    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;datawarehouse&quot;"/>
-    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;datawarehouse&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;talend&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;datawarehouse&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:PE5tVDo7nVNnN8K+fG2mDAGcjoNj+0WippbQ13+1XkGZ06RC1OdtJTr3NZy9pA=="/>
-    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
-    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;talend_stat&quot;"/>
-    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;talend_log&quot;"/>
-    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
-    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="true"/>
-    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
-    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
-    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
-    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
-    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
-    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
-    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
-    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
-    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
-    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:2JdQTDNMyMB+YRJhYJ9vshcdHKADfIEokk9SB1uG"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
     <routinesParameter id="_cOcOkPSmEemrqN5Uv-nhlA" name="DataOperation"/>
     <routinesParameter id="_cOw-sPSmEemrqN5Uv-nhlA" name="Mathematical"/>
     <routinesParameter id="_cPPf0PSmEemrqN5Uv-nhlA" name="Numeric"/>
@@ -138,32 +138,32 @@
     <routinesParameter id="_cRdtYPSmEemrqN5Uv-nhlA" name="TalendStringUtil"/>
     <routinesParameter id="_cRIWMPSmEemrqN5Uv-nhlA" name="TalendString"/>
   </parameters>
-  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="416">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_MC4UwAFxEeqyKvuObbcQGw" show="false"/>
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_MC4UwAFxEeqyKvuObbcQGw"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;10.160.103.199&quot;" show="false"/>
-    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;" show="false"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;datawarehouse&quot;" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;CRPDTA&quot;" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;datawarehouse&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:7DIJmn4cUWeQpqGjk4XJT+iCnjwpCiz/pv5OBcuecehg75267hBb1BeOfIndwA==" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="V9_X"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;10.160.103.199&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5432&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;datawarehouse&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;CRPDTA&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;datawarehouse&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:RRX9jPWMY7Y/pFO9RTn1gauKPFOsB+8ErbIxCh78ZI338/BiSdULPS5/iBePsA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f4211&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDKCOO\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDDOCO\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDDCTO\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDLNID\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDMCU\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDAN8\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDTRDJ\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDPDDJ\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDVR01\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDITM\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDLOTN\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDNXTR\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDLTTR\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDUORG\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDSOQS\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDSOBK\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDUPRC\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDAEXP\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDSHPN\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDIVD\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDCNDJ\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDSOCN\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDPQOR\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDFUP\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDDOC\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDDCT\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;.\&quot;SDLITM\&quot;&#xA;FROM \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;crpdta\&quot;.\&quot;f4211\&quot;&quot;"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDKCOO\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDDOCO\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDDCTO\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDLNID\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDMCU\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDAN8\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDTRDJ\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDPDDJ\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDVR01\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDITM\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDLOTN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDNXTR\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDLTTR\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDUORG\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDSOQS\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDSOBK\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDUPRC\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDAEXP\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDSHPN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDIVD\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDCNDJ\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDSOCN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDPQOR\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDFUP\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDDOC\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDDCT\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;.\&quot;SDLITM\&quot;&#13;&#10;FROM \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4211\&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="postgres_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_CURSOR" value="true"/>
     <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000"/>
@@ -284,34 +284,34 @@
       <column comment="" key="false" length="21" name="SDSHPN" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="SDIVD" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="20" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="SDCNDJ" nullable="true" pattern="" precision="-1" sourceType="INT4" type="id_Integer" originalLength="20" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="SDSOCN" nullable="true" pattern="" precision="-1" sourceType="FLOAT8" type="id_Float" originalLength="20" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="SDPQOR" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="FLOAT8" type="id_Float" originalLength="20" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="SDFUP" nullable="true" pattern="" precision="-1" sourceType="FLOAT8" type="id_Float" originalLength="20" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="SDDOC" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="20" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="SDDCT" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="20" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="SDLITM" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="40" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="SDIVD" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="SDCNDJ" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="SDSOCN" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="FLOAT8" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="SDPQOR" nullable="false" originalLength="20" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="FLOAT8" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="SDFUP" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="FLOAT8" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="SDDOC" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="SDDCT" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="SDLITM" nullable="true" originalLength="40" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="384" posY="416">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_2" show="false"/>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="576" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_2"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
     <elementParameter field="IMAGE" name="PREVIEW" value="_2qxtUDLJEeqxTqTSvH9EqA-tMap_2-PREVIEW.bmp"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
-    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
-    <elementParameter field="TEXT" name="JACCARD" value="0" show="false"/>
-    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="out">
-      <column comment="" key="true" length="30" name="source" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="12" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="numdocument" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="40" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="typedocument" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="40" usefulColumn="true"/>
+      <column comment="" key="true" length="30" name="source" nullable="true" originalLength="12" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="numdocument" nullable="true" originalLength="40" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="typedocument" nullable="true" originalLength="40" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="true" length="30" name="societe" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -330,31 +330,31 @@
       <column comment="" key="false" length="21" name="quantitecommandee" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="30" name="datefacturation" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="20" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="datefacturation" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="21" name="quantitelivree" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="21" name="quantitenonlivreereservee" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="30" name="datedecreation" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="21" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="statutavancement" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="1" usefulColumn="true"/>
-      <column comment="" key="false" length="21" name="datedepreparationsouhaitee" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" originalLength="21" usefulColumn="true"/>
-      <column comment="" key="false" length="21" name="prixdeviseclient" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_Float" originalLength="21" usefulColumn="true"/>
-      <column comment="" key="false" length="21" name="montantdeviseclient" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_Float" originalLength="21" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="30" name="montanthtreliquatinclus" nullable="true" pattern="" precision="-1" sourceType="" type="id_Float" originalLength="20" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="montanthtreliquatinclusdevise" nullable="true" pattern="" precision="-1" sourceType="" type="id_Float" originalLength="30" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="referenceexterne" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="15" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="numlot" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="15" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="codetiers" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_Integer" originalLength="15" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="datedecreation" nullable="true" originalLength="21" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="statutavancement" nullable="true" originalLength="1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="21" name="datedepreparationsouhaitee" nullable="true" originalLength="21" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="21" name="prixdeviseclient" nullable="true" originalLength="21" pattern="" precision="-1" sourceType="NUMERIC" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="21" name="montantdeviseclient" nullable="true" originalLength="21" pattern="" precision="-1" sourceType="NUMERIC" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="montanthtreliquatinclus" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="montanthtreliquatinclusdevise" nullable="true" originalLength="30" pattern="" precision="-1" sourceType="" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="referenceexterne" nullable="true" originalLength="15" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="numlot" nullable="true" originalLength="15" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="codetiers" nullable="true" originalLength="15" pattern="" precision="-1" sourceType="NUMERIC" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="centrecout" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="40" name="codearticle" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_String" originalLength="40" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="codearticle" nullable="true" originalLength="40" pattern="" precision="-1" sourceType="NUMERIC" type="id_String" usefulColumn="true"/>
       <column key="false" length="40" name="codearticletechnique" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="-1" name="numexpedition" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_Integer" originalLength="20" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="numexpedition" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="NUMERIC" type="id_Integer" usefulColumn="true"/>
       <column key="false" length="30" name="typetiers" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -369,158 +369,158 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
-      <varTables sizeState="INTERMEDIATE" name="Var">
-        <mapperTableEntries name="Statutavancement" expression="F4211.SDLTTR + &quot;&quot; + F4211.SDNXTR " type="id_String" nullable="true"/>
-        <mapperTableEntries name="montanthtreliquatinclus" expression="F4211.SDUPRC * (F4211.SDUORG - F4211.SDSOCN) " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="montanthtreliquatinclusdevise" expression="F4211.SDFUP * (F4211.SDUORG - F4211.SDSOCN)  " type="id_Float" nullable="true"/>
+      <uiProperties/>
+      <varTables name="Var" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="F4211.SDLTTR + &quot;&quot; + F4211.SDNXTR " name="Statutavancement" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="F4211.SDUPRC * (F4211.SDUORG - F4211.SDSOCN) " name="montanthtreliquatinclus" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="F4211.SDFUP * (F4211.SDUORG - F4211.SDSOCN)  " name="montanthtreliquatinclusdevise" nullable="true" type="id_Float"/>
       </varTables>
-      <outputTables sizeState="INTERMEDIATE" name="out" expressionFilter="F4211.SDCNDJ == 0" activateExpressionFilter="true">
-        <mapperTableEntries name="source" expression="&quot;JDE&quot;" type="id_String" nullable="true"/>
-        <mapperTableEntries name="numdocument" expression="F4211.SDDOC " type="id_String" nullable="true"/>
-        <mapperTableEntries name="typedocument" expression="F4211.SDDCT " type="id_String" nullable="true"/>
-        <mapperTableEntries name="societe" expression="F4211.SDKCOO" type="id_String" nullable="true"/>
-        <mapperTableEntries name="SDDOCO" expression="F4211.SDDOCO" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="SDDCTO" expression="F4211.SDDCTO" type="id_String" nullable="true"/>
-        <mapperTableEntries name="numeroligne" expression="F4211.SDLNID" type="id_BigDecimal" nullable="true"/>
-        <mapperTableEntries name="magasin" expression="F4211.SDMCU" type="id_String" nullable="true"/>
-        <mapperTableEntries name="quantitecommandee" expression="F4211.SDUORG" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="datefacturation" expression="F4211.SDIVD " type="id_String" nullable="true"/>
-        <mapperTableEntries name="quantitelivree" expression="F4211.SDSOQS" type="id_BigDecimal" nullable="true"/>
-        <mapperTableEntries name="quantitenonlivreereservee" expression="F4211.SDSOBK" type="id_BigDecimal" nullable="true"/>
-        <mapperTableEntries name="datedecreation" expression="F4211.SDTRDJ" type="id_String" nullable="true"/>
-        <mapperTableEntries name="statutavancement" expression="Var.Statutavancement" type="id_String" nullable="true"/>
-        <mapperTableEntries name="datedepreparationsouhaitee" expression="F4211.SDPDDJ" type="id_BigDecimal" nullable="true"/>
-        <mapperTableEntries name="prixdeviseclient" expression="F4211.SDUPRC != 0 ? F4211.SDUPRC/10000 : F4211.SDUPRC " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="montantdeviseclient" expression="F4211.SDAEXP != 0 ? F4211.SDAEXP/100 : F4211.SDAEXP " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="montanthtreliquatinclus" expression="Var.montanthtreliquatinclus " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="montanthtreliquatinclusdevise" expression="Var.montanthtreliquatinclusdevise " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="referenceexterne" expression="F4211.SDVR01" type="id_String" nullable="true"/>
-        <mapperTableEntries name="numlot" expression="F4211.SDLOTN" type="id_String" nullable="true"/>
-        <mapperTableEntries name="codetiers" expression="F4211.SDAN8" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="centrecout" expression="Tiers.centrecout " type="id_String" nullable="true"/>
-        <mapperTableEntries name="codearticle" expression="F4211.SDLITM " type="id_String" nullable="true"/>
-        <mapperTableEntries name="codearticletechnique" expression="Art_mag.codearticletechnique " type="id_String" nullable="true"/>
-        <mapperTableEntries name="numexpedition" expression="F4211.SDSHPN" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="typetiers" expression="Tiers.typetiers " type="id_String" nullable="true"/>
-        <mapperTableEntries name="id_ass_com" expression="Tiers.id_ass_com " type="id_String" nullable="true"/>
-        <mapperTableEntries name="id_ass_adv" expression="Tiers.id_ass_adv " type="id_String" nullable="true"/>
-        <mapperTableEntries name="id_res_com" expression="Tiers.id_res_com " type="id_String" nullable="true"/>
+      <outputTables activateExpressionFilter="true" expressionFilter="F4211.SDCNDJ == 0" name="out" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="&quot;JDE&quot;" name="source" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="F4211.SDDOC " name="numdocument" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="F4211.SDDCT " name="typedocument" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="F4211.SDKCOO" name="societe" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="F4211.SDDOCO" name="SDDOCO" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="F4211.SDDCTO" name="SDDCTO" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="F4211.SDLNID" name="numeroligne" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="F4211.SDMCU" name="magasin" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="F4211.SDUORG" name="quantitecommandee" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="F4211.SDIVD " name="datefacturation" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="F4211.SDSOQS" name="quantitelivree" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="F4211.SDSOBK" name="quantitenonlivreereservee" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="F4211.SDTRDJ" name="datedecreation" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.Statutavancement" name="statutavancement" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="F4211.SDPDDJ" name="datedepreparationsouhaitee" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="F4211.SDUPRC != 0 ? F4211.SDUPRC/10000 : F4211.SDUPRC " name="prixdeviseclient" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="F4211.SDAEXP != 0 ? F4211.SDAEXP/100 : F4211.SDAEXP " name="montantdeviseclient" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="Var.montanthtreliquatinclus " name="montanthtreliquatinclus" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="Var.montanthtreliquatinclusdevise " name="montanthtreliquatinclusdevise" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="F4211.SDVR01" name="referenceexterne" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="F4211.SDLOTN" name="numlot" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="F4211.SDAN8" name="codetiers" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="Tiers.centrecout " name="centrecout" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="F4211.SDLITM " name="codearticle" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Art_mag.codearticletechnique " name="codearticletechnique" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="F4211.SDSHPN" name="numexpedition" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="Tiers.typetiers " name="typetiers" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Tiers.id_ass_com " name="id_ass_com" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Tiers.id_ass_adv " name="id_ass_adv" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Tiers.id_res_com " name="id_res_com" nullable="true" type="id_String"/>
       </outputTables>
-      <inputTables sizeState="INTERMEDIATE" name="F4211" activateExpressionFilter="true" activateColumnNameFilter="true" columnNameFilter="" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables activateColumnNameFilter="true" activateExpressionFilter="true" columnNameFilter="" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="F4211" sizeState="INTERMEDIATE">
         <mapperTableEntries name="SDKCOO" type="id_String"/>
         <mapperTableEntries name="SDDOCO" type="id_Integer"/>
         <mapperTableEntries name="SDDCTO" type="id_String"/>
         <mapperTableEntries name="SDLNID" type="id_BigDecimal"/>
-        <mapperTableEntries name="SDMCU" type="id_String" nullable="true"/>
-        <mapperTableEntries name="SDAN8" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="SDTRDJ" type="id_String" nullable="true"/>
-        <mapperTableEntries name="SDPDDJ" type="id_BigDecimal" nullable="true"/>
-        <mapperTableEntries name="SDVR01" type="id_String" nullable="true"/>
-        <mapperTableEntries name="SDITM" type="id_String" nullable="true"/>
-        <mapperTableEntries name="SDLOTN" type="id_String" nullable="true"/>
-        <mapperTableEntries name="SDNXTR" type="id_String" nullable="true"/>
+        <mapperTableEntries name="SDMCU" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SDAN8" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="SDTRDJ" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SDPDDJ" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="SDVR01" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SDITM" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SDLOTN" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SDNXTR" nullable="true" type="id_String"/>
         <mapperTableEntries name="SDLTTR" type="id_String"/>
-        <mapperTableEntries name="SDUORG" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="SDSOQS" type="id_BigDecimal" nullable="true"/>
-        <mapperTableEntries name="SDSOBK" type="id_BigDecimal" nullable="true"/>
-        <mapperTableEntries name="SDUPRC" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="SDAEXP" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="SDSHPN" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="SDIVD" type="id_String" nullable="true"/>
-        <mapperTableEntries name="SDCNDJ" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="SDSOCN" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="SDUORG" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="SDSOQS" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="SDSOBK" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="SDUPRC" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="SDAEXP" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="SDSHPN" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="SDIVD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SDCNDJ" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="SDSOCN" nullable="true" type="id_Float"/>
         <mapperTableEntries name="SDPQOR" type="id_Float"/>
-        <mapperTableEntries name="SDFUP" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="SDDOC" type="id_String" nullable="true"/>
-        <mapperTableEntries name="SDDCT" type="id_String" nullable="true"/>
-        <mapperTableEntries name="SDLITM" type="id_String" nullable="true"/>
+        <mapperTableEntries name="SDFUP" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="SDDOC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SDDCT" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SDLITM" nullable="true" type="id_String"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="Art_mag" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables activateCondensedTool="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="Art_mag" sizeState="INTERMEDIATE">
         <mapperTableEntries name="source" type="id_String"/>
-        <mapperTableEntries name="codearticletechnique" expression="F4211.SDITM " type="id_String" operator="="/>
+        <mapperTableEntries expression="F4211.SDITM " name="codearticletechnique" operator="=" type="id_String"/>
         <mapperTableEntries name="codearticle" type="id_String"/>
-        <mapperTableEntries name="magasin" expression="F4211.SDMCU " type="id_String" operator="="/>
+        <mapperTableEntries expression="F4211.SDMCU " name="magasin" operator="=" type="id_String"/>
         <mapperTableEntries name="familleachat" type="id_String"/>
-        <mapperTableEntries name="famillesachatlibelle" type="id_String" nullable="true"/>
-        <mapperTableEntries name="sousfamilleachat" type="id_String" nullable="true"/>
-        <mapperTableEntries name="sousfamilleachatlibelle" type="id_String" nullable="true"/>
-        <mapperTableEntries name="statutcommerciale" type="id_String" nullable="true"/>
-        <mapperTableEntries name="saison" type="id_String" nullable="true"/>
-        <mapperTableEntries name="statutcreation" type="id_String" nullable="true"/>
-        <mapperTableEntries name="statutdeblocage" type="id_String" nullable="true"/>
-        <mapperTableEntries name="categorie" type="id_String" nullable="true"/>
-        <mapperTableEntries name="famillefinancierecode" type="id_String" nullable="true"/>
-        <mapperTableEntries name="famillefinancierelibelle" type="id_String" nullable="true"/>
-        <mapperTableEntries name="familleplanificationcode" type="id_String" nullable="true"/>
-        <mapperTableEntries name="familleplanificationlibelle" type="id_String" nullable="true"/>
-        <mapperTableEntries name="famillecode" type="id_String" nullable="true"/>
-        <mapperTableEntries name="famillelibelle" type="id_String" nullable="true"/>
-        <mapperTableEntries name="sousfamillecode" type="id_String" nullable="true"/>
-        <mapperTableEntries name="sousfamillelibelle" type="id_String" nullable="true"/>
-        <mapperTableEntries name="soussousfamillecode" type="id_String" nullable="true"/>
-        <mapperTableEntries name="soussousfamillelibelle" type="id_String" nullable="true"/>
-        <mapperTableEntries name="eanmaster" type="id_String" nullable="true"/>
-        <mapperTableEntries name="typologie" type="id_String" nullable="true"/>
-        <mapperTableEntries name="clegl" type="id_String" nullable="true"/>
-        <mapperTableEntries name="gestionlot" type="id_String" nullable="true"/>
+        <mapperTableEntries name="famillesachatlibelle" nullable="true" type="id_String"/>
+        <mapperTableEntries name="sousfamilleachat" nullable="true" type="id_String"/>
+        <mapperTableEntries name="sousfamilleachatlibelle" nullable="true" type="id_String"/>
+        <mapperTableEntries name="statutcommerciale" nullable="true" type="id_String"/>
+        <mapperTableEntries name="saison" nullable="true" type="id_String"/>
+        <mapperTableEntries name="statutcreation" nullable="true" type="id_String"/>
+        <mapperTableEntries name="statutdeblocage" nullable="true" type="id_String"/>
+        <mapperTableEntries name="categorie" nullable="true" type="id_String"/>
+        <mapperTableEntries name="famillefinancierecode" nullable="true" type="id_String"/>
+        <mapperTableEntries name="famillefinancierelibelle" nullable="true" type="id_String"/>
+        <mapperTableEntries name="familleplanificationcode" nullable="true" type="id_String"/>
+        <mapperTableEntries name="familleplanificationlibelle" nullable="true" type="id_String"/>
+        <mapperTableEntries name="famillecode" nullable="true" type="id_String"/>
+        <mapperTableEntries name="famillelibelle" nullable="true" type="id_String"/>
+        <mapperTableEntries name="sousfamillecode" nullable="true" type="id_String"/>
+        <mapperTableEntries name="sousfamillelibelle" nullable="true" type="id_String"/>
+        <mapperTableEntries name="soussousfamillecode" nullable="true" type="id_String"/>
+        <mapperTableEntries name="soussousfamillelibelle" nullable="true" type="id_String"/>
+        <mapperTableEntries name="eanmaster" nullable="true" type="id_String"/>
+        <mapperTableEntries name="typologie" nullable="true" type="id_String"/>
+        <mapperTableEntries name="clegl" nullable="true" type="id_String"/>
+        <mapperTableEntries name="gestionlot" nullable="true" type="id_String"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="F4201" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="SHKCOO" expression="F4211.SDKCOO " type="id_String" operator="="/>
-        <mapperTableEntries name="SHDOCO" expression="F4211.SDDOCO " type="id_Integer" operator="="/>
-        <mapperTableEntries name="SHDCTO" expression="F4211.SDDCTO " type="id_String" operator="="/>
+      <inputTables activateCondensedTool="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="F4201" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="F4211.SDKCOO " name="SHKCOO" operator="=" type="id_String"/>
+        <mapperTableEntries expression="F4211.SDDOCO " name="SHDOCO" operator="=" type="id_Integer"/>
+        <mapperTableEntries expression="F4211.SDDCTO " name="SHDCTO" operator="=" type="id_String"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="Tiers" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables activateCondensedTool="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="Tiers" sizeState="INTERMEDIATE">
         <mapperTableEntries name="source" type="id_String"/>
-        <mapperTableEntries name="codetiers" expression="F4211.SDAN8 " type="id_Integer" operator="="/>
-        <mapperTableEntries name="typetiers" type="id_String" nullable="true"/>
-        <mapperTableEntries name="raisonsocial" type="id_String" nullable="true"/>
-        <mapperTableEntries name="bareme" type="id_String" nullable="true"/>
-        <mapperTableEntries name="familleachat" type="id_String" nullable="true"/>
-        <mapperTableEntries name="sousfamilleachat" type="id_String" nullable="true"/>
-        <mapperTableEntries name="cleglfournisseur" type="id_String" nullable="true"/>
-        <mapperTableEntries name="id_ass_com" type="id_String" nullable="true"/>
-        <mapperTableEntries name="id_ass_adv" type="id_String" nullable="true"/>
-        <mapperTableEntries name="id_res_com" type="id_String" nullable="true"/>
-        <mapperTableEntries name="centrecout" type="id_String" nullable="true"/>
-        <mapperTableEntries name="cleglclient" type="id_String" nullable="true"/>
-        <mapperTableEntries name="groupe" type="id_String" nullable="true"/>
-        <mapperTableEntries name="statut" type="id_String" nullable="true"/>
-        <mapperTableEntries name="zonegeographique" type="id_String" nullable="true"/>
-        <mapperTableEntries name="marchegeographique" type="id_String" nullable="true"/>
-        <mapperTableEntries name="secteurgeographique" type="id_String" nullable="true"/>
-        <mapperTableEntries name="secteurstat" type="id_String" nullable="true"/>
+        <mapperTableEntries expression="F4211.SDAN8 " name="codetiers" operator="=" type="id_Integer"/>
+        <mapperTableEntries name="typetiers" nullable="true" type="id_String"/>
+        <mapperTableEntries name="raisonsocial" nullable="true" type="id_String"/>
+        <mapperTableEntries name="bareme" nullable="true" type="id_String"/>
+        <mapperTableEntries name="familleachat" nullable="true" type="id_String"/>
+        <mapperTableEntries name="sousfamilleachat" nullable="true" type="id_String"/>
+        <mapperTableEntries name="cleglfournisseur" nullable="true" type="id_String"/>
+        <mapperTableEntries name="id_ass_com" nullable="true" type="id_String"/>
+        <mapperTableEntries name="id_ass_adv" nullable="true" type="id_String"/>
+        <mapperTableEntries name="id_res_com" nullable="true" type="id_String"/>
+        <mapperTableEntries name="centrecout" nullable="true" type="id_String"/>
+        <mapperTableEntries name="cleglclient" nullable="true" type="id_String"/>
+        <mapperTableEntries name="groupe" nullable="true" type="id_String"/>
+        <mapperTableEntries name="statut" nullable="true" type="id_String"/>
+        <mapperTableEntries name="zonegeographique" nullable="true" type="id_String"/>
+        <mapperTableEntries name="marchegeographique" nullable="true" type="id_String"/>
+        <mapperTableEntries name="secteurgeographique" nullable="true" type="id_String"/>
+        <mapperTableEntries name="secteurstat" nullable="true" type="id_String"/>
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="288">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_6" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_dnczsAeQEeqlibJAbnRRoA" show="false"/>
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_6"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_dnczsAeQEeqlibJAbnRRoA"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.Modélisation_Server" show="false"/>
-    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="context.Modélisation_Port" show="false"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.Modélisation_Database" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Modélisation_Schema" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="context.Modélisation_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:CcyqvKkLELJI1B7Ae7MBYiW8NedttGo3tWtRN893+S9Rt5bteK4m1DrVbRtNYWOeKKxWE9rSjNuhdQ==" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_dnczsAeQEeqlibJAbnRRoA - dim_art_mag" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="V9_X"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="context.Modélisation_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="context.Modélisation_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="context.Modélisation_Database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="context.Modélisation_Schema"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="context.Modélisation_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:puzcD8kDJlhFXDv5pO7FQsTeYrIrRs32huG/KDwayR/3zo/kR53bOiD8q6ar8zTTSauhDI62Kp87+A=="/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_dnczsAeQEeqlibJAbnRRoA - dim_art_mag"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;dim_art_mag&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;source\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;codearticletechnique\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;codearticle\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;magasin\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;familleachat\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;famillesachatlibelle\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;sousfamilleachat\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;sousfamilleachatlibelle\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;statutcommerciale\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;saison\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;statutcreation\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;statutdeblocage\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;categorie\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;famillefinancierecode\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;famillefinancierelibelle\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;familleplanificationcode\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;familleplanificationlibelle\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;famillecode\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;famillelibelle\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;sousfamillecode\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;sousfamillelibelle\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;soussousfamillecode\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;soussousfamillelibelle\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;eanmaster\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;typologie\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;clegl\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;.\&quot;gestionlot\&quot;&#xA;FROM \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;modelisation\&quot;.\&quot;dim_art_mag\&quot;&quot;"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.Modélisation_AdditionalParams" show="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;source\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;codearticletechnique\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;codearticle\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;magasin\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;familleachat\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;famillesachatlibelle\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;sousfamilleachat\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;sousfamilleachatlibelle\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;statutcommerciale\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;saison\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;statutcreation\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;statutdeblocage\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;categorie\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;famillefinancierecode\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;famillefinancierelibelle\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;familleplanificationcode\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;familleplanificationlibelle\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;famillecode\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;famillelibelle\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;sousfamillecode\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;sousfamillelibelle\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;soussousfamillecode\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;soussousfamillelibelle\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;eanmaster\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;typologie\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;clegl\&quot;, &#13;&#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;.\&quot;gestionlot\&quot;&#13;&#10;FROM \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_art_mag\&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="postgres_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.Modélisation_AdditionalParams"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_CURSOR" value="true"/>
     <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000"/>
@@ -667,32 +667,32 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="256">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_MC4UwAFxEeqyKvuObbcQGw" show="false"/>
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_MC4UwAFxEeqyKvuObbcQGw"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;10.160.103.199&quot;" show="false"/>
-    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;" show="false"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;datawarehouse&quot;" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;CRPDTA&quot;" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;datawarehouse&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:uVg3TYho+2QflI/IjbjnYLz8fk7FAbIKAr5uJDItJ3C/esrmptwxGX6ObaVZnw==" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="V9_X"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;10.160.103.199&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5432&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;datawarehouse&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;CRPDTA&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;datawarehouse&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:S/UVV+cpVYP5FEryzfghrWogX1HVUqiTo0aeTuuuHbJ1p1mk8kHqoV44IMpBkQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f4201&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4201\&quot;.\&quot;SHKCOO\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4201\&quot;.\&quot;SHDOCO\&quot;, &#xA;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4201\&quot;.\&quot;SHDCTO\&quot;&#xA;FROM \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4201\&quot;&quot;"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4201\&quot;.\&quot;SHKCOO\&quot;, &#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4201\&quot;.\&quot;SHDOCO\&quot;, &#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4201\&quot;.\&quot;SHDCTO\&quot;&#10;FROM \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4201\&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="postgres_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_CURSOR" value="true"/>
     <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000"/>
@@ -719,32 +719,32 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="1" offsetLabelY="0" posX="576" posY="288">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_5" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_dnczsAeQEeqlibJAbnRRoA" show="false"/>
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="1" offsetLabelY="0" posX="768" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_5"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_dnczsAeQEeqlibJAbnRRoA"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;10.160.103.199&quot;" show="false"/>
-    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;" show="false"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;Modelisation&quot;" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;modelisation&quot;" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;datawarehouse&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:GkPbOzWDxvQsrQ3jGGN7Udk7pOXkW2lk74qq48tF6thA+XKURbQ8F4jXrok59g==" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="V9_X"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;10.160.103.199&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5432&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;Modelisation&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;modelisation&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;datawarehouse&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:NjZlLxE389SxRzMxiDFLL0hFU3NUqY3hbBbp94OTAi96We7OQGfhm9SImDS+og=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;dim_tiers&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;source\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;codetiers\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;typetiers\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;raisonsocial\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;bareme\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;familleachat\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;sousfamilleachat\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;cleglfournisseur\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;id_ass_com\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;id_ass_adv\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;id_res_com\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;centrecout\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;cleglclient\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;groupe\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;statut\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;zonegeographique\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;marchegeographique\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;secteurgeographique\&quot;, &#xA;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;secteurstat\&quot;&#xA;FROM \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;&quot;"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;source\&quot;, &#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;codetiers\&quot;, &#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;typetiers\&quot;, &#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;raisonsocial\&quot;, &#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;bareme\&quot;, &#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;familleachat\&quot;, &#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;sousfamilleachat\&quot;, &#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;cleglfournisseur\&quot;, &#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;id_ass_com\&quot;, &#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;id_ass_adv\&quot;, &#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;id_res_com\&quot;, &#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;centrecout\&quot;, &#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;cleglclient\&quot;, &#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;groupe\&quot;, &#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;statut\&quot;, &#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;zonegeographique\&quot;, &#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;marchegeographique\&quot;, &#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;secteurgeographique\&quot;, &#10;  \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;.\&quot;secteurstat\&quot;&#10;FROM \&quot;&quot;+context.Modélisation_Database+&quot;\&quot;.\&quot;&quot;+context.Modélisation_Schema+&quot;\&quot;.\&quot;dim_tiers\&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="postgres_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_CURSOR" value="true"/>
     <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000"/>
@@ -851,34 +851,36 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="832" posY="416">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
+  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_dnczsAeQEeqlibJAbnRRoA" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_dnczsAeQEeqlibJAbnRRoA"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
     <elementParameter field="TEXT" name="HOST" value="context.Modélisation_Server"/>
     <elementParameter field="TEXT" name="PORT" value="context.Modélisation_Port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.Modélisation_Database"/>
-    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Modélisation_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Modélisation_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:FCLeBcAfZGs7Y4LPjJ3US8QEYDj74hmkpJK2gXN9iJxkldb2A9jIyWY+jjC6cHqtMPd7kjH6wc+j2w=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:BdUvSvQ9vIX/cieWpCKERGj5gyMQUATPhIUSyVZBDPFc1HeychIYJf82WEZZdSIVMEw3gmqhHXKSrA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;fait_evenement&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" value="false"/>
-    <elementParameter field="CHECK" name="SPATIAL_INDEX" value="false" show="false"/>
-    <elementParameter field="CHECK" name="GEOMETRY_COLUMNS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="SPATIAL_INDEX" show="false" value="false"/>
+    <elementParameter field="CHECK" name="GEOMETRY_COLUMNS" show="false" value="false"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="postgres_id"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.Modélisation_AdditionalParams"/>
-    <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="CHECK" name="SAVE_POINT" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
     <elementParameter field="TABLE" name="ADD_COLS"/>
@@ -1037,14 +1039,15 @@
     </elementParameter>
     <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_LOWERCASE" value="false"/>
     <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
     <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_1">
-      <column comment="" key="true" length="30" name="source" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="12" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="numdocument" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="40" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="typedocument" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="40" usefulColumn="true"/>
+      <column comment="" key="true" length="30" name="source" nullable="true" originalLength="12" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="numdocument" nullable="true" originalLength="40" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="typedocument" nullable="true" originalLength="40" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="true" length="30" name="societe" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -1063,31 +1066,31 @@
       <column comment="" key="false" length="21" name="quantitecommandee" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="30" name="datefacturation" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="20" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="datefacturation" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="21" name="quantitelivree" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="21" name="quantitenonlivreereservee" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="30" name="datedecreation" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="21" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="statutavancement" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="1" usefulColumn="true"/>
-      <column comment="" key="false" length="21" name="datedepreparationsouhaitee" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" originalLength="21" usefulColumn="true"/>
-      <column comment="" key="false" length="21" name="prixdeviseclient" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_Float" originalLength="21" usefulColumn="true"/>
-      <column comment="" key="false" length="21" name="montantdeviseclient" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_Float" originalLength="21" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="30" name="montanthtreliquatinclus" nullable="true" pattern="" precision="-1" sourceType="FLOAT4" type="id_Float" originalLength="20" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="montanthtreliquatinclusdevise" nullable="true" pattern="" precision="-1" sourceType="FLOAT4" type="id_Float" originalLength="30" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="referenceexterne" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="15" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="numlot" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="15" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="codetiers" nullable="true" pattern="" precision="-1" sourceType="INT4" type="id_Integer" originalLength="15" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="datedecreation" nullable="true" originalLength="21" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="statutavancement" nullable="true" originalLength="1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="21" name="datedepreparationsouhaitee" nullable="true" originalLength="21" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="21" name="prixdeviseclient" nullable="true" originalLength="21" pattern="" precision="-1" sourceType="NUMERIC" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="21" name="montantdeviseclient" nullable="true" originalLength="21" pattern="" precision="-1" sourceType="NUMERIC" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="montanthtreliquatinclus" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="FLOAT4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="montanthtreliquatinclusdevise" nullable="true" originalLength="30" pattern="" precision="-1" sourceType="FLOAT4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="referenceexterne" nullable="true" originalLength="15" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="numlot" nullable="true" originalLength="15" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="codetiers" nullable="true" originalLength="15" pattern="" precision="-1" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="centrecout" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="40" name="codearticle" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="40" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="codearticle" nullable="true" originalLength="40" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column key="false" length="40" name="codearticletechnique" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="-1" name="numexpedition" nullable="true" pattern="" precision="-1" sourceType="INT4" type="id_Integer" originalLength="20" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="numexpedition" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
       <column key="false" length="30" name="typetiers" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -1102,9 +1105,9 @@
       </column>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="true" length="30" name="source" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="12" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="numdocument" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="40" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="typedocument" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="40" usefulColumn="true"/>
+      <column comment="" key="true" length="30" name="source" nullable="true" originalLength="12" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="numdocument" nullable="true" originalLength="40" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="typedocument" nullable="true" originalLength="40" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="true" length="30" name="societe" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -1123,31 +1126,31 @@
       <column comment="" key="false" length="21" name="quantitecommandee" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="30" name="datefacturation" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="20" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="datefacturation" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="21" name="quantitelivree" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="21" name="quantitenonlivreereservee" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="30" name="datedecreation" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="21" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="statutavancement" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="1" usefulColumn="true"/>
-      <column comment="" key="false" length="21" name="datedepreparationsouhaitee" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" originalLength="21" usefulColumn="true"/>
-      <column comment="" key="false" length="21" name="prixdeviseclient" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_Float" originalLength="21" usefulColumn="true"/>
-      <column comment="" key="false" length="21" name="montantdeviseclient" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_Float" originalLength="21" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="30" name="montanthtreliquatinclus" nullable="true" pattern="" precision="-1" sourceType="FLOAT4" type="id_Float" originalLength="20" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="montanthtreliquatinclusdevise" nullable="true" pattern="" precision="-1" sourceType="FLOAT4" type="id_Float" originalLength="30" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="referenceexterne" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="15" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="numlot" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="15" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="codetiers" nullable="true" pattern="" precision="-1" sourceType="INT4" type="id_Integer" originalLength="15" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="datedecreation" nullable="true" originalLength="21" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="statutavancement" nullable="true" originalLength="1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="21" name="datedepreparationsouhaitee" nullable="true" originalLength="21" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="21" name="prixdeviseclient" nullable="true" originalLength="21" pattern="" precision="-1" sourceType="NUMERIC" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="21" name="montantdeviseclient" nullable="true" originalLength="21" pattern="" precision="-1" sourceType="NUMERIC" type="id_Float" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="30" name="montanthtreliquatinclus" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="FLOAT4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="montanthtreliquatinclusdevise" nullable="true" originalLength="30" pattern="" precision="-1" sourceType="FLOAT4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="referenceexterne" nullable="true" originalLength="15" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="numlot" nullable="true" originalLength="15" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="codetiers" nullable="true" originalLength="15" pattern="" precision="-1" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="12" name="centrecout" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="40" name="codearticle" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="40" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="codearticle" nullable="true" originalLength="40" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column key="false" length="40" name="codearticletechnique" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="-1" name="numexpedition" nullable="true" pattern="" precision="-1" sourceType="INT4" type="id_Integer" originalLength="20" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="numexpedition" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
       <column key="false" length="30" name="typetiers" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -1160,53 +1163,53 @@
       <column key="false" length="30" name="id_res_com" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tPostgresqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="0">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_MC4UwAFxEeqyKvuObbcQGw" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_MC4UwAFxEeqyKvuObbcQGw"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
     <elementParameter field="TEXT" name="HOST" value="context.Postgres_Server"/>
-    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
     <elementParameter field="TEXT" name="PORT" value="context.Postgres_Port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.Postgres_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Postgres_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:fo/qKR6X0MoOqG/+8k6tucAvAtB4mw2c8bklKDvJQf2+d73jce5S4u/Q3olr77ug6iHfxBQ="/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:kxQhQ7KJloG3cdP3i8w4sOLwTEuytr4h3aSfnVPfBPP2AewbXv15WtFan/VmwddEul9zvKU="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.Postgres_AdditionalParams"/>
     <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="Postgres"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node componentName="tPostgresqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="128">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_2" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_2"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_dnczsAeQEeqlibJAbnRRoA" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_dnczsAeQEeqlibJAbnRRoA"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
     <elementParameter field="TEXT" name="HOST" value="context.Modélisation_Server"/>
-    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
     <elementParameter field="TEXT" name="PORT" value="context.Modélisation_Port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.Modélisation_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Modélisation_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Modélisation_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:q/0AQ4qbIzuYspHzIWAeSP73gwOdhv4MpCRt4o5h9TUig9Sziq/S2+HT7dfGYJtAs5TItCKfYdHNCQ=="/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:JfWRsOfBGKCfHfnzWDbpsSxOHU1rTbnxLVkLtUIJText6/sS5wI9lI2L/ihKyDTeqN5rxJdgi6aIQw=="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.Modélisation_AdditionalParams"/>
     <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="Modélisation"/>
@@ -1240,7 +1243,7 @@
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="F4211" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="F4211"/>
   </connection>
   <connection connectorName="FLOW" label="out" lineStyle="0" metaname="out" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tDBOutput_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
@@ -1249,39 +1252,67 @@
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out"/>
   </connection>
   <connection connectorName="FLOW" label="Art_mag" lineStyle="8" metaname="tDBInput_6" offsetLabelX="0" offsetLabelY="0" source="tDBInput_6" target="tMap_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Art_mag" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Art_mag"/>
   </connection>
   <connection connectorName="FLOW" label="F4201" lineStyle="8" metaname="tDBInput_1" offsetLabelX="1" offsetLabelY="-23" source="tDBInput_1" target="tMap_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="F4201" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="F4201"/>
   </connection>
   <connection connectorName="FLOW" label="Tiers" lineStyle="8" metaname="tDBInput_5" offsetLabelX="0" offsetLabelY="0" source="tDBInput_5" target="tMap_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Tiers" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Tiers"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tDBConnection_2">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBConnection_2" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_2" target="tDBInput_2">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
   </connection>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_2" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-</talendfile:ProcessType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1b43cfcf-f2b5-4e8d-a714-4bd5f389b641"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qgH3qsiX8pjRqZP9PQ+HWnjrslAz6XAbwWpzG4YQKwaN6GCJt2TBVdZTiKVyFtHoh8NIjRH0eQMH&#13;
+0a4H3UIoyQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_998b5f7b-fdb7-45e7-a64e-4336b81c005c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pP87Xx3DgISI4PEVt0NscW5VxYPOxyBoE502Pk2PodPHq2icCBvwuiuWq4efMILpKCrjamANCv1Z&#13;
++7g6mxIIVg==</DigestValue></Reference></SignedInfo><SignatureValue>k47ZbTNo9d/lRUtr3fwPIoy0MDfobJlXHuChOmzpTkFTTei2ck+nrRo21Yp5Oy4YDi3FTPaXejFe&#13;
+kTmKhMoGEOYW0BydGKGoky6eUvh4hA1tZ/+Qsq0tkkwd8WtGTufVFKQYfI/bCbUplNu1jZ5E44VK&#13;
+J6yM2F9wqBwjmpiOsUkvOswc5UFa/pskllxJXJ+TPTQKj/0uBxKfbrtceqfuby3eeyB6gBNEjMpO&#13;
+jNImetmKLnoLIz8KHQEKcmGHS2AAnUAs4HeHMvFeeQ3iKF/oCxvy12wU2jUYg39X0Z5K0VGDUvWA&#13;
+Kz5svYa0yaK+qy2ktdCF2tmHOPT8MXJIasiSGA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_998b5f7b-fdb7-45e7-a64e-4336b81c005c" Target="#_1b43cfcf-f2b5-4e8d-a714-4bd5f389b641"><Timestamp>2020-11-16 16:56:19</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
