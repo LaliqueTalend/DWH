@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="DEV" jobType="Standard" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="de" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="PROD">
     <contextParameter comment="" name="FOLDER" prompt="FOLDER?" promptNeeded="false" repositoryContextId="_NdZ_YEf5EeqPAJ3B0zREfw" type="id_String" value=""/>
     <contextParameter comment="" name="destinataires" prompt="destinataires?" promptNeeded="false" repositoryContextId="_j2xQoCjuEeuiZL3FWMWX7A" type="id_String" value="aveyredesoras@synergy.fr"/>
@@ -8,19 +8,19 @@
     <contextParameter comment="" name="Postgres_Talend_Logs_AdditionalParams" prompt="Postgres_Talend_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value=""/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Database" prompt="Postgres_Talend_Logs_Database?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Login" prompt="Postgres_Talend_Logs_Login?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:ivju7v21hfurIubuwxsN7GZxSxstdxioqUEM9+Tsbvg3D4W9zE92TOnLMo8="/>
+    <contextParameter comment="" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:jMiaEkNo0FL4rin8WI3iL5SFCYa/te9p/pvy7iLCAYWkSb7T/7ZAz0bmI1k="/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Port" prompt="Postgres_Talend_Logs_Port?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="5432"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Schema" prompt="Postgres_Talend_Logs_Schema?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="talend"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Server" prompt="Postgres_Talend_Logs_Server?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:QlPMxfDqf4hF9aEsCpDGSP9NFjNqTdBmVnqlK3mVPQIV1OoRVo3gM7j9X3Q="/>
+    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:iUEO3N13gQdrcJZsH+1Q2XVr+oj6XpylW1qzX4W7Wi1m+qh3zQVX12GqLWI="/>
     <contextParameter comment="" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
     <contextParameter comment="" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
     <contextParameter comment="" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="&quot;crpdta&quot;"/>
   </context>
-  <context confirmationNeeded="false" name="DEV">
+  <context confirmationNeeded="false" name="de">
     <contextParameter comment="" name="FOLDER" prompt="FOLDER?" promptNeeded="false" repositoryContextId="_NdZ_YEf5EeqPAJ3B0zREfw" type="id_String" value="C:/Users/aveyredesoras/Downloads"/>
     <contextParameter comment="" name="destinataires" prompt="destinataires?" promptNeeded="false" repositoryContextId="_j2xQoCjuEeuiZL3FWMWX7A" type="id_String" value="aveyredesoras@synergy.fr"/>
     <contextParameter comment="" name="expéditeur" prompt="expéditeur?" promptNeeded="false" repositoryContextId="_j2xQoCjuEeuiZL3FWMWX7A" type="id_String" value="talend@lalique.fr"/>
@@ -29,13 +29,13 @@
     <contextParameter comment="" name="Postgres_Talend_Logs_AdditionalParams" prompt="Postgres_Talend_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value=""/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Database" prompt="Postgres_Talend_Logs_Database?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Login" prompt="Postgres_Talend_Logs_Login?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:i+DdKtAi/gbPUmFfxl6ugYA1j6L1wuCCV+R9PzOVfU7jW24D87aIolMTAoE="/>
+    <contextParameter comment="" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:rhQHgMNrx1r0/SXfs78J1atnHOBGvl24SztbEtT0bcR1uQmZMIljQn3iiEg="/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Port" prompt="Postgres_Talend_Logs_Port?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="5432"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Schema" prompt="Postgres_Talend_Logs_Schema?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="talend"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Server" prompt="Postgres_Talend_Logs_Server?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:VPsdhux1RaaENI40Ql1ZtPoFmwmY1/NfP8ZBhddLuJNCLYKf+eiS+1O8+PQ="/>
+    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:uTDAk3R719vuZ5NYtEaPLMPw/PZ6fYd07Um2HrBXvATjYNlJCGCEiaIqDZc="/>
     <contextParameter comment="" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
     <contextParameter comment="" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
@@ -83,7 +83,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:/YasAGSK3hbeuxYIMQlV7Vx6ysfQXNnhUY6kdcv5"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:b2ioMuLPp0bH+uswhLgI8kx+nIovycvWL+pWZMk7"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -118,7 +118,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:uA/mHED9FVEuC8+xt++zQ0mn7NEpCewy/7+4QAui"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:WG3HPYqQ4yA4EM6+Sv5VxR/3Hs6/8srBdDLU+D1H"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -173,7 +173,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.Postgres_Talend_Logs_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Postgres_Talend_Logs_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Postgres_Talend_Logs_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:XMCvT2xE6cQa9AzLZklC11zb7GJ8BxrgOSiE3NeEuyw9AbEoABnYUGxsPPXek7y6NlfbBuZPxPwDsHMVHQtnHKk="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:p620BlXqpxxQ6dyM4hcxQWKaUtnALNwkswTolUTTI8xB5j0HCbZpTqcV3M3b6G2uUl4WR+jBX9fKIOSc98yxh6w="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_kK2wgG6BEeqo36j-Kvo4RA - talend_log"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;talend_log&quot;"/>
@@ -398,7 +398,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.Postgres_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Postgres_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:dN3KV+gNwEZLSd1ZLAIkRLVcTtt3R7vHQKvW2e0Uj875meToWnwkVtrPeNc0ITCuQq7Kxq4="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:wekiWx8bKZ1lFZuDdo2PxeSbzzNdtB2DK3SE00I31yihRGI4XdbGnJ5haZJxJpOo0vSBo+I="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_kK2wgG6BEeqo36j-Kvo4RA - talend_stat"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;talend_stat&quot;"/>
@@ -677,7 +677,7 @@
     <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
     <elementParameter field="CHECK" name="NEED_AUTH" value="false"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" show="false" value="&quot;username&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:KdSQoatduR3A0/S/4UkjeSVwUcGI4tqaQZVRDbf0KU2LVVqQ9mg="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:plQufIbux+gkzR8IUdjSvyDkm5JMvaxgntU6kebjadaorotg8kk="/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
@@ -707,7 +707,7 @@
     <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
     <elementParameter field="CHECK" name="NEED_AUTH" value="false"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" show="false" value="&quot;username&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:hjbBsJSJDfHPRfm53yCuT51N+ERpe2xTstnt+D6X1xFvOf4Npyc="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:K/3+X3Dsgq/Vdw51Yy6lHcpo+zB42hk6TvEXI63XxUMBgG85l10="/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
@@ -747,6 +747,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
   </connection>
   <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tFileExist_2" offsetLabelX="0" offsetLabelY="0" source="tFileExist_2" target="tFileDelete_2">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Boolean)globalMap.get(&quot;tFileExist_2_EXISTS&quot;))"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If2"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileExist_2" offsetLabelX="0" offsetLabelY="0" source="tFileExist_2" target="tDBInput_1">
@@ -805,13 +806,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_999c879f-00aa-4c01-9a35-a717fbe6154f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Q3/uIqsPi2qjBZvZMZCfaiQFNOt8C3aGHh9nh/X4+M3ojV6zmmJ4yHQ59QDqeGQ5tKC/B6wqyZYK&#13;
-t9iLFuK9bw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4d50abc3-e5b3-4575-abe3-98e11fa9cf18"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1pYAn7/fXwo1jTrDC8CBpj/1i6xW+76bVOxtNoVlCcbaXRprY+xcX4Mv8akq6HFR89NCJrrbwv/a&#13;
-18Ah1xuP6w==</DigestValue></Reference></SignedInfo><SignatureValue>dx1v5XyR1/UU6ufE9jvr9xeccyqBzzcQ1fMJ8EWgCYqXYuxaGWavByIEFTFpYS9pMIYSbgDlVFLV&#13;
-aJLnZar9Oq8WsABC247lLUDNiH9TA8wNQbJhK/qmxslsp8mP8KpAk1Jsap5BbYBQptqc2VWI58NY&#13;
-OQhTJ+DiNUFHTQEh/v07Kerb2h5RIDkip2OJdWU7Fves9T558uxVtl8E0l1iJWCM29aNXabX/Ri5&#13;
-R0HfJ/zNDQcLkTIikou9lf1f3HV65NtF8CgxfTMsGe75lmsGBuF58+b+SoWFZoMOtKTCHRTACob1&#13;
-ejpBd7d7bH/wqpot/nTALAGolnAnhbaUGkZaYQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_203bd1db-e496-4cbd-aa81-8506cec55446"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3t1vJmJ7fIddVTJ8leJ8eGeKi9xXme8KovvbsOtFdsDkhlS/psjAYMzdVaY0YYeCjT9b8rgg0xcX&#13;
+gDE9HGj7ug==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_82dc8827-7cef-4149-87e5-7f649fc05b1c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9+61x4GjaoLAxll1vyhk+wKIIvcBJxu2P+ipzE3veB79pPq2fujUZM+8XW/2CwaHCHFIfiT5kv9A&#13;
+bCKAHmnBRA==</DigestValue></Reference></SignedInfo><SignatureValue>Wr6+RYPpZx/wGijNdQHkOt8PyxsN8ZM2FcRde0ZapyIIb7nJIbGMNvBn/Dp0/BVSl3L+ChifwF+x&#13;
+sMu0Cc2/1Sl7KhOO5q8dlpN8ieyFZqE5ytFKeFspzfZ1tV4upF7l92YMMrUkQrSZJ2QKrAhyDCxm&#13;
+KAM8UzuD58mdSUY5Eqe3snpZvrHXzR7GBpXDzV7xIPTuoFUjEGKBf/azwWiFoMegiL1zEK6Y7wCp&#13;
+4goJFmdY3Vngtgfy9B5R3efP2SoZAWKHDWeNlbFRLav0SZjvTm/fUiSymFxqaQANnghh2+E84sF8&#13;
+zNvCJ7GtLXBYafppP7bvgfmLLKVk0ovr/ZK+lQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -833,4 +834,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4d50abc3-e5b3-4575-abe3-98e11fa9cf18" Target="#_999c879f-00aa-4c01-9a35-a717fbe6154f"><Timestamp>2020-11-17 16:09:21</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_82dc8827-7cef-4149-87e5-7f649fc05b1c" Target="#_203bd1db-e496-4cbd-aa81-8506cec55446"><Timestamp>2020-11-17 16:09:50</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
