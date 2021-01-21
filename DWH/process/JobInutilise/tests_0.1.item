@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="PROD" jobType="Standard" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="PROD" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="FOLDER" prompt="FOLDER?" promptNeeded="false" repositoryContextId="_NdZ_YEf5EeqPAJ3B0zREfw" type="id_String" value="C:/Users/aveyredesoras/Downloads"/>
     <contextParameter comment="" name="JDE_Schema_CTL_AdditionalParams" prompt="JDE_Schema_CTL_AdditionalParams?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_String" value=""/>
     <contextParameter comment="" name="JDE_Schema_CTL_Login" prompt="JDE_Schema_CTL_Login?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_String" value="JDE"/>
-    <contextParameter comment="" name="JDE_Schema_CTL_Password" prompt="JDE_Schema_CTL_Password?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_Password" value="enc:system.encryption.key.v1:4hiFOf8ay6M5K6vy8Qjs9sXzb/7dAJJXYHHX60wujCXNwqY="/>
+    <contextParameter comment="" name="JDE_Schema_CTL_Password" prompt="JDE_Schema_CTL_Password?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_Password" value="enc:system.encryption.key.v1:ajliMiGXpQopEHOXv725a827O4frkQbJug86t9B9X/fNeGo="/>
     <contextParameter comment="" name="JDE_Schema_CTL_Port" prompt="JDE_Schema_CTL_Port?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_String" value="1521"/>
     <contextParameter comment="" name="JDE_Schema_CTL_Schema" prompt="JDE_Schema_CTL_Schema?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_String" value="CRPCTL"/>
     <contextParameter comment="" name="JDE_Schema_CTL_Server" prompt="JDE_Schema_CTL_Server?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_String" value="10.160.100.171"/>
     <contextParameter comment="" name="JDE_Schema_CTL_Sid" prompt="JDE_Schema_CTL_Sid?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_String" value="JDE92NP"/>
     <contextParameter comment="" name="JDE_Schema_DTA_AdditionalParams" prompt="JDE_Schema_DTA_AdditionalParams?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value=""/>
     <contextParameter comment="" name="JDE_Schema_DTA_Login" prompt="JDE_Schema_DTA_Login?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="JDE"/>
-    <contextParameter comment="" name="JDE_Schema_DTA_Password" prompt="JDE_Schema_DTA_Password?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_Password" value="enc:system.encryption.key.v1:j4UKcX/rW/q2x9gRA4bFLLnlO3oH7oO+1L5JeppuUz2UWNw="/>
+    <contextParameter comment="" name="JDE_Schema_DTA_Password" prompt="JDE_Schema_DTA_Password?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_Password" value="enc:system.encryption.key.v1:e5Qm1U856HEB3vU5Q7lS/z82BS5OTeGu7ZZIxM1J3q3cslg="/>
     <contextParameter comment="" name="JDE_Schema_DTA_Port" prompt="JDE_Schema_DTA_Port?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="1521"/>
     <contextParameter comment="" name="JDE_Schema_DTA_Schema" prompt="JDE_Schema_DTA_Schema?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="CRPDTA"/>
     <contextParameter comment="" name="JDE_Schema_DTA_Server" prompt="JDE_Schema_DTA_Server?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="10.160.100.171"/>
@@ -22,21 +22,21 @@
     <contextParameter comment="" name="Modélisation_AdditionalParams" prompt="Modélisation_AdditionalParams?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value=""/>
     <contextParameter comment="" name="Modélisation_Database" prompt="Modélisation_Database?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="Modelisation"/>
     <contextParameter comment="" name="Modélisation_Login" prompt="Modélisation_Login?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Modélisation_Password" prompt="Modélisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:6y6C3mmOoqKUsJ4v8jXzeD4ygtuuuMtzfQ4w5mPrfXsAViBWDjTYvu2ensA="/>
+    <contextParameter comment="" name="Modélisation_Password" prompt="Modélisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:6elO7UvExsk5jX76uRnpsrXMljvIqHBQKCTbVnJmTU+oqAHEcxHjlFIiX0k="/>
     <contextParameter comment="" name="Modélisation_Port" prompt="Modélisation_Port?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="5432"/>
     <contextParameter comment="" name="Modélisation_Schema" prompt="Modélisation_Schema?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="modelisation"/>
     <contextParameter comment="" name="Modélisation_Server" prompt="Modélisation_Server?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
     <contextParameter comment="" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:T9GQ3lgH564SVWEnbQiRJIwIcRhijwBVl8y31pohlkJZAtaen0qCwcdWrMQ="/>
+    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:MZS+je/RrKvK7ygtAkZ8zavai863etd51M2dJWxaqDHZToOPB0PkRIO+bFc="/>
     <contextParameter comment="" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
     <contextParameter comment="" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="&quot;crpdta&quot;"/>
     <contextParameter comment="" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_AdditionalParams" prompt="Postgres_Talend_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value=""/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Database" prompt="Postgres_Talend_Logs_Database?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Login" prompt="Postgres_Talend_Logs_Login?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:TJeS8L7UXWkDZwfTdBqH1L7WTY58HIK/wJafi36+QGWDFJXoaa26VBqW1/w="/>
+    <contextParameter comment="" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:BhWfzfuYV3dlIWrKI1+WOX0hf47OqVY4ZKl05Aer4EVUZ3kzax5H7wbaL0o="/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Port" prompt="Postgres_Talend_Logs_Port?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="5432"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Schema" prompt="Postgres_Talend_Logs_Schema?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="talend"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Server" prompt="Postgres_Talend_Logs_Server?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="10.160.103.199"/>
@@ -45,14 +45,14 @@
     <contextParameter comment="" name="FOLDER" prompt="FOLDER?" promptNeeded="false" repositoryContextId="_NdZ_YEf5EeqPAJ3B0zREfw" type="id_String" value=""/>
     <contextParameter comment="" name="JDE_Schema_CTL_AdditionalParams" prompt="JDE_Schema_CTL_AdditionalParams?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_String" value=""/>
     <contextParameter comment="" name="JDE_Schema_CTL_Login" prompt="JDE_Schema_CTL_Login?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_String" value="JDE"/>
-    <contextParameter comment="" name="JDE_Schema_CTL_Password" prompt="JDE_Schema_CTL_Password?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_Password" value="enc:system.encryption.key.v1:zFoCynbnSBxTEs+u+moeiZTqgs0WWoPR+OyGoe6NxeepN0o="/>
+    <contextParameter comment="" name="JDE_Schema_CTL_Password" prompt="JDE_Schema_CTL_Password?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_Password" value="enc:system.encryption.key.v1:cHPhUvato71KmyuMs17Wx8cGl7IB+cxYBD4awu4Vtv86DNY="/>
     <contextParameter comment="" name="JDE_Schema_CTL_Port" prompt="JDE_Schema_CTL_Port?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_String" value="1521"/>
     <contextParameter comment="" name="JDE_Schema_CTL_Schema" prompt="JDE_Schema_CTL_Schema?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_String" value="FORCTL"/>
     <contextParameter comment="" name="JDE_Schema_CTL_Server" prompt="JDE_Schema_CTL_Server?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_String" value="10.160.100.171"/>
     <contextParameter comment="" name="JDE_Schema_CTL_Sid" prompt="JDE_Schema_CTL_Sid?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_String" value="JDE92NP"/>
     <contextParameter comment="" name="JDE_Schema_DTA_AdditionalParams" prompt="JDE_Schema_DTA_AdditionalParams?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value=""/>
     <contextParameter comment="" name="JDE_Schema_DTA_Login" prompt="JDE_Schema_DTA_Login?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="JDE"/>
-    <contextParameter comment="" name="JDE_Schema_DTA_Password" prompt="JDE_Schema_DTA_Password?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_Password" value="enc:system.encryption.key.v1:wDb5xhMbka7Z0rEITx999I5vB/1bes67op+2WWwqoBD86hs="/>
+    <contextParameter comment="" name="JDE_Schema_DTA_Password" prompt="JDE_Schema_DTA_Password?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_Password" value="enc:system.encryption.key.v1:rliIYF0KtCKdRPeGwx9i1RXj2ZARg/NcJ/oW0p+upweIQeo="/>
     <contextParameter comment="" name="JDE_Schema_DTA_Port" prompt="JDE_Schema_DTA_Port?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="1521"/>
     <contextParameter comment="" name="JDE_Schema_DTA_Schema" prompt="JDE_Schema_DTA_Schema?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="FORDTA"/>
     <contextParameter comment="" name="JDE_Schema_DTA_Server" prompt="JDE_Schema_DTA_Server?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="10.160.100.171"/>
@@ -64,21 +64,21 @@
     <contextParameter comment="" name="Modélisation_AdditionalParams" prompt="Modélisation_AdditionalParams?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value=""/>
     <contextParameter comment="" name="Modélisation_Database" prompt="Modélisation_Database?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="Modelisation"/>
     <contextParameter comment="" name="Modélisation_Login" prompt="Modélisation_Login?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Modélisation_Password" prompt="Modélisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:HFNovmaW8Jb/qkhrkw46+dB1rbIwJ2VR04w6F5YrXYTa7xXKKJ+IAeMOonA="/>
+    <contextParameter comment="" name="Modélisation_Password" prompt="Modélisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:m5A+JQXsWr2EW/+bvUcbeBzCd5+U/klwQ5n8+ySu/RwOIKL87nHD7ex6xJ0="/>
     <contextParameter comment="" name="Modélisation_Port" prompt="Modélisation_Port?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="5432"/>
     <contextParameter comment="" name="Modélisation_Schema" prompt="Modélisation_Schema?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="modelisation"/>
     <contextParameter comment="" name="Modélisation_Server" prompt="Modélisation_Server?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
     <contextParameter comment="" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:12WiQIhzYsHM54O84Egtq6CZkXaKLDp7knk9AsUX8ucVQ1XTPbodM0KbYLM="/>
+    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:2bg87PeIbYcjG1kN8fhNEs+H2yl8Xco+lOeI4tdPqu10DDz+IH8uL4a81P0="/>
     <contextParameter comment="" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
     <contextParameter comment="" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="&quot;crpdta&quot;"/>
     <contextParameter comment="" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_AdditionalParams" prompt="Postgres_Talend_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value=""/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Database" prompt="Postgres_Talend_Logs_Database?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Login" prompt="Postgres_Talend_Logs_Login?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:zJW7qEI5WyYJ30/TLuAHIJL4TyZyyvKhEH8YpVSkGS73YQg5yhTMfpcGadc="/>
+    <contextParameter comment="" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:8djLDWr4XNJvT7+ZPdkZJlJEWSs6qGbbcGrymBJvesUY+TyHxbHLtFp1RxU="/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Port" prompt="Postgres_Talend_Logs_Port?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="5432"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Schema" prompt="Postgres_Talend_Logs_Schema?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="talend"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Server" prompt="Postgres_Talend_Logs_Server?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="10.160.103.199"/>
@@ -87,14 +87,14 @@
     <contextParameter comment="" name="FOLDER" prompt="FOLDER?" promptNeeded="false" repositoryContextId="_NdZ_YEf5EeqPAJ3B0zREfw" type="id_String" value="C:/Users/aveyredesoras/Downloads"/>
     <contextParameter comment="" name="JDE_Schema_CTL_AdditionalParams" prompt="JDE_Schema_CTL_AdditionalParams?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_String" value=""/>
     <contextParameter comment="" name="JDE_Schema_CTL_Login" prompt="JDE_Schema_CTL_Login?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_String" value="JDE"/>
-    <contextParameter comment="" name="JDE_Schema_CTL_Password" prompt="JDE_Schema_CTL_Password?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_Password" value="enc:system.encryption.key.v1:WsR3cif0nhrlwTyKVGZF5y4YRFXRvPDe7BJXVAuxfQvULfg="/>
+    <contextParameter comment="" name="JDE_Schema_CTL_Password" prompt="JDE_Schema_CTL_Password?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_Password" value="enc:system.encryption.key.v1:fyuqrlra3LkCwUH8nMYhwtlie7P/KBKBqAqTwbhkElTQV5Y="/>
     <contextParameter comment="" name="JDE_Schema_CTL_Port" prompt="JDE_Schema_CTL_Port?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_String" value="1521"/>
     <contextParameter comment="" name="JDE_Schema_CTL_Schema" prompt="JDE_Schema_CTL_Schema?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_String" value="CRPCTL"/>
     <contextParameter comment="" name="JDE_Schema_CTL_Server" prompt="JDE_Schema_CTL_Server?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_String" value="10.160.100.171"/>
     <contextParameter comment="" name="JDE_Schema_CTL_Sid" prompt="JDE_Schema_CTL_Sid?" promptNeeded="false" repositoryContextId="_84hK0CgSEeufMYXHn8TUtw" type="id_String" value="JDE92NP"/>
     <contextParameter comment="" name="JDE_Schema_DTA_AdditionalParams" prompt="JDE_Schema_DTA_AdditionalParams?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value=""/>
     <contextParameter comment="" name="JDE_Schema_DTA_Login" prompt="JDE_Schema_DTA_Login?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="JDE"/>
-    <contextParameter comment="" name="JDE_Schema_DTA_Password" prompt="JDE_Schema_DTA_Password?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_Password" value="enc:system.encryption.key.v1:d9lPHVpHNoud7fGehqBdo8cwgxeAhXO0ya2HaiYCoLSTLgI="/>
+    <contextParameter comment="" name="JDE_Schema_DTA_Password" prompt="JDE_Schema_DTA_Password?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_Password" value="enc:system.encryption.key.v1:fc96i6QQuowfMvio0lReHxG6Vl3sb1r6af1Wuke9yIxFQoY="/>
     <contextParameter comment="" name="JDE_Schema_DTA_Port" prompt="JDE_Schema_DTA_Port?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="1521"/>
     <contextParameter comment="" name="JDE_Schema_DTA_Schema" prompt="JDE_Schema_DTA_Schema?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="CRPDTA"/>
     <contextParameter comment="" name="JDE_Schema_DTA_Server" prompt="JDE_Schema_DTA_Server?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="10.160.100.171"/>
@@ -106,21 +106,21 @@
     <contextParameter comment="" name="Modélisation_AdditionalParams" prompt="Modélisation_AdditionalParams?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value=""/>
     <contextParameter comment="" name="Modélisation_Database" prompt="Modélisation_Database?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="Modelisation"/>
     <contextParameter comment="" name="Modélisation_Login" prompt="Modélisation_Login?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Modélisation_Password" prompt="Modélisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:APRZ65iTp0kyJljdgVEezoi3rWxd+vkyc2m8t1pRoH4tFlb5vXW/iok4K3c="/>
+    <contextParameter comment="" name="Modélisation_Password" prompt="Modélisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:kNG/JLne9kmhX2e6YBkVmCU30S5WQ1hAnV30bHi5u/rQagumwEBsmJOvWaA="/>
     <contextParameter comment="" name="Modélisation_Port" prompt="Modélisation_Port?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="5432"/>
     <contextParameter comment="" name="Modélisation_Schema" prompt="Modélisation_Schema?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="modelisation"/>
     <contextParameter comment="" name="Modélisation_Server" prompt="Modélisation_Server?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
     <contextParameter comment="" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:x2k5JEPys2vs+K5HtinXwuC8dkt/68ePcMIAofoJLrEOnj8EwlwqOo5wpIw="/>
+    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:L5Lwd8cFFOx9V0TPwq3Cv09xU9itjDsi1UAuour8XLht4lESMIeY/s2lErI="/>
     <contextParameter comment="" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
     <contextParameter comment="" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="&quot;crpdta&quot;"/>
     <contextParameter comment="" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_AdditionalParams" prompt="Postgres_Talend_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value=""/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Database" prompt="Postgres_Talend_Logs_Database?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Login" prompt="Postgres_Talend_Logs_Login?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:IsZ/Vs2IRH6YXWmSlHzkPRI/6EoCijgzeTm4KQxhXUSvAqd0VQGN1/T/h40="/>
+    <contextParameter comment="" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:bmEyPRQF0lAHsCtpeZ9sUl+CAt6hLgAkYa6cEgSzXyIUF3ndEow3NfVrWYg="/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Port" prompt="Postgres_Talend_Logs_Port?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="5432"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Schema" prompt="Postgres_Talend_Logs_Schema?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="talend"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Server" prompt="Postgres_Talend_Logs_Server?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="10.160.103.199"/>
@@ -167,7 +167,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:0K0AMYR2+i94h6OpUU6zRVHiKsr3NDlzYu/2Iwx6"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:shWTX+RScU02In6UryqsntcmEViAyiHubbBE02jn"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -202,7 +202,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:IlAHXquR+czr9OWzXwlg1ssBt0zdF7nUfFT34UQ5"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:F5Bd4iPIx437VaqFGDKdy3KrCy2MDMoDdebbhiZ+"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -246,7 +246,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
     <elementParameter field="TEXT" name="USER" value="context.Postgres_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:AVaphGPNKN+wRfzgECULHMxBVtVegwJffiuo20ouNj675PCsJC5idbxF1+kp7ygwA6lTxWc="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ELa1MCPxZQGXYsYLn+weTxLiHWNct+PWvcCP1nV0VMrHRdrlO/KzudlMm3GudLt6d12Xo5Y="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -511,7 +511,7 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Postgres_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:JUVw9jf60UQb7mH8f1LFYB5VfAY1TwZknicBRj2HG5ame9f0ZNFr4SHGOMNw4mFVX9i9zjc="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:cI0eEkHY5DcfKvWlpZz/rpAlObLhyKadf8xd0qYK0J3ylM4cB7SLSDRsRgVXWpdn4xja/JY="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f00092&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" show="false" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -758,399 +758,6 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="128">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
-    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" show="false" value="ORACLE_SID"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
-    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;10.160.100.171&quot;"/>
-    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;10.160.100.171&quot;"/>
-    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SID"/>
-    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;1521&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;JDE92NP&quot;"/>
-    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;JDE92NP&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;FORDTA&quot;"/>
-    <elementParameter field="TEXT" name="USER" show="false" value="&quot;JDE&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:vtrAtPF2fgF8ybDvClFFsnhFuSIWKOjH64oFdOPfb76Qh52d7Q=="/>
-    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;F00092&quot;"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3SDB, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3TYDT, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3SBA1, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3KCO, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3SBA2, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3MCU, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3SBN1, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3SBN2, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3UKID, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3UORG, &#13;&#10;CASE WHEN &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3EFT = 0 THEN null ELSE to_date(concat('01/01/', substr(2000+ABS((&quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3EFT-100000)/1000),0,4)),'DD/MM/YYYY') +  to_number(substr(2000+ABS((&quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3EFT-100000)/1000),6,3)) END as T3EFT,&#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3RORN, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3RCTO, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3KY, &#13;&#10;CASE WHEN &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3EFTE = 0 THEN null ELSE to_date(concat('01/01/', substr(2000+ABS((&quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3EFTE-100000)/1000),0,4)),'DD/MM/YYYY') +  to_number(substr(2000+ABS((&quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3EFTE-100000)/1000),6,3)) END as T3EFTE,&#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3AMTU, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3AMTV, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3RMK, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3RMK2, &#10;  CASE WHEN &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3UPDJ = 0 THEN null ELSE to_date(concat('01/01/', substr(2000+ABS((&quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3UPDJ-100000)/1000),0,4)),'DD/MM/YYYY') +  to_number(substr(2000+ABS((&quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3UPDJ-100000)/1000),6,3)) END as T3UPDJ,&#13;&#10;   &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3DYUD, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3AN8, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3KYWW, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3USER, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3PID, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3JOBN, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3UPMJ, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3TDAY, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3RMK3, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3UPTM&#10;FROM &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092&quot;"/>
-    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
-    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
-    <elementParameter field="LABEL" name="NOTE" show="false" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
-    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
-    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="USE_CURSOR" value="true"/>
-    <elementParameter field="TEXT" name="CURSOR_SIZE" value="20000"/>
-    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="true"/>
-    <elementParameter field="TABLE" name="TRIM_COLUMN" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3SDB"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3TYDT"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3SBA1"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3KCO"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3SBA2"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3MCU"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3SBN1"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3SBN2"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3UKID"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3UORG"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3EFT"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3RORN"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3RCTO"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3KY"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3EFTE"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3AMTU"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3AMTV"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3RMK"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3RMK2"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3UPDJ"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3DYUD"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3AN8"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3KYWW"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3USER"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3PID"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3JOBN"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3UPMJ"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3TDAY"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3RMK3"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3UPTM"/>
-      <elementValue elementRef="TRIM" value="false"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tDBInput_1">
-      <column comment="" key="false" length="4" name="T3SDB" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="T3TYDT" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3SBA1" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="5" name="T3KCO" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3SBA2" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="12" name="T3MCU" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="T3SBN1" nullable="false" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="T3SBN2" nullable="false" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="T3UKID" nullable="false" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="T3UORG" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="T3EFT" nullable="true" originalLength="20" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="8" name="T3RORN" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="T3RCTO" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3KY" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="T3EFTE" nullable="true" originalLength="20" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="T3AMTU" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="T3AMTV" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="T3RMK" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="T3RMK2" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="T3UPDJ" nullable="true" originalLength="20" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="T3DYUD" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="T3AN8" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3KYWW" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3USER" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3PID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3JOBN" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="6" name="T3UPMJ" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="T3TDAY" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="50" name="T3RMK3" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="T3UPTM" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="960" posY="128">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_2"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_MC4UwAFxEeqyKvuObbcQGw"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="context.Postgres_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.Postgres_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.Postgres_Database"/>
-    <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Postgres_Schema"/>
-    <elementParameter field="TEXT" name="USER" value="context.Postgres_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:TQchcC+ibUryC6xvcRR6svshzDSlc+QRXsmAXseKdltvuCJfWGqlzQNS1RCuWE3WpDhr7js="/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;f00092&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CLEAR"/>
-    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
-    <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" show="false" value="false"/>
-    <elementParameter field="CHECK" name="SPATIAL_INDEX" show="false" value="false"/>
-    <elementParameter field="CHECK" name="GEOMETRY_COLUMNS" show="false" value="false"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="postgres_id"/>
-    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" show="false" value="false"/>
-    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.Postgres_AdditionalParams"/>
-    <elementParameter field="CHECK" name="SAVE_POINT" show="false" value="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="TEXT" name="COMMIT_EVERY" value="20000"/>
-    <elementParameter field="TABLE" name="ADD_COLS"/>
-    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
-    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3UKID"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3SBN1"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3SDB"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3TYDT"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3SBA1"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3KCO"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3SBA2"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3MCU"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3SBN2"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3UORG"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3EFT"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3RORN"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3RCTO"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3KY"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3EFTE"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3AMTU"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3AMTV"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3RMK"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3RMK2"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3UPDJ"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3DYUD"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3AN8"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3KYWW"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3USER"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3PID"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3JOBN"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3UPMJ"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3TDAY"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3RMK3"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="T3UPTM"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
-    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
-    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_LOWERCASE" value="false"/>
-    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
-    <elementParameter field="TEXT" name="BATCH_SIZE" value="20000"/>
-    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="OUT" name="tDBOutput_2">
-      <column comment="" key="true" length="10" name="T3UKID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="true" length="10" name="T3SBN1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="true" length="4" name="T3SDB" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="true" length="2" name="T3TYDT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3SBA1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="5" name="T3KCO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3SBA2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="12" name="T3MCU" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3SBN2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3UORG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="T3EFT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="8" name="T3RORN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="T3RCTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3KY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="T3EFTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3AMTU" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3AMTV" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="T3RMK" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="T3RMK2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="T3UPDJ" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3DYUD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3AN8" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3KYWW" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3USER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3PID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3JOBN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="6" name="T3UPMJ" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3TDAY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="50" name="T3RMK3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3UPTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-    </metadata>
-    <metadata connector="REJECT" label="OUT" name="REJECT">
-      <column comment="" key="true" length="10" name="T3UKID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="true" length="10" name="T3SBN1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="true" length="4" name="T3SDB" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="true" length="2" name="T3TYDT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3SBA1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="5" name="T3KCO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3SBA2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="12" name="T3MCU" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3SBN2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3UORG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="T3EFT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="8" name="T3RORN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="T3RCTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3KY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="T3EFTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3AMTU" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3AMTV" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="T3RMK" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="T3RMK2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="T3UPDJ" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3DYUD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3AN8" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3KYWW" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3USER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3PID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3JOBN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="6" name="T3UPMJ" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3TDAY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="50" name="T3RMK3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="T3UPTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
   <node componentName="tOracleConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
@@ -1168,13 +775,13 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.JDE_Schema_DTA_Sid"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.JDE_Schema_DTA_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.JDE_Schema_DTA_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:NTCAfEnG6ZNUTNiYJwTc2Oc0FmpHhrS+UDuzcR+qEIrMriJpU+HMnUV/foR6czJizaxWFoStixUH5tc="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:BSSenjsxRyE3/OT/4D6PWCTevR4t+oFCm9Wz1kGogeeQuDdn/NWRHGTz6LWRjL87x0FOj0n+RfQEpmQ="/>
     <elementParameter field="CHECK" name="USE_SSL" show="false" value="false"/>
     <elementParameter field="FILE" name="SSL_TRUSTSERVER_TRUSTSTORE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" show="false" value="enc:system.encryption.key.v1:SW0mwJj40WfO+jtTEEnbaTz9kHulkdT07ErJpim+"/>
+    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" show="false" value="enc:system.encryption.key.v1:zFKJD+5zoysNGesVGTXjsBTOUE5ZvC/lOWnYqpJP"/>
     <elementParameter field="CHECK" name="NEED_CLIENT_AUTH" show="false" value="false"/>
     <elementParameter field="FILE" name="SSL_KEYSTORE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:3V1YdYZoK2T9cdhVJLFtny/uBW/rvv96rMuX2i3V"/>
+    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:MytPoH5NqRdqzmmPAj1J9I9UZE+uyyRSs+C8DQpM"/>
     <elementParameter field="CHECK" name="DISABLE_CBC_PROTECTION" show="false" value="true"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -1428,7 +1035,7 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Postgres_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:TL/yZGTAKiTVJ+h5V+e55Pd22989jX+LLC7DLMWuyWIMwa1uZFs0ZZHvqVXPRKhK6S0YklQ="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:jVBqv4ALEucK5lW3yP6nsSUp1jFouN184H0s3jhtUVwtkP1XsF6eQ3S3n6w2FOc+T9LFq4g="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f00092&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CLEAR"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1675,6 +1282,317 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" show="false" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;10.160.100.171&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;10.160.100.171&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SID"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;1521&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;JDE92NP&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;JDE92NP&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;FORDTA&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;JDE&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:X1KZvcX0DEhRhnQ9Ee0w2w8knOoqnSHAT/wo7D89tgVFNMcDPw=="/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;F00092&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3SDB, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3TYDT, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3SBA1, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3KCO, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3SBA2, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3MCU, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3SBN1, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3SBN2, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3UKID, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3UORG, &#13;&#10;CASE WHEN &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3EFT = 0 THEN null ELSE to_date(concat('01/01/', substr(2000+ABS((&quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3EFT-100000)/1000),0,4)),'DD/MM/YYYY') +  to_number(substr(2000+ABS((&quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3EFT-100000)/1000),6,3)) END as T3EFT,&#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3RORN, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3RCTO, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3KY, &#13;&#10;CASE WHEN &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3EFTE = 0 THEN null ELSE to_date(concat('01/01/', substr(2000+ABS((&quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3EFTE-100000)/1000),0,4)),'DD/MM/YYYY') +  to_number(substr(2000+ABS((&quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3EFTE-100000)/1000),6,3)) END as T3EFTE,&#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3AMTU, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3AMTV, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3RMK, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3RMK2, &#10;  CASE WHEN &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3UPDJ = 0 THEN null ELSE to_date(concat('01/01/', substr(2000+ABS((&quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3UPDJ-100000)/1000),0,4)),'DD/MM/YYYY') +  to_number(substr(2000+ABS((&quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3UPDJ-100000)/1000),6,3)) END as T3UPDJ,&#13;&#10;   &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3DYUD, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3AN8, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3KYWW, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3USER, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3PID, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3JOBN, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3UPMJ, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3TDAY, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3RMK3, &#10;  &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092.T3UPTM&#10;FROM &quot;+context.JDE_Schema_DTA_Schema+&quot;.F00092&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="true"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="20000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="true"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3SDB"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3TYDT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3SBA1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3KCO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3SBA2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3MCU"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3SBN1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3SBN2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3UKID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3UORG"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3EFT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3RORN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3RCTO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3KY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3EFTE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3AMTU"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3AMTV"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3RMK"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3RMK2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3UPDJ"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3DYUD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3AN8"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3KYWW"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3USER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3PID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3JOBN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3UPMJ"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3TDAY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3RMK3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="T3UPTM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_1">
+      <column comment="" key="false" length="4" name="T3SDB" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="T3TYDT" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3SBA1" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="T3KCO" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3SBA2" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="T3MCU" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="T3SBN1" nullable="false" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="T3SBN2" nullable="false" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="T3UKID" nullable="false" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="T3UORG" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="T3EFT" nullable="true" originalLength="20" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="T3RORN" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="T3RCTO" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3KY" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="T3EFTE" nullable="true" originalLength="20" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="T3AMTU" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="T3AMTV" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="T3RMK" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="T3RMK2" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="T3UPDJ" nullable="true" originalLength="20" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="T3DYUD" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="T3AN8" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3KYWW" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3USER" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3PID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3JOBN" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="6" name="T3UPMJ" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="T3TDAY" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="T3RMK3" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="T3UPTM" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="832" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_nnfMwPWeEemjVN44m132rA-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="OUT" name="OUT">
+      <column comment="" key="true" length="10" name="T3UKID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="true" length="10" name="T3SBN1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="true" length="4" name="T3SDB" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="2" name="T3TYDT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3SBA1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="T3KCO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3SBA2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="T3MCU" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3SBN2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3UORG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="T3EFT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="T3RORN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="T3RCTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3KY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="T3EFTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3AMTU" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3AMTV" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="T3RMK" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="T3RMK2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="T3UPDJ" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3DYUD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3AN8" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3KYWW" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3USER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3PID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3JOBN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="T3UPMJ" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3TDAY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="T3RMK3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3UPTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="OUT" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row9.T3UKID " name="T3UKID" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row9.T3SBN1 " name="T3SBN1" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row9.T3SDB" name="T3SDB" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row9.T3TYDT " name="T3TYDT" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row9.T3SBA1 " name="T3SBA1" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row9.T3KCO " name="T3KCO" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row9.T3SBA2 " name="T3SBA2" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row9.T3MCU " name="T3MCU" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row9.T3SBN2 " name="T3SBN2" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row9.T3UORG " name="T3UORG" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row9.T3EFT " name="T3EFT" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row9.T3RORN " name="T3RORN" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row9.T3RCTO " name="T3RCTO" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row9.T3KY==null ? null :row9.T3KY.replace(&quot;\\s&quot;,&quot;&quot;) " name="T3KY" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row9.T3EFTE " name="T3EFTE" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row9.T3AMTU " name="T3AMTU" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row9.T3AMTV " name="T3AMTV" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row9.T3RMK " name="T3RMK" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row9.T3RMK2 " name="T3RMK2" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row9.T3UPDJ " name="T3UPDJ" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row9.T3DYUD " name="T3DYUD" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row9.T3AN8 " name="T3AN8" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row9.T3KYWW " name="T3KYWW" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row9.T3USER " name="T3USER" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row9.T3PID " name="T3PID" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row9.T3JOBN " name="T3JOBN" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row9.T3UPMJ " name="T3UPMJ" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row9.T3TDAY " name="T3TDAY" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row9.T3RMK3 " name="T3RMK3" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row9.T3UPTM " name="T3UPTM" nullable="true" type="id_BigDecimal"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row9" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="T3SDB" type="id_String"/>
+        <mapperTableEntries name="T3TYDT" type="id_String"/>
+        <mapperTableEntries name="T3SBA1" type="id_String"/>
+        <mapperTableEntries name="T3KCO" type="id_String"/>
+        <mapperTableEntries name="T3SBA2" type="id_String"/>
+        <mapperTableEntries name="T3MCU" type="id_String"/>
+        <mapperTableEntries name="T3SBN1" type="id_BigDecimal"/>
+        <mapperTableEntries name="T3SBN2" type="id_BigDecimal"/>
+        <mapperTableEntries name="T3UKID" type="id_BigDecimal"/>
+        <mapperTableEntries name="T3UORG" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="T3EFT" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="T3RORN" nullable="true" type="id_String"/>
+        <mapperTableEntries name="T3RCTO" nullable="true" type="id_String"/>
+        <mapperTableEntries name="T3KY" nullable="true" type="id_String"/>
+        <mapperTableEntries name="T3EFTE" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="T3AMTU" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="T3AMTV" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="T3RMK" nullable="true" type="id_String"/>
+        <mapperTableEntries name="T3RMK2" nullable="true" type="id_String"/>
+        <mapperTableEntries name="T3UPDJ" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="T3DYUD" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="T3AN8" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="T3KYWW" nullable="true" type="id_String"/>
+        <mapperTableEntries name="T3USER" nullable="true" type="id_String"/>
+        <mapperTableEntries name="T3PID" nullable="true" type="id_String"/>
+        <mapperTableEntries name="T3JOBN" nullable="true" type="id_String"/>
+        <mapperTableEntries name="T3UPMJ" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="T3TDAY" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="T3RMK3" nullable="true" type="id_String"/>
+        <mapperTableEntries name="T3UPTM" nullable="true" type="id_BigDecimal"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1056" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_1"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.FOLDER+&quot;F00092.csv&quot;"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="OUT" name="tFileOutputDelimited_1">
+      <column comment="" key="true" length="10" name="T3UKID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="true" length="10" name="T3SBN1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="true" length="4" name="T3SDB" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="2" name="T3TYDT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3SBA1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="T3KCO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3SBA2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="T3MCU" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3SBN2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3UORG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="T3EFT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="T3RORN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="T3RCTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3KY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="T3EFTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3AMTU" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3AMTV" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="T3RMK" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="T3RMK2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="T3UPDJ" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3DYUD" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3AN8" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3KYWW" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3USER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3PID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3JOBN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="T3UPMJ" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3TDAY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="T3RMK3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="T3UPTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+    </metadata>
+  </node>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" source="tDBRow_1" target="tFileInputDelimited_1">
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
@@ -1684,10 +1602,6 @@
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row11"/>
   </connection>
-  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tDBOutput_2">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
-  </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tDBInput_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
   </connection>
@@ -1696,6 +1610,14 @@
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
   </connection>
+  <connection connectorName="FLOW" label="row9" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row9"/>
+  </connection>
+  <connection connectorName="FLOW" label="OUT" lineStyle="0" metaname="OUT" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tFileOutputDelimited_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OUT"/>
+  </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
@@ -1703,11 +1625,6 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
@@ -1721,13 +1638,18 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_885ff58a-f99a-4409-ad8e-546b35e1fd68"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>TiiqB90OqJQo/W4B68QPies+WvxqCXeXuiDzPYZli8oKJ8AJlgq/LvjBOrRxD9X/LZQJn1c3VuBt&#13;
-ZXQt1nvo7A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9b656937-3a3a-49d7-80c8-560fec2d4cd4"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>FrKmThEAhLvhiyEX5koK+6mtR0rS3ytrPKLsRrWoMVvTZ9RUDZ3sSZzE/21HQySpj0MalZYbx4ee&#13;
-//5YQRPbCg==</DigestValue></Reference></SignedInfo><SignatureValue>hDnLXcyPaZZSc2t7lcCFx+0xaY/yNUUZbU1HrOZ68Ga46CyTPFuviBBK2zsvQvTiq2AB7qZUEJ1k&#13;
-ZvTsgTso/0TRmy7yOtqHJkSvoBYj+MMcTcoWmK/GFrJiQFRI1qi1kVemDHZZ81HqGId6v2kIRNX4&#13;
-uT7LDeAHpzkdfJjThG+cxIyM94hfGzx86ls5seR1wQvuJVGNacUHO1xQm5NnOv65sYFNngPmyjBU&#13;
-f+ChyYdvuCwl00m4zXT7W6ZVOWgjjsqTDDuaDG2KEIWgI3TE3zCVJVxS/1dzGnNrcbY5pxxHwzf2&#13;
-T/aijgOoDMPj6/co3DQG0y39ZAH3OBTWYmBOvw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_16678209-200c-443f-8ec5-84ab486cb0fd"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>umXmN8CbTpsFEkz7vtz6nL/ZPXV0Zx+Vj7jbXpxKIRfpy1KmPJMuj5J5H/FEFsY01fOJaFs4QTDh&#13;
+T6XIXjMdFA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e58f774e-370a-4534-9758-857b8e67d51c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>EEgLVt6q0GKiEReIPlX1VYk/ki4AakZokNfRZdLvAqNX4+ugXkS2Xf30N/zNW9SxgqZtSnSsVzUr&#13;
+rb0121x5GQ==</DigestValue></Reference></SignedInfo><SignatureValue>Bsk+GOVFUqjTQpYpzq/jOb0t7Puu1xLsPkJOvZo8NLq+nEUpj/dSFZrAy6h60qtofZXERinkaYyJ&#13;
+W5GQjiegpN8B1dW+0FgQolculNOn0iBcEh14zvROLykcNYivan7sE7yZrvlkG5V2MH2mVexN2/iH&#13;
+KbFNgntEGqjiLTs2z1zj+KlD9pNiFFrR85LKCfgRpTo0k2GHxXrtA22ZOcKCfqPdnzus8PAdLsys&#13;
+mxynpgv9NtsUyYIGsSE4+N8bteUMQZ+ae3r0NAmRQTZRqWrJDO3V53txfCa61JJz3DdLDhPEwLGu&#13;
+n1FgYI4WBobdcsldaejMQ+UE/AQgQfSmkhG9Sg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1749,4 +1671,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9b656937-3a3a-49d7-80c8-560fec2d4cd4" Target="#_885ff58a-f99a-4409-ad8e-546b35e1fd68"><Timestamp>2021-01-21 16:28:40</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e58f774e-370a-4534-9758-857b8e67d51c" Target="#_16678209-200c-443f-8ec5-84ab486cb0fd"><Timestamp>2021-01-21 16:30:04</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
