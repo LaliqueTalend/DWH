@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="PROD" jobType="Standard" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="PROD" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="FOLDER" prompt="FOLDER?" promptNeeded="false" repositoryContextId="_NdZ_YEf5EeqPAJ3B0zREfw" type="id_String" value=""/>
     <contextParameter comment="" name="JDE_Schema_DTA_AdditionalParams" prompt="JDE_Schema_DTA_AdditionalParams?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value=""/>
     <contextParameter comment="" name="JDE_Schema_DTA_Login" prompt="JDE_Schema_DTA_Login?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="JDE"/>
-    <contextParameter comment="" name="JDE_Schema_DTA_Password" prompt="JDE_Schema_DTA_Password?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_Password" value="enc:system.encryption.key.v1:IaeYHdS8k9zc9KmQWn6SPH+Du7qZ66rCUP1jIKkNXvFdEuY="/>
+    <contextParameter comment="" name="JDE_Schema_DTA_Password" prompt="JDE_Schema_DTA_Password?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_Password" value="enc:system.encryption.key.v1:7dzbPTbUnSAE8Ce8IpdelCCBQ9TCBntbVrOCOwGU4qrafzw="/>
     <contextParameter comment="" name="JDE_Schema_DTA_Port" prompt="JDE_Schema_DTA_Port?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="1521"/>
     <contextParameter comment="" name="JDE_Schema_DTA_Schema" prompt="JDE_Schema_DTA_Schema?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="CRPDTA"/>
     <contextParameter comment="" name="JDE_Schema_DTA_Server" prompt="JDE_Schema_DTA_Server?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="10.160.100.171"/>
@@ -11,21 +11,21 @@
     <contextParameter comment="" name="Modélisation_AdditionalParams" prompt="Modélisation_AdditionalParams?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value=""/>
     <contextParameter comment="" name="Modélisation_Database" prompt="Modélisation_Database?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="Modelisation"/>
     <contextParameter comment="" name="Modélisation_Login" prompt="Modélisation_Login?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Modélisation_Password" prompt="Modélisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:0cqQJ/M8Xmo0edpvypIX5K0/1i7klw1qu3hbo7QVNhJDzDhsb3pWxH3ZKrQ="/>
+    <contextParameter comment="" name="Modélisation_Password" prompt="Modélisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:c6I3f8YomX5vQLX/UOQ2CnuEInR94OeQjbw0rbiOAJRNIOaDh7XyJbvM/x8="/>
     <contextParameter comment="" name="Modélisation_Port" prompt="Modélisation_Port?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="5432"/>
     <contextParameter comment="" name="Modélisation_Schema" prompt="Modélisation_Schema?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="modelisation"/>
     <contextParameter comment="" name="Modélisation_Server" prompt="Modélisation_Server?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
     <contextParameter comment="" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:IXfUs+ce+5gvclAprQAHeO/JgIEm1wdLdFYsl49U2cd5MWDTmbvWRhX4aMw="/>
+    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:ORjcBDNHH5ungwEzx6GVyTEYOuw/jhhcDkDCmNfzmjwpMjbc1386P1E+Bds="/>
     <contextParameter comment="" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
     <contextParameter comment="" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="crpdta"/>
     <contextParameter comment="" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_AdditionalParams" prompt="Postgres_Talend_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value=""/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Database" prompt="Postgres_Talend_Logs_Database?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Login" prompt="Postgres_Talend_Logs_Login?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:3mqBl73HNGErUs5h/9/2kQEwNVrR8zVoYheeDxJuulJSSIjCjsaGsTrfswE="/>
+    <contextParameter comment="" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:FQMkvwAHP7Jkmu3RKhfVtHwjH+FfRtJQv4iD5W/fvGcdUvgdhCo74pR/5Ro="/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Port" prompt="Postgres_Talend_Logs_Port?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="5432"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Schema" prompt="Postgres_Talend_Logs_Schema?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="talend"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Server" prompt="Postgres_Talend_Logs_Server?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="10.160.103.199"/>
@@ -34,7 +34,7 @@
     <contextParameter comment="" name="FOLDER" prompt="FOLDER?" promptNeeded="false" repositoryContextId="_NdZ_YEf5EeqPAJ3B0zREfw" type="id_String" value=""/>
     <contextParameter comment="" name="JDE_Schema_DTA_AdditionalParams" prompt="JDE_Schema_DTA_AdditionalParams?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value=""/>
     <contextParameter comment="" name="JDE_Schema_DTA_Login" prompt="JDE_Schema_DTA_Login?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="JDE"/>
-    <contextParameter comment="" name="JDE_Schema_DTA_Password" prompt="JDE_Schema_DTA_Password?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_Password" value="enc:system.encryption.key.v1:CmYk2bu1MvKNdRptmWaVJ9lyYC+pzBMWzB7RD1qrkHdeEes="/>
+    <contextParameter comment="" name="JDE_Schema_DTA_Password" prompt="JDE_Schema_DTA_Password?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_Password" value="enc:system.encryption.key.v1:6LVx2hVaMH60w70K7ZEcl1RPFPzGB1ZLfPMEpZ/GQ/2F+9Y="/>
     <contextParameter comment="" name="JDE_Schema_DTA_Port" prompt="JDE_Schema_DTA_Port?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="1521"/>
     <contextParameter comment="" name="JDE_Schema_DTA_Schema" prompt="JDE_Schema_DTA_Schema?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="FORDTA"/>
     <contextParameter comment="" name="JDE_Schema_DTA_Server" prompt="JDE_Schema_DTA_Server?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="10.160.100.171"/>
@@ -42,21 +42,21 @@
     <contextParameter comment="" name="Modélisation_AdditionalParams" prompt="Modélisation_AdditionalParams?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value=""/>
     <contextParameter comment="" name="Modélisation_Database" prompt="Modélisation_Database?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="Modelisation"/>
     <contextParameter comment="" name="Modélisation_Login" prompt="Modélisation_Login?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Modélisation_Password" prompt="Modélisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:HkEbjJ7eqTaePfBuSGRgN6Ese+kc2SaTWkXjiE6Z1sRPmXwwrzUWXgNiRLs="/>
+    <contextParameter comment="" name="Modélisation_Password" prompt="Modélisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:EVXLKb2VCMkaoR56ZNJ4YBYIjEwlnAdf4lAHlzywf+l/PzTlOOoK/11DNHw="/>
     <contextParameter comment="" name="Modélisation_Port" prompt="Modélisation_Port?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="5432"/>
     <contextParameter comment="" name="Modélisation_Schema" prompt="Modélisation_Schema?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="modelisation"/>
     <contextParameter comment="" name="Modélisation_Server" prompt="Modélisation_Server?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
     <contextParameter comment="" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:/hboy3UzTnjoWhENGDzBUrLRZ5oyVIx3rJgIIOiuG4y1V9A49/lgvV1IWo8="/>
+    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:gvQoCU2bmlhnZOvlsLR8yW5T24KNvtuu8ju+UdZI65ZcSENTcfb50vpd5WY="/>
     <contextParameter comment="" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
     <contextParameter comment="" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="crpdta"/>
     <contextParameter comment="" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_AdditionalParams" prompt="Postgres_Talend_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value=""/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Database" prompt="Postgres_Talend_Logs_Database?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Login" prompt="Postgres_Talend_Logs_Login?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:y5snde8gRzjw6M5IIJCTeZzsSlvPByQWgWEhrE33xTVYM4cAd15xVrBP5ko="/>
+    <contextParameter comment="" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:EvC9JD/KA1weDkFgUumyQgA5KzodPnERt4hePoKZ/fxEW62OYzXYtQFQA0Q="/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Port" prompt="Postgres_Talend_Logs_Port?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="5432"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Schema" prompt="Postgres_Talend_Logs_Schema?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="talend"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Server" prompt="Postgres_Talend_Logs_Server?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="10.160.103.199"/>
@@ -65,7 +65,7 @@
     <contextParameter comment="" name="FOLDER" prompt="FOLDER?" promptNeeded="false" repositoryContextId="_NdZ_YEf5EeqPAJ3B0zREfw" type="id_String" value=""/>
     <contextParameter comment="" name="JDE_Schema_DTA_AdditionalParams" prompt="JDE_Schema_DTA_AdditionalParams?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value=""/>
     <contextParameter comment="" name="JDE_Schema_DTA_Login" prompt="JDE_Schema_DTA_Login?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="JDE"/>
-    <contextParameter comment="" name="JDE_Schema_DTA_Password" prompt="JDE_Schema_DTA_Password?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_Password" value="enc:system.encryption.key.v1:lTSF/zL303KqhCygjke3FtJTFdJbptq5cmuYHMs9mW3GGCw="/>
+    <contextParameter comment="" name="JDE_Schema_DTA_Password" prompt="JDE_Schema_DTA_Password?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_Password" value="enc:system.encryption.key.v1:B5VXzEkii0v5YijejQgXwM5JNCxQ0luAoKUliMTmlnWEVqQ="/>
     <contextParameter comment="" name="JDE_Schema_DTA_Port" prompt="JDE_Schema_DTA_Port?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="1521"/>
     <contextParameter comment="" name="JDE_Schema_DTA_Schema" prompt="JDE_Schema_DTA_Schema?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="CRPDTA"/>
     <contextParameter comment="" name="JDE_Schema_DTA_Server" prompt="JDE_Schema_DTA_Server?" promptNeeded="false" repositoryContextId="__W540CgSEeufMYXHn8TUtw" type="id_String" value="10.160.100.171"/>
@@ -73,21 +73,21 @@
     <contextParameter comment="" name="Modélisation_AdditionalParams" prompt="Modélisation_AdditionalParams?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value=""/>
     <contextParameter comment="" name="Modélisation_Database" prompt="Modélisation_Database?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="Modelisation"/>
     <contextParameter comment="" name="Modélisation_Login" prompt="Modélisation_Login?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Modélisation_Password" prompt="Modélisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:QuP7cJoDqgZkaTaptuVcy6vOiDNrCS1c0zwOnQZBULuLNiRTh0iRWyBGS/w="/>
+    <contextParameter comment="" name="Modélisation_Password" prompt="Modélisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:scaV1uf+hMbeECEUXPDm3lUZFDl+74WaBraT1E2tNKnnZVz7wVZTt3daDCI="/>
     <contextParameter comment="" name="Modélisation_Port" prompt="Modélisation_Port?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="5432"/>
     <contextParameter comment="" name="Modélisation_Schema" prompt="Modélisation_Schema?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="modelisation"/>
     <contextParameter comment="" name="Modélisation_Server" prompt="Modélisation_Server?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
     <contextParameter comment="" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:APpolUjjPIOkfZZGEUgnGRSCzuJc3R69P3tPVDFA3rHJOHpkmpp/oBUHbRc="/>
+    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:7D+PZ6f3HfT5bxNNQn/Wx9eHv39qrbHPMgj9kDJmHO4Ypk6mbQsPIFihjk0="/>
     <contextParameter comment="" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
     <contextParameter comment="" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="crpdta"/>
     <contextParameter comment="" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_AdditionalParams" prompt="Postgres_Talend_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value=""/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Database" prompt="Postgres_Talend_Logs_Database?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Login" prompt="Postgres_Talend_Logs_Login?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:5ysB73+RYlArGEBGhmDxLGQiBtaClGz4F/VdMlkLKPnhPp+6K90qVlmlx0c="/>
+    <contextParameter comment="" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:YFOAgqWGd+44Kp66n6C3uKUHf9ESBcGm+xJsfffUdYW0oxrbBq6p+GuKIJ8="/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Port" prompt="Postgres_Talend_Logs_Port?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="5432"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Schema" prompt="Postgres_Talend_Logs_Schema?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="talend"/>
     <contextParameter comment="" name="Postgres_Talend_Logs_Server" prompt="Postgres_Talend_Logs_Server?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="10.160.103.199"/>
@@ -134,7 +134,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:zns6RWWFB0GD0hNtc1W6vCCJWHW8nKk2q1IC+uBh"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:uP5pl8rqOt6rTbfs/PfLYWxt9OMFmkjmEs22tWng"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -169,7 +169,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:XTL813flvA4jj5N8Xb6xSGmRYgTOFrfdNAdJg1ii"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:eF3nwCyY3pewexH40Y8pOZN+dMRw7hw6r9rzEI+i"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -199,7 +199,7 @@
     <routinesParameter id="_BEV9kO0kEeq8INJv7WaduQ" name="TalendStringUtil"/>
     <routinesParameter id="_BD-KIO0kEeq8INJv7WaduQ" name="TalendString"/>
   </parameters>
-  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="160">
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_MC4UwAFxEeqyKvuObbcQGw"/>
@@ -212,15 +212,13 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.Postgres_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Postgres_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:0l0PaATbGfZIPEve8i+B/F840WlZS20ox1hkQBLYuWzmmNuY7Q5xwBpesVZHyf5lp77UJRE="/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_MC4UwAFxEeqyKvuObbcQGw - f5548eof"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Fr6hchIUvTHIi7soZwDFzAhJEWkrZ642xf6gWhIjgdb9eTO8HAuRvCi5lgs6bfV523AoDlw="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f5548eof&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f5548eof\&quot;.\&quot;EOUKID\&quot;, &#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f5548eof\&quot;.\&quot;EODOCO\&quot;, &#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f5548eof\&quot;.\&quot;EOEV01\&quot;, &#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f5548eof\&quot;.\&quot;EOUORG\&quot;, &#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f5548eof\&quot;.\&quot;EOUSER\&quot;, &#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f5548eof\&quot;.\&quot;EOPID\&quot;, &#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f5548eof\&quot;.\&quot;EOVERS\&quot;, &#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f5548eof\&quot;.\&quot;EOJOBN\&quot;, &#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f5548eof\&quot;.\&quot;EOUPMJ\&quot;, &#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f5548eof\&quot;.\&quot;EOUPMT\&quot;&#10;FROM \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f5548eof\&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT CASE WHEN i.of is not null THEN i.of ELSE&#13;&#10;&#9;&#9;&#9;(CASE WHEN a.of is not null THEN a.of ELSE sm.of END)&#13;&#10;       END as of,&#13;&#10;&#9;   i.i, a.a, sm.sm&#13;&#10;FROM (select typei.of, valeuri.qte as i&#13;&#10;        from (select t1.\&quot;EODOCO\&quot; as of, t1.\&quot;EOEV01\&quot; as type, max(t1.\&quot;EOUPMJ\&quot;) as maxupmj, max(t1.\&quot;EOUPMT\&quot;) as maxpmt&#13;&#10;                from \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f5548eof\&quot; as t1&#13;&#10;                where t1.\&quot;EOEV01\&quot; = 'I' &#13;&#10;                group by t1.\&quot;EODOCO\&quot;, t1.\&quot;EOEV01\&quot;) as typei&#13;&#10;        left join ( select t2.\&quot;EODOCO\&quot; as of, t2.\&quot;EOUORG\&quot; as qte, t2.\&quot;EOUPMJ\&quot; as upmj, t2.\&quot;EOUPMT\&quot; as upmt, t2.\&quot;EOEV01\&quot; as type&#13;&#10;&#9;&#9;      from \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f5548eof\&quot; as t2) as valeuri&#13;&#10;        on typei.of = valeuri.of ) as i&#13;&#10;FULL JOIN (select typea.of, valeura.qte as a&#13;&#10;        from (select t3.\&quot;EODOCO\&quot; as of, t3.\&quot;EOEV01\&quot; as type, max(t3.\&quot;EOUPMJ\&quot;) as maxupmj, max(t3.\&quot;EOUPMT\&quot;) as maxpmt&#13;&#10;                from \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f5548eof\&quot; as t3&#13;&#10;                where t3.\&quot;EOEV01\&quot; = 'A' &#13;&#10;                group by t3.\&quot;EODOCO\&quot;, t3.\&quot;EOEV01\&quot;) as typea&#13;&#10;        left join ( select t4.\&quot;EODOCO\&quot; as of, t4.\&quot;EOUORG\&quot; as qte, t4.\&quot;EOUPMJ\&quot; as upmj, t4.\&quot;EOUPMT\&quot; as upmt, t4.\&quot;EOEV01\&quot; as type&#13;&#10;&#9;&#9;      from \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f5548eof\&quot; as t4) as valeura&#13;&#10;        on typea.of = valeura.of ) as a&#13;&#10;ON i.of = a.of&#13;&#10;FULL JOIN (select typesm.of, valeursm.qte as sm&#13;&#10;        from (select t5.\&quot;EODOCO\&quot; as of, t5.\&quot;EOEV01\&quot; as type, max(t5.\&quot;EOUPMJ\&quot;) as maxupmj, max(t5.\&quot;EOUPMT\&quot;) as maxpmt&#13;&#10;                from \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f5548eof\&quot; as t5&#13;&#10;                where t5.\&quot;EOEV01\&quot; = 'A' &#13;&#10;                group by t5.\&quot;EODOCO\&quot;, t5.\&quot;EOEV01\&quot;) as typesm&#13;&#10;        left join ( select t6.\&quot;EODOCO\&quot; as of, t6.\&quot;EOUORG\&quot; as qte, t6.\&quot;EOUPMJ\&quot; as upmj, t6.\&quot;EOUPMT\&quot; as upmt, t6.\&quot;EOEV01\&quot; as type&#13;&#10;&#9;&#9;      from \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f5548eof\&quot; as t6) as valeursm&#13;&#10;        on typesm.of = valeursm.of ) as sm&#13;&#10;ON sm.of = a.of&#13;&#10;&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -232,215 +230,58 @@
     <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="EOUKID"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="of"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EODOCO"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="i"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EOEV01"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="a"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EOUORG"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EOUSER"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EOPID"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EOVERS"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EOJOBN"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EOUPMJ"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EOUPMT"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="sm"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="f5548eof" name="tDBInput_1">
-      <column comment="" key="true" length="21" name="EOUKID" nullable="false" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="21" name="EODOCO" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="1" name="EOEV01" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="21" name="EOUORG" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="EOUSER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="EOPID" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="EOVERS" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="EOJOBN" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="-1" name="EOUPMJ" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="-1" name="EOUPMT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
+    <metadata connector="FLOW" name="tDBInput_1">
+      <column comment="" defaultValue="" key="false" length="21" name="of" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="21" name="i" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="21" name="a" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="21" name="sm" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="192" posY="160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
-    <elementParameter field="EXTERNAL" name="MAP" value=""/>
-    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
-    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_77QP4C_qEeutdIjK8lI77w-tMap_1-PREVIEW.bmp"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
-    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
-    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
-    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
-    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="out">
-      <column comment="" key="true" length="21" name="EOUKID" nullable="false" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="21" name="EODOCO" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="-1" name="type" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="-1" name="EOUPMJ" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="-1" name="EOUPMT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-    </metadata>
-    <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
-      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
-      <outputTables name="out" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="row8.EOUKID " name="EOUKID" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row8.EODOCO " name="EODOCO" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="&quot;I&quot;.equals(StringHandling.TRIM(row8.EOEV01)) ?&#13;&#10;&#9;&quot;I&quot; :&#13;&#10;&#9;(&quot;A&quot;.equals(StringHandling.TRIM(row8.EOEV01)) ?&#13;&#10;&#9;&#9;&quot;A&quot; : &#13;&#10;&#9;&#9;(&quot;S&quot;.equals(StringHandling.TRIM(row8.EOEV01)) || &quot;M&quot;.equals(StringHandling.TRIM(row8.EOEV01)) ?&#13;&#10;&#9;&#9;&#9;&quot;en cours&quot; :&#13;&#10;&#9;&#9;&#9;null&#13;&#10;&#9;&#9;)&#13;&#10;&#9;) " name="type" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row8.EOUPMJ " name="EOUPMJ" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row8.EOUPMT " name="EOUPMT" nullable="true" type="id_Date"/>
-      </outputTables>
-      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row8" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="EOUKID" type="id_BigDecimal"/>
-        <mapperTableEntries name="EODOCO" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries name="EOEV01" nullable="true" type="id_String"/>
-        <mapperTableEntries name="EOUORG" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries name="EOUSER" nullable="true" type="id_String"/>
-        <mapperTableEntries name="EOPID" nullable="true" type="id_String"/>
-        <mapperTableEntries name="EOVERS" nullable="true" type="id_String"/>
-        <mapperTableEntries name="EOJOBN" nullable="true" type="id_String"/>
-        <mapperTableEntries name="EOUPMJ" nullable="true" type="id_Date"/>
-        <mapperTableEntries name="EOUPMT" nullable="true" type="id_Date"/>
-      </inputTables>
-    </nodeData>
-  </node>
-  <node componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAggregateRow_1"/>
-    <elementParameter field="TABLE" name="GROUPBYS">
-      <elementValue elementRef="OUTPUT_COLUMN" value="EOUKID"/>
-      <elementValue elementRef="INPUT_COLUMN" value="EOUKID"/>
-      <elementValue elementRef="OUTPUT_COLUMN" value="EODOCO"/>
-      <elementValue elementRef="INPUT_COLUMN" value="EODOCO"/>
-      <elementValue elementRef="OUTPUT_COLUMN" value="type"/>
-      <elementValue elementRef="INPUT_COLUMN" value="type"/>
-    </elementParameter>
-    <elementParameter field="TABLE" name="OPERATIONS">
-      <elementValue elementRef="OUTPUT_COLUMN" value="EOUPMJ"/>
-      <elementValue elementRef="FUNCTION" value="max"/>
-      <elementValue elementRef="INPUT_COLUMN" value="EOUPMJ"/>
-      <elementValue elementRef="IGNORE_NULL" value="true"/>
-      <elementValue elementRef="OUTPUT_COLUMN" value="EOUPMT"/>
-      <elementValue elementRef="FUNCTION" value="max"/>
-      <elementValue elementRef="INPUT_COLUMN" value="EOUPMT"/>
-      <elementValue elementRef="IGNORE_NULL" value="true"/>
-    </elementParameter>
-    <elementParameter field="TEXT" name="LIST_DELIMITER" value="&quot;,&quot;"/>
-    <elementParameter field="CHECK" name="USE_FINANCIAL_PRECISION" value="true"/>
-    <elementParameter field="CHECK" name="CHECK_TYPE_OVERFLOW" value="false"/>
-    <elementParameter field="CHECK" name="CHECK_ULP" value="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tAggregateRow_1">
-      <column comment="" key="true" length="21" name="EOUKID" nullable="false" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="21" name="EODOCO" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="-1" name="type" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="-1" name="EOUPMJ" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="-1" name="EOUPMT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-    </metadata>
-  </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="160">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
-    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
-    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
     <elementParameter field="RADIO" name="VERTICAL" value="false"/>
     <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
     <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
     <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
-    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
-    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
-    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
-    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="EOUKID"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="of"/>
       <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EODOCO"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="i"/>
       <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="type"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="a"/>
       <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EOUPMJ"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EOUPMT"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="sm"/>
       <elementValue elementRef="LENGTH" value="10"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tLogRow_1">
-      <column comment="" key="true" length="21" name="EOUKID" nullable="false" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="21" name="EODOCO" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="-1" name="type" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="-1" name="EOUPMJ" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="-1" name="EOUPMT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
+      <column comment="" defaultValue="" key="false" length="21" name="of" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="21" name="i" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="21" name="a" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="21" name="sm" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
     </metadata>
   </node>
-  <connection connectorName="FLOW" label="row8" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row8"/>
-  </connection>
-  <connection connectorName="FLOW" label="out" lineStyle="0" metaname="out" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tAggregateRow_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out"/>
-  </connection>
-  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tAggregateRow_1" offsetLabelX="0" offsetLabelY="0" source="tAggregateRow_1" target="tLogRow_1">
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tLogRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
   </connection>
@@ -449,13 +290,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1e04cd2c-cf6b-43ad-ae5a-2e27aba987f3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qOx06uJ5mRACnQ5/gf4BeQY2uYMgd64DHcKNZ0xx/7sKCJQ8BByoU0E4fNIAjtDdDT65SefeU9Mh&#13;
-wfUZWxGpFA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f41fa402-77b7-4801-91ec-32436e3af2ca"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>lnK8YcjAoaur3dblzYTX4IqC96ZVeZUr59JKNnbERLSwUMiqW8QrSIMByoSslapdDw5YE4htnWe1&#13;
-QybMaue61A==</DigestValue></Reference></SignedInfo><SignatureValue>HW3J5rp22dGQTjG852tiXLqdU8vaXvCe3dNkn+4nw6Fwq6cvcKWUN5wZdmpgaAclis6WaHDbWewy&#13;
-QQ0Q9x38uJLEY2N/q3B7ZxSNtSlBbfcLqSZ4liWiBRngJZ7kdHSBJvYiioC9+KPed6CW9p7yc678&#13;
-+5ynf77M2q6QHigqz0EHUPCeseHSP2PBWGkNuxcHdm87bMZFwv4nG9nYfv5Fzvl8O+H6cT4Vhy3B&#13;
-msf/sUzFTjLn3vOkk6rFJm7iRXIWUlug6l61/+MV7abbIdtFi5qFgdtqQ2Q/Pz1+ZzyZOTHGsFCH&#13;
-2w1Pty/e9o+m68V1ssDy/PWU21u4VNoitJPdtg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2dfd93ac-6361-4a01-843b-4982ecb437a3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>91kYeYNYrpneMP/mMe2cmfFKZAxd7pBhvTPEI9N5CzFFi/I9c5laA4BXvac2wS9Lzn71IktJpB7C&#13;
+eh0Yfer3jA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5c6a7256-45b8-45c5-9745-95c9695cb41c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>XEJ+mZqehrHd8+PFoQDQgTTJNwtRGEtDC7E1D0TfkoImF2Sz1qWGwKNQtGvo0Gc5qTeo0V/Ez6zY&#13;
+nozjwiOBcg==</DigestValue></Reference></SignedInfo><SignatureValue>M3KDcoOTHTwh3fSNen3XX/lpvusTdedm8HOccbJa3X+yMbCzDj03wd57PZs27DIXfbV7CU8VtcoB&#13;
+ZJXpbCrIBexU2fHlfwCr2Cug0OmWk+JFvORIDkmhxnm8HydDu0YbmeL3E+tZVmDZDMjXec6Cd3BP&#13;
+1UUr8X+a/zLhbNxUo60EUPnOhTVLVm6bWQtNTJWR/Rv207/gWDno1racrSjRWpqtN5ebV2J4yfZo&#13;
+K1x9AxuzFOMPxdknLOhozgltnKHOqjEd2mUM8hGP20N98D3KfOwZROX8zr1g1aAmfzbJZikaD84S&#13;
+hOFtCpFOb1mP0jht4pz/1vS8i5m0R7RMDr8WFA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -477,4 +318,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f41fa402-77b7-4801-91ec-32436e3af2ca" Target="#_1e04cd2c-cf6b-43ad-ae5a-2e27aba987f3"><Timestamp>2021-02-26 11:26:38</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5c6a7256-45b8-45c5-9745-95c9695cb41c" Target="#_2dfd93ac-6361-4a01-843b-4982ecb437a3"><Timestamp>2021-02-26 14:33:29</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
