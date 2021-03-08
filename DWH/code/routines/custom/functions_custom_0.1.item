@@ -6,11 +6,17 @@ public class functions_custom {
     /* Convertir une date julienne (BigDecimal) vers un type date */
     public static java.util.Date julian_to_date(java.math.BigDecimal julian_date) {
         
-    	java.math.BigDecimal temp = new java.math.BigDecimal(2000).add(( (julian_date).subtract(new java.math.BigDecimal(100000)) ).divide(new java.math.BigDecimal(1000), 9, 0));
+    	if (Relational.ISNULL(julian_date) ) {
+    		return null;
+    	}else {
+    		java.math.BigDecimal temp = new java.math.BigDecimal(2000).add(( (julian_date).subtract(new java.math.BigDecimal(100000)) ).divide(new java.math.BigDecimal(1000), 9, 0));
+        	
+        	String annee =  (StringHandling.LEFT(String.valueOf(temp), 4));
+    		Integer nb_jours = (Integer.parseInt(StringHandling.RIGHT(StringHandling.LEFT(String.valueOf(temp), 8),3))- 1);
+        	
+        	return TalendDate.addDate(TalendDate.parseDate("yyyy-MM-dd", annee + "-01-01"), nb_jours, "dd");
+    	}
+    			
     	
-    	String annee = Relational.ISNULL(julian_date) ? null : (StringHandling.LEFT(String.valueOf(temp), 4));
-		Integer nb_jours = Relational.ISNULL(julian_date) ? null : (Integer.parseInt(StringHandling.RIGHT(StringHandling.LEFT(String.valueOf(temp), 8),3))- 1);
-    	
-    	return TalendDate.addDate(TalendDate.parseDate("yyyy-MM-dd", annee + "-01-01"), nb_jours, "dd");
     }
 }
