@@ -4,7 +4,7 @@ package routines;
 public class functions_custom {
 
     /* Convertir une date julienne (BigDecimal) vers un type date */
-    public java.util.Date julian_to_date(java.math.BigDecimal julian_date) {
+    public static java.util.Date julian_to_date(java.math.BigDecimal julian_date) {
         
     	java.math.BigDecimal temp = new java.math.BigDecimal(2000).add(( (julian_date).subtract(new java.math.BigDecimal(100000)) ).divide(new java.math.BigDecimal(1000), 9, 0));
     	
