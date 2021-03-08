@@ -37,19 +37,19 @@
         "show" : true,
         "field" : "CHECK",
         "name" : "ON_STATCATCHER_FLAG",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "CHECK",
         "name" : "ON_LOGCATCHER_FLAG",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "CHECK",
         "name" : "ON_METERCATCHER_FLAG",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
@@ -97,7 +97,7 @@
         "show" : true,
         "field" : "CHECK",
         "name" : "ON_DATABASE_FLAG",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
@@ -109,13 +109,13 @@
         "show" : true,
         "field" : "CLOSED_LIST",
         "name" : "DB_TYPE",
-        "value" : "tJDBCOutput",
+        "value" : "tPostgresqlOutput",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "CLOSED_LIST",
         "name" : "DB_VERSION",
-        "value" : "ORACLE_12",
+        "value" : "V9_X",
         "contextMode" : false
       }, {
         "show" : true,
@@ -138,19 +138,19 @@
         "show" : true,
         "field" : "TEXT",
         "name" : "HOST",
-        "value" : "\"\"",
+        "value" : "context.Postgres_Talend_Logs_Server",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "PORT",
-        "value" : "\"\"",
+        "value" : "context.Postgres_Talend_Logs_Port",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "DBNAME",
-        "value" : "\"\"",
+        "value" : "context.Postgres_Talend_Logs_Database",
         "contextMode" : false
       }, {
         "show" : true,
@@ -168,19 +168,19 @@
         "show" : true,
         "field" : "TEXT",
         "name" : "SCHEMA_DB",
-        "value" : "\"\"",
+        "value" : "context.Postgres_Talend_Logs_Schema",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "TEXT",
         "name" : "USER",
-        "value" : "\"\"",
+        "value" : "context.Postgres_Talend_Logs_Login",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS",
-        "value" : "0RMsyjmybrE=",
+        "value" : "enc:system.encryption.key.v1:mHRaaiIOEDRdQkYc9Xmh3YAa2ucORGaSAGAn5XikJlER+y3hzvxC2Ou6A4AcWN7cxZmEAV8ZnxU1GZavP7oj88I=",
         "contextMode" : false
       }, {
         "show" : true,
@@ -192,19 +192,19 @@
         "show" : true,
         "field" : "DBTABLE",
         "name" : "TABLE_STATS",
-        "value" : "\"\"",
+        "value" : "\"talend_stat\"",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "DBTABLE",
         "name" : "TABLE_LOGS",
-        "value" : "\"\"",
+        "value" : "\"talend_log\"",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "DBTABLE",
         "name" : "TABLE_METER",
-        "value" : "\"\"",
+        "value" : "\"talend_mesure\"",
         "contextMode" : false
       }, {
         "show" : true,
@@ -228,7 +228,7 @@
         "show" : true,
         "field" : "CHECK",
         "name" : "CATCH_REALTIME_STATS",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
