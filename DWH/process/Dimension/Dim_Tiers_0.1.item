@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="PROD" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="PROD">
-    <contextParameter comment="" internalId="_qX92YIKLEeuQsPegAD07zg" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_qX92YYKLEeuQsPegAD07zg" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
-    <contextParameter comment="" internalId="_qX92YoKLEeuQsPegAD07zg" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
-    <contextParameter comment="" internalId="_qX92Y4KLEeuQsPegAD07zg" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_qX92ZIKLEeuQsPegAD07zg" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="crpdta"/>
-    <contextParameter comment="" internalId="_qX92ZYKLEeuQsPegAD07zg" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_qX92ZoKLEeuQsPegAD07zg" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:HIRktuNp8YNQ9A3SCTApvHabkfM17rwMi2ZeocrfddweXP5YvxCaPfD56y4="/>
-    <contextParameter comment="" internalId="_qX92Z4KLEeuQsPegAD07zg" name="Modelisation_Login" prompt="Modelisation_Login?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_qX92aIKLEeuQsPegAD07zg" name="Modelisation_Database" prompt="Modelisation_Database?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="Modelisation"/>
-    <contextParameter comment="" internalId="_qX92aYKLEeuQsPegAD07zg" name="Modelisation_Password" prompt="Modelisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:QuWQwT7qPJi12snxYiVesFX75p+UQJd1ov5CVsrB03GapJ/iAhEAHSa7QCY="/>
-    <contextParameter comment="" internalId="_qX-dcIKLEeuQsPegAD07zg" name="Modelisation_AdditionalParams" prompt="Modelisation_AdditionalParams?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_qX-dcYKLEeuQsPegAD07zg" name="Modelisation_Port" prompt="Modelisation_Port?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="5432"/>
-    <contextParameter comment="" internalId="_qX-dcoKLEeuQsPegAD07zg" name="Modelisation_Server" prompt="Modelisation_Server?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="10.160.103.199"/>
-    <contextParameter comment="" internalId="_qX-dc4KLEeuQsPegAD07zg" name="Modelisation_Schema" prompt="Modelisation_Schema?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="modelisation"/>
-    <contextParameter comment="" internalId="_qX-ddIKLEeuQsPegAD07zg" name="Postgres_Talend_Logs_Schema" prompt="Postgres_Talend_Logs_Schema?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="talend"/>
-    <contextParameter comment="" internalId="_qX-ddYKLEeuQsPegAD07zg" name="Postgres_Talend_Logs_Server" prompt="Postgres_Talend_Logs_Server?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="10.160.103.199"/>
-    <contextParameter comment="" internalId="_qX-ddoKLEeuQsPegAD07zg" name="Postgres_Talend_Logs_Database" prompt="Postgres_Talend_Logs_Database?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_qX-dd4KLEeuQsPegAD07zg" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:jDT1xGBaVANaUD2tOaqsuuDLCOdSqkwwdB8I3sOSS7XLk8KeSu5Bz520/58="/>
-    <contextParameter comment="" internalId="_qX-deIKLEeuQsPegAD07zg" name="Postgres_Talend_Logs_Port" prompt="Postgres_Talend_Logs_Port?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="5432"/>
-    <contextParameter comment="" internalId="_qX-deYKLEeuQsPegAD07zg" name="Postgres_Talend_Logs_Login" prompt="Postgres_Talend_Logs_Login?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_qX-deoKLEeuQsPegAD07zg" name="Postgres_Talend_Logs_AdditionalParams" prompt="Postgres_Talend_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WACD8IM7Eeu1GpOM_w4GSw" name="Modelisation_AdditionalParams" prompt="Modelisation_AdditionalParams?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WACD8YM7Eeu1GpOM_w4GSw" name="Modelisation_Database" prompt="Modelisation_Database?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="Modelisation"/>
+    <contextParameter comment="" internalId="_WACD8oM7Eeu1GpOM_w4GSw" name="Modelisation_Login" prompt="Modelisation_Login?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WACD84M7Eeu1GpOM_w4GSw" name="Modelisation_Password" prompt="Modelisation_Password?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_Password" value="enc:system.encryption.key.v1:ngpvQssyWTOvAdFdK6/tUe3IkZ9486bSN6aF77MiqJeRutg2pUK5p2FbmTM="/>
+    <contextParameter comment="" internalId="_WACD9IM7Eeu1GpOM_w4GSw" name="Modelisation_Port" prompt="Modelisation_Port?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="5432"/>
+    <contextParameter comment="" internalId="_WACD9YM7Eeu1GpOM_w4GSw" name="Modelisation_Schema" prompt="Modelisation_Schema?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="modelisation"/>
+    <contextParameter comment="" internalId="_WACD9oM7Eeu1GpOM_w4GSw" name="Modelisation_Server" prompt="Modelisation_Server?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="10.160.103.199"/>
+    <contextParameter comment="" internalId="_WACrAIM7Eeu1GpOM_w4GSw" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WACrAYM7Eeu1GpOM_w4GSw" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WACrAoM7Eeu1GpOM_w4GSw" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WACrA4M7Eeu1GpOM_w4GSw" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:I9kWOECAPs4ydtonnAoJF4kiqheqyBvyH0x4vqz5uydK/ubiEZVfuyiT1vc="/>
+    <contextParameter comment="" internalId="_WACrBIM7Eeu1GpOM_w4GSw" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
+    <contextParameter comment="" internalId="_WACrBYM7Eeu1GpOM_w4GSw" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="crpdta"/>
+    <contextParameter comment="" internalId="_WACrBoM7Eeu1GpOM_w4GSw" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
+    <contextParameter comment="" internalId="_WADSEIM7Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_AdditionalParams" prompt="Postgres_Talend_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WADSEYM7Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Database" prompt="Postgres_Talend_Logs_Database?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WADSEoM7Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Login" prompt="Postgres_Talend_Logs_Login?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WADSE4M7Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:01Hslt3C/mJDwbo3UlpYxWlLv8hPF7bxEK3VQ4b3ft182s1G97lM3d2PNUM="/>
+    <contextParameter comment="" internalId="_WADSFIM7Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Port" prompt="Postgres_Talend_Logs_Port?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="5432"/>
+    <contextParameter comment="" internalId="_WADSFYM7Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Schema" prompt="Postgres_Talend_Logs_Schema?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="talend"/>
+    <contextParameter comment="" internalId="_WADSFoM7Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Server" prompt="Postgres_Talend_Logs_Server?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="10.160.103.199"/>
   </context>
   <context confirmationNeeded="false" name="DEV">
-    <contextParameter comment="" internalId="_qX-de4KLEeuQsPegAD07zg" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_qX-dfIKLEeuQsPegAD07zg" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
-    <contextParameter comment="" internalId="_qX-dfYKLEeuQsPegAD07zg" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
-    <contextParameter comment="" internalId="_qX-dfoKLEeuQsPegAD07zg" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_qX-df4KLEeuQsPegAD07zg" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="crpdta"/>
-    <contextParameter comment="" internalId="_qX-dgIKLEeuQsPegAD07zg" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_qX-dgYKLEeuQsPegAD07zg" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:ULd15G4sWcraFEpSx1JG++gbH1iAbf8kQJKPEKx65a0c4n6zCMum+sWrk5U="/>
-    <contextParameter comment="" internalId="_qX-dgoKLEeuQsPegAD07zg" name="Modelisation_Login" prompt="Modelisation_Login?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_qX-dg4KLEeuQsPegAD07zg" name="Modelisation_Database" prompt="Modelisation_Database?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="Modelisation"/>
-    <contextParameter comment="" internalId="_qX-dhIKLEeuQsPegAD07zg" name="Modelisation_Password" prompt="Modelisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:t8JMLMYQZCLwhSR0Nl4hvZuBCOOdnDoYVRQpy7Co7Sz55GT47rTco0IvEX4="/>
-    <contextParameter comment="" internalId="_qX-dhYKLEeuQsPegAD07zg" name="Modelisation_AdditionalParams" prompt="Modelisation_AdditionalParams?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_qX-dhoKLEeuQsPegAD07zg" name="Modelisation_Port" prompt="Modelisation_Port?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="5432"/>
-    <contextParameter comment="" internalId="_qX-dh4KLEeuQsPegAD07zg" name="Modelisation_Server" prompt="Modelisation_Server?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="10.160.103.199"/>
-    <contextParameter comment="" internalId="_qX-diIKLEeuQsPegAD07zg" name="Modelisation_Schema" prompt="Modelisation_Schema?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="modelisation"/>
-    <contextParameter comment="" internalId="_qX-diYKLEeuQsPegAD07zg" name="Postgres_Talend_Logs_Schema" prompt="Postgres_Talend_Logs_Schema?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="talend"/>
-    <contextParameter comment="" internalId="_qX-dioKLEeuQsPegAD07zg" name="Postgres_Talend_Logs_Server" prompt="Postgres_Talend_Logs_Server?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="10.160.103.199"/>
-    <contextParameter comment="" internalId="_qX-di4KLEeuQsPegAD07zg" name="Postgres_Talend_Logs_Database" prompt="Postgres_Talend_Logs_Database?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_qX-djIKLEeuQsPegAD07zg" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:DHafL0o0bTb6yrkohUDVsLrgrX8fhEvXJyFiC6GI0VuXMBewHc0jwpSUibA="/>
-    <contextParameter comment="" internalId="_qX-djYKLEeuQsPegAD07zg" name="Postgres_Talend_Logs_Port" prompt="Postgres_Talend_Logs_Port?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="5432"/>
-    <contextParameter comment="" internalId="_qX-djoKLEeuQsPegAD07zg" name="Postgres_Talend_Logs_Login" prompt="Postgres_Talend_Logs_Login?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_qX-dj4KLEeuQsPegAD07zg" name="Postgres_Talend_Logs_AdditionalParams" prompt="Postgres_Talend_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WADSF4M7Eeu1GpOM_w4GSw" name="Modelisation_AdditionalParams" prompt="Modelisation_AdditionalParams?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WADSGIM7Eeu1GpOM_w4GSw" name="Modelisation_Database" prompt="Modelisation_Database?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="Modelisation"/>
+    <contextParameter comment="" internalId="_WADSGYM7Eeu1GpOM_w4GSw" name="Modelisation_Login" prompt="Modelisation_Login?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WADSGoM7Eeu1GpOM_w4GSw" name="Modelisation_Password" prompt="Modelisation_Password?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_Password" value="enc:system.encryption.key.v1:9BqALtKEkZsqb8/KPs1THKlFd415YYMOoZtkRzWV75s7yaHbqNdcTBe9o1E="/>
+    <contextParameter comment="" internalId="_WADSG4M7Eeu1GpOM_w4GSw" name="Modelisation_Port" prompt="Modelisation_Port?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="5432"/>
+    <contextParameter comment="" internalId="_WADSHIM7Eeu1GpOM_w4GSw" name="Modelisation_Schema" prompt="Modelisation_Schema?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="modelisation"/>
+    <contextParameter comment="" internalId="_WADSHYM7Eeu1GpOM_w4GSw" name="Modelisation_Server" prompt="Modelisation_Server?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="10.160.103.199"/>
+    <contextParameter comment="" internalId="_WADSHoM7Eeu1GpOM_w4GSw" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WADSH4M7Eeu1GpOM_w4GSw" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WADSIIM7Eeu1GpOM_w4GSw" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WADSIYM7Eeu1GpOM_w4GSw" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:n4auK+JndMz7yshFzByG02lQcR40Vv9yD+UOD8tsWBDzWmWT+jCMKnjb/JY="/>
+    <contextParameter comment="" internalId="_WADSIoM7Eeu1GpOM_w4GSw" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
+    <contextParameter comment="" internalId="_WADSI4M7Eeu1GpOM_w4GSw" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="crpdta"/>
+    <contextParameter comment="" internalId="_WADSJIM7Eeu1GpOM_w4GSw" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
+    <contextParameter comment="" internalId="_WADSJYM7Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_AdditionalParams" prompt="Postgres_Talend_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WADSJoM7Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Database" prompt="Postgres_Talend_Logs_Database?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WADSJ4M7Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Login" prompt="Postgres_Talend_Logs_Login?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WADSKIM7Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:aApN+WUAqsfOBHp+GqN6EvfQovOCa5wnTajhZmx9DdWLh7iYmIOmMJFGqCI="/>
+    <contextParameter comment="" internalId="_WADSKYM7Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Port" prompt="Postgres_Talend_Logs_Port?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="5432"/>
+    <contextParameter comment="" internalId="_WADSKoM7Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Schema" prompt="Postgres_Talend_Logs_Schema?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="talend"/>
+    <contextParameter comment="" internalId="_WADSK4M7Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Server" prompt="Postgres_Talend_Logs_Server?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="10.160.103.199"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -88,7 +88,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:xUzYWjAMNIZUV713uizaliCcFUNwit2yzB88LRlN"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:nOwVQifrl43mTlV6KtscNAc85OCBAPj5lmeCXep5"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -125,7 +125,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.Postgres_Talend_Logs_AdditionalParams"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Postgres_Talend_Logs_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Postgres_Talend_Logs_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1AxQRkiJMIfds7A8klKOVMUxBwEg61F3fKW4L8tjs029jXrvBXAUxgOdkZ5Gj3/ogb3wMEBv8k3suNkJ5vCJXNE="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:boBnAtWH3BDatBTSr9pTHHoOxbqq4QSExzn5dR65XN//AUaLcFxOZwhsZaLBK3ozdyBuIyD9NRc5mYot04AGPb8="/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;talend_stat&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;talend_log&quot;"/>
@@ -166,7 +166,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.Postgres_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Postgres_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1Sg9eh6wWCPqvXfhe4aHb4CpMOsT839aW3vP31VkDjpekYsz5G0NIUhVuHMTJrLMAixP+Dg="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3djoi7aWTIaVuR4+nQ3twkZRpCiU9sdyJXRoIDbxpaV741vsGiMi/QZDSQ1PAyju03STveY="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -192,7 +192,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;datawarehouse&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;CRPDTA&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;datawarehouse&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:7rGoInDpMYYbvvY+4RZGjvWWK08K7inEf60YL47lwxbWHvATYFOUXAk9p429+w=="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:9cy89DX2ffQrR6ch17xcrprFo3h2PIPGim/jDIbURElI/X4n2+1sBZI6we+Ecg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f03012&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -463,7 +463,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;datawarehouse&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;CRPDTA&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;datawarehouse&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:rv+2zmTFrCUvyaWvSS5qT1Ufw12YNIu3DUm0l7zKUXhS3UJ5yAvyVkT/DK1XIA=="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:+5db/CPrxOitn/0ekFzBevkGAFUX94A6mL6Q0MpYM6czhOoCP7yuZBKLk5KOhw=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f0101&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -530,7 +530,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;datawarehouse&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;CRPDTA&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;datawarehouse&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Y2E9wArYNSi2F7wN3ycHtCHj9kSVDMv4Nu8FzPygJm6ELyjKI+zMVk0xU63UIg=="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:W1b+NN82OPSxT1WHi0vKM+IAc6l8Ax+a3R60MlGD/+kmrFjcppLgyrOjft3yUA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f01151&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -579,7 +579,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;datawarehouse&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;CRPDTA&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;datawarehouse&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:yrkvpog6sH8CZIHWSNCcoKFdMnxBP9wBWKzk7nDkfP0BL1nf8V28/+5hxzGZvw=="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:/S62XFhDFxU1E+TPf+MA+Y+WtA20LsAUiWHuP/+x62YSdoZJJ8JkhOoolezX2Q=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f0115&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -622,7 +622,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;datawarehouse&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;CRPDTA&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;datawarehouse&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:njcmIxVwjEVACo44FWqiWWrbX67XTmWCyqhwYxaLnXwfaPnP5ms4OMkgFWLSQQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:K0+J82/ZszaK6+O/5HEj0ySLm6D9qrg4j7Ft7mfDoGhtsQowMYMG/jVZ79eJQQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f0401&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -793,7 +793,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;datawarehouse&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;CRPDTA&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;datawarehouse&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:IxYHbPGPp9k9RY37xxMvUSE4Zl34xN/TXdFzIlkOlXitP+3xULVPqJDd++34Lg=="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:QbIk6hENZXZjJyWgCzkc003ez6q0ZnFq9HfOkE6kuLVgxRTqlDzZ70mCkVbk4g=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f0005&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -845,7 +845,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;datawarehouse&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;CRPDTA&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;datawarehouse&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:5+try1nkDJdO7kdsZ+8uZwwtrX117Q6L55AUQD87gUlJZnQPmFttobc83vtZrg=="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:GptAur5Y2YQZ4NGj5Hl1ZYj2bhOAUlEdlyzdw4rpBQpsimSTLWCPlYV1smFP4A=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f0005&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -894,7 +894,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;datawarehouse&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;CRPDTA&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;datawarehouse&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:f+H6TRh90k9QvIHn5EEnlnrrpb5YzpflQtWHj4eri26909UtxHSi3CYo6q2JJw=="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:55wPAc9hrL0hjL/oqMsAZoDb6Z6U5VJ2xlipUYB44NzO7cc8hCOwEAdtQnLJmA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f0005&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -930,8 +930,53 @@
       <column comment="" key="false" length="-1" name="DRDL02" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="928" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_9"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_MC4UwAFxEeqyKvuObbcQGw"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="V9_X"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="context.Postgres_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="context.Postgres_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="context.Postgres_Database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="context.Postgres_Schema"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="context.Postgres_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:yrDaItwAtsD8cO3qQJv9er9rKJXels3t1361lYhtZ4CIcloi7kg+0zrZ0KEIdI3/hnw9ex8="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;f0111&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f0111\&quot;.\&quot;WWAN8\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f0111\&quot;.\&quot;WWNICK\&quot;&#10;FROM \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f0111\&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="postgres_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.Postgres_AdditionalParams"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="WWAN8"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WWNICK"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_9">
+      <column comment="" defaultValue="" key="false" length="21" name="WWAN8" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="WWNICK" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
   <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="352">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_2"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_qt8hoIM0Eeu1GpOM_w4GSw"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
@@ -941,7 +986,7 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Modelisation_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Modelisation_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:XGZgQ3rV6hmu/PQ7t4MTaUGMsqe8Gm4HWkFGheUjymIZGGPTMwiATQ6y/PiRA1o23r/TJ4wCfeQ1"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:xubPyar3MnC21tSq9hdT45a5LwuZf70xXwfp/0aNYOR2AIVvJNFGACEjog9VL/jfalnbF/B6VTRu"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;dim_tiers&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1129,10 +1174,10 @@
     <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_LOWERCASE" value="false"/>
     <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
     <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
-    <elementParameter field="TEXT" name="LABEL" value="Dim_Tiers"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tDBOutput_1">
-      <column comment="" key="true" length="10" name="source" nullable="false" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    <metadata connector="FLOW" name="tDBOutput_2">
+      <column comment="" key="true" length="10" name="source" nullable="false" originalLength="3" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="true" length="8" name="codetiers" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -1204,7 +1249,7 @@
       <column comment="" key="false" length="50" name="adressemail" nullable="true" originalLength="50" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="true" length="10" name="source" nullable="false" originalLength="3" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="10" name="source" nullable="false" originalLength="3" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="true" length="8" name="codetiers" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -1278,49 +1323,6 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="928" posY="256">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_9"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_MC4UwAFxEeqyKvuObbcQGw"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" show="false" value="context.Postgres_Server"/>
-    <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
-    <elementParameter field="TEXT" name="PORT" show="false" value="context.Postgres_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" show="false" value="context.Postgres_Database"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="context.Postgres_Schema"/>
-    <elementParameter field="TEXT" name="USER" show="false" value="context.Postgres_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:zzdhXaI/K5YuXaKf9iiuXS4cuX4xgb/4wW1wP8rNOBWVTnb0JWrOaIkTSjRuGC6vYoUXK7c="/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;f0111&quot;"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f0111\&quot;.\&quot;WWAN8\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f0111\&quot;.\&quot;WWNICK\&quot;&#10;FROM \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f0111\&quot;&quot;"/>
-    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="postgres_id"/>
-    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.Postgres_AdditionalParams"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
-    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
-    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
-    <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="WWAN8"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="WWNICK"/>
-      <elementValue elementRef="TRIM" value="false"/>
-    </elementParameter>
-    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tDBInput_9">
-      <column comment="" defaultValue="" key="false" length="21" name="WWAN8" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="WWNICK" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tDBInput_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
   </connection>
@@ -1351,18 +1353,7 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
   </connection>
-  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tDBOutput_1">
-    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
-      <elementValue elementRef="TRACE_COLUMN" value="cleglclientlibelle"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="cleglfournisseurlibelle"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="adressemail"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-    </elementParameter>
+  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tDBOutput_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out1"/>
   </connection>
@@ -1475,13 +1466,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6b18882d-9431-4cb1-933c-1d53d3b03340"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>lRRzJ2JGysJ4DikTjsIrbge8vcZQtY6jEL5ViYYjPQbfxNNNW4/X7nV2xtVPauIVVm8F9VoC32g3&#13;
-YEI0Sf14WA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_291a79eb-1a88-4bd2-8a70-a0a990becf0f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>UqeVe/Wpq32KJzf1XBn7tpDUDIn5r1/+3rVg7obMdRLqXExwZzoWbetHQOvQWnIbpnI1HcyD9Pke&#13;
-5GHJ8ZkDGg==</DigestValue></Reference></SignedInfo><SignatureValue>aLc07rS+tS0xdiHvlM5a7XF/+TxbAS78vC5ZuI2akux5EI/EZwQgQSM29Jy2T2tmrF0qVoTSpWfu&#13;
-GrOZliWh4VugsrQ6Os8oW9G1uU/MTsb4E5+7J5LCtj5SnaqWkpWG548zy8sknXCXO9y6zE2MKN3r&#13;
-2hfIgDIHoeBibxxdPdpejyoZMjWfYlI5vcXzCYuDe5evcnk5nqgdN2Y91MnziTZB3CqtYyFL8Pnx&#13;
-ekQd3UQeuWlGyJY8AlnsyYfkp1xNSU/Gd4bKngJqV/p5uUOyLl1/wNQq+tuEcibEwbptepmd1WKh&#13;
-pfq/GUk5VQrsDSdwF2TEypLNd2x+2oiZA9tJMA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6b2f60b1-3082-4553-b64e-9b13d4259686"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>L78eirmVcMnmd7tsXDmkq7PLKL8JLr6w1FRgXKX8phA32E5OmNKSDkrYcYfodUFcLUE/hh2iC5VZ&#13;
++Ufn0KNM3g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_db959342-a248-4bd5-a5d9-7fe500b6f62e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>NYHMtONX04vaIj0PiaTgbmz5lEktDccMM4VI/qFhXC+YIeqU6s3ynU57HUAQMGR4frpa6hY773Hq&#13;
+RI5WMIRyRg==</DigestValue></Reference></SignedInfo><SignatureValue>e07PYmgT1Pz8kEk5QeH6eIYYC4rw7UBET/4C8bfrnHZO4h0Ny2VLmrtxo4MBfjMigHFwS13BQSVB&#13;
+DTG1/XtPjOlNAdg4YWktHN0UEV0mb+/+UGoUG5QeGMw2Zpa7DRinDf3dc4SPlTUUdy4ZtydvJ/kN&#13;
+ZLHlSJ2Itt6+YlGM1/jUYYSaB/3gWnadooTdQg03+g3IiuBjv2lPenYxceMRbZhf8+JzhJnaOLBA&#13;
+HHmGGB4IuQPZE/xt+7xBtuRaS+iM0D/jRq2doOb9sQuVw+f4mw0CwzaV3PzdXdpwYkyzTkqbtQpu&#13;
+GtnaEdU3ZmQ/es/d1Whcu9702Lae+043/3wUNA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1503,4 +1494,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_291a79eb-1a88-4bd2-8a70-a0a990becf0f" Target="#_6b18882d-9431-4cb1-933c-1d53d3b03340"><Timestamp>2021-03-12 13:10:49</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_db959342-a248-4bd5-a5d9-7fe500b6f62e" Target="#_6b2f60b1-3082-4553-b64e-9b13d4259686"><Timestamp>2021-03-12 14:00:46</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
