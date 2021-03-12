@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
-  <TalendMetadata:DatabaseConnection AdditionalParams="" DatabaseType="PostgreSQL" DatasourceName="" DbmsId="postgres_id" DriverClass="org.postgresql.Driver" FileFieldName="" NullChar="" Password="enc:system.encryption.key.v1:CldtH+6id2o3f+yxH5aCDJ2Y9+FUEO/h1MXFZQUWMRo38kpOkZM7pgQVyao=" Port="5432" ProductId="POSTGRESQL" SID="Modelisation" SQLMode="false" ServerName="10.160.103.199" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:postgresql://10.160.103.199:5432/Modelisation?" UiSchema="modelisation" Username="datawarehouse" dataPackage="_zSf8oIM0Eeu1GpOM_w4GSw" dbVersionString="V9_X" id="_qt8hoIM0Eeu1GpOM_w4GSw" label="Modelisation" name="Modelisation" xmi:id="_zOltAIM0Eeu1GpOM_w4GSw">
+  <TalendMetadata:DatabaseConnection AdditionalParams="context.Modelisation_AdditionalParams" ContextId="_D6j7EIM1Eeu1GpOM_w4GSw" ContextMode="true" DatabaseType="PostgreSQL" DatasourceName="" DbmsId="postgres_id" DriverClass="org.postgresql.Driver" FileFieldName="" NullChar="" Password="context.Modelisation_Password" Port="context.Modelisation_Port" ProductId="POSTGRESQL" SID="context.Modelisation_Database" SQLMode="false" ServerName="context.Modelisation_Server" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:postgresql://10.160.103.199:5432/Modelisation?" UiSchema="context.Modelisation_Schema" Username="context.Modelisation_Login" contextName="DEV" dataPackage="_EQQeQIM1Eeu1GpOM_w4GSw" dbVersionString="V9_X" id="_qt8hoIM0Eeu1GpOM_w4GSw" label="Modelisation" name="Modelisation" xmi:id="_zOltAIM0Eeu1GpOM_w4GSw">
     <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_zOltAYM0Eeu1GpOM_w4GSw"/>
     <taggedValue tag="package filter" value="" xmi:id="_zP5UkIM0Eeu1GpOM_w4GSw"/>
     <taggedValue tag="Status" value="" xmi:id="_zP5UkYM0Eeu1GpOM_w4GSw"/>
@@ -11,18 +11,19 @@
     <taggedValue tag="DB ProductName" value="PostgreSQL" xmi:id="_zRDLIIM0Eeu1GpOM_w4GSw"/>
     <taggedValue tag="DB ProductVersion" value="11.11" xmi:id="_zRDLIYM0Eeu1GpOM_w4GSw"/>
     <taggedValue tag="DB IdentifierQuoteString" value="&quot;" xmi:id="_zRDLIoM0Eeu1GpOM_w4GSw"/>
-    <parameters key="CONN_PARA_KEY_USERNAME" value="datawarehouse" xmi:id="_zOltAoM0Eeu1GpOM_w4GSw"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="context.Modelisation_Login" xmi:id="_zOltAoM0Eeu1GpOM_w4GSw"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="__ksHAIM0Eeu1GpOM_w4GSw"/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog dataManager="_zOltAIM0Eeu1GpOM_w4GSw" name="Modelisation" xmi:id="_zSf8oIM0Eeu1GpOM_w4GSw">
-    <ownedElement name="modelisation" xmi:id="_zSf8oYM0Eeu1GpOM_w4GSw" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+  <orgomg.cwm.resource.relational:Catalog dataManager="_zOltAIM0Eeu1GpOM_w4GSw" name="Modelisation" xmi:id="_EQQeQIM1Eeu1GpOM_w4GSw">
+    <ownedElement name="modelisation" xmi:id="_EQQeQYM1Eeu1GpOM_w4GSw" xsi:type="orgomg.cwm.resource.relational:Schema"/>
   </orgomg.cwm.resource.relational:Catalog>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2b7a2a09-b69d-4a02-bad8-70d85a87a492"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9WPXsrNW8+IJ9Jzr6eZNP2Iy6K+Lt9oIsj0J+6QMOTLcs59JYTHxNiAtTM6A438MJUcJtsjeZw7P&#13;
-KuxJs4/SlA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_415f0ae8-ef1e-483b-8b32-7b25dc6b84df"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>VLIOvkg637yC+YsyjBdUn8wWBAqb4QuyGW5AXFO/8luKkljDHylqlMHdypMgPev3ankojHfgy2S2&#13;
-S3PcJjhFDA==</DigestValue></Reference></SignedInfo><SignatureValue>pkSoQeoOKRSVfTuKyQ6GUEX7nVa2G5usxJSFBuet8QOdjkf7L5ut0ZgPsp5NlXbANMkUQMH+GpBm&#13;
-j2WujkJa0W9UF7vIlyVOqxJZUt9X+Gi9H/3Kh0tCjYlZHSJAwODGASo8yugbJKg4GiJ+KEcFiwk6&#13;
-iZzPFKHeWW+jKaNXAiCoG1YxgYlSFA3BQ64LwfdXsA1f2Fs4ReeZfvw6FJD4pR/3Hi/9ldLsrU1t&#13;
-Z9CliG1dNBDf8OMyLcMhuoNaTofUg8pgIeGnM4UlE0I/ih0wMtsng8NuHdY/3J3Y5HkOMNQ07uzR&#13;
-5lKY26nx+HowqHlANMNqwPIA0IhaTq4ySR00lw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1a2a8207-d8e8-4bea-a1a6-1db399dbe012"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>7k6pWwk7NTIR4vvwdwoqon1E4McdMHbGyDK4SlG1bfq8PlbPsJScRkYzSBThQpEnpAZhFUR4NxCr&#13;
+DUagkHH62Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_64e8b3ac-45c7-4f1e-a26b-57f60ea45db9"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4eW+YWKdGNnEU1FiOaNr6ruAog6vNgCg/u11YuJ6T3Ie9DWOSdAV+14TOqpugmAyltgZtVPvO+gc&#13;
+/9/yHbEl+g==</DigestValue></Reference></SignedInfo><SignatureValue>TQcbpy9TxfrHVJdqsOfe2vZiRqtQ1NPo217sQ66t1HsTdCHzdxE57FldUtLrF2bYFS0758AM1cFl&#13;
+TlBarUMxigIxtgfuoFkE018Q5tMQ5hGvBaHu7kPKwcp3KUPKNn/dEcB2H2PmziVtwBlQUe+UA2Kw&#13;
+fRXfyUfYSofKR3zf5lk6Qy7Ieaa3uwtmthiwTEyp5EH7sSmzYjbztCX2wjVZMB+iK0ySQrsvYiuD&#13;
+Vba7U5xt6mb7XR95i5V0PtHdtx2YM9pSC+VV9iVzon6fksI0uSac7x76T7P8aB6JUKhF4ytxsB6t&#13;
+wmiveiYgaJbWgrvkCocSeghwZoMk+gmByXnDCA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -44,4 +45,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_415f0ae8-ef1e-483b-8b32-7b25dc6b84df" Target="#_2b7a2a09-b69d-4a02-bad8-70d85a87a492"><Timestamp>2021-03-12 13:13:56</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_64e8b3ac-45c7-4f1e-a26b-57f60ea45db9" Target="#_1a2a8207-d8e8-4bea-a1a6-1db399dbe012"><Timestamp>2021-03-12 13:15:53</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
