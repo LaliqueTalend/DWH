@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="PROD" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="PROD">
-    <contextParameter comment="" internalId="_XXNWcIM0Eeu1GpOM_w4GSw" name="Modelisation_Login" prompt="Modelisation_Login?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_XXNWcYM0Eeu1GpOM_w4GSw" name="Modelisation_Database" prompt="Modelisation_Database?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="Modelisation"/>
-    <contextParameter comment="" internalId="_XXNWcoM0Eeu1GpOM_w4GSw" name="Modelisation_Password" prompt="Modelisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:Ku5rTqtj+RkhGU8yq9VwQWP73gB/2BCtfPVGE31nHF0kChsI72YuEHcykqk="/>
-    <contextParameter comment="" internalId="_XXNWc4M0Eeu1GpOM_w4GSw" name="Modelisation_AdditionalParams" prompt="Modelisation_AdditionalParams?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_XXNWdIM0Eeu1GpOM_w4GSw" name="Modelisation_Port" prompt="Modelisation_Port?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="5432"/>
-    <contextParameter comment="" internalId="_XXNWdYM0Eeu1GpOM_w4GSw" name="Modelisation_Server" prompt="Modelisation_Server?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="10.160.103.199"/>
-    <contextParameter comment="" internalId="_XXNWdoM0Eeu1GpOM_w4GSw" name="Modelisation_Schema" prompt="Modelisation_Schema?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="modelisation"/>
+    <contextParameter comment="" internalId="_XXNWcIM0Eeu1GpOM_w4GSw" name="Modelisation_Login" prompt="Modelisation_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_XXNWcYM0Eeu1GpOM_w4GSw" name="Modelisation_Database" prompt="Modelisation_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Modelisation"/>
+    <contextParameter comment="" internalId="_XXNWcoM0Eeu1GpOM_w4GSw" name="Modelisation_Password" prompt="Modelisation_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:6FK81VnQKJS2w+wmy4uxvMjtMTCjbsLvn5CrxQSAoHpqqjwVwSAYiW69aHE="/>
+    <contextParameter comment="" internalId="_XXNWc4M0Eeu1GpOM_w4GSw" name="Modelisation_AdditionalParams" prompt="Modelisation_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_XXNWdIM0Eeu1GpOM_w4GSw" name="Modelisation_Port" prompt="Modelisation_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter comment="" internalId="_XXNWdYM0Eeu1GpOM_w4GSw" name="Modelisation_Server" prompt="Modelisation_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.160.103.199"/>
+    <contextParameter comment="" internalId="_XXNWdoM0Eeu1GpOM_w4GSw" name="Modelisation_Schema" prompt="Modelisation_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="modelisation"/>
     <contextParameter comment="" internalId="_XXNWd4M0Eeu1GpOM_w4GSw" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" internalId="_XXNWeIM0Eeu1GpOM_w4GSw" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_XXNWeYM0Eeu1GpOM_w4GSw" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:IaCUVEgMPKggN9ckv/Q0t8qVUahClfPgd1gQhgf+sW8//1wWyTyyUuWT1h4="/>
+    <contextParameter comment="" internalId="_XXNWeYM0Eeu1GpOM_w4GSw" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:8kNYgx0VB+jpMFFISUCqSkrdmt8ql0x+xfZwSpaeY4ADbTlUvJMlNHvGvGk="/>
     <contextParameter comment="" internalId="_XXNWeoM0Eeu1GpOM_w4GSw" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
     <contextParameter comment="" internalId="_XXNWe4M0Eeu1GpOM_w4GSw" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" internalId="_XXNWfIM0Eeu1GpOM_w4GSw" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
@@ -17,22 +17,22 @@
     <contextParameter comment="" internalId="_XXNWfoM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Schema" prompt="Postgres_Talend_Logs_Schema?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="talend"/>
     <contextParameter comment="" internalId="_XXNWf4M0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Server" prompt="Postgres_Talend_Logs_Server?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" internalId="_XXNWgIM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Database" prompt="Postgres_Talend_Logs_Database?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_XXNWgYM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:cGNp54cqEQRPPRw4Gd/HoTq38KbPemLpYTTPrSpHNbbEYoZGys8z8KZ9pX8="/>
+    <contextParameter comment="" internalId="_XXNWgYM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:2XtB/9fbmpbqSe5A3/LWyBBybjlA42xcEU3x+19IhZbwxPO1QG6nVQfuxwI="/>
     <contextParameter comment="" internalId="_XXNWgoM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Port" prompt="Postgres_Talend_Logs_Port?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="5432"/>
     <contextParameter comment="" internalId="_XXNWg4M0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Login" prompt="Postgres_Talend_Logs_Login?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" internalId="_XXNWhIM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_AdditionalParams" prompt="Postgres_Talend_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="DEV">
-    <contextParameter comment="" internalId="_XXNWhYM0Eeu1GpOM_w4GSw" name="Modelisation_Login" prompt="Modelisation_Login?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_XXNWhoM0Eeu1GpOM_w4GSw" name="Modelisation_Database" prompt="Modelisation_Database?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="Modelisation"/>
-    <contextParameter comment="" internalId="_XXNWh4M0Eeu1GpOM_w4GSw" name="Modelisation_Password" prompt="Modelisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:+I9eWX+ojorY+hQq95BaJ08Rn/YmGqlk9AT/joRSfKbX26IC66YoZWu1t3E="/>
-    <contextParameter comment="" internalId="_XXNWiIM0Eeu1GpOM_w4GSw" name="Modelisation_AdditionalParams" prompt="Modelisation_AdditionalParams?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_XXNWiYM0Eeu1GpOM_w4GSw" name="Modelisation_Port" prompt="Modelisation_Port?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="5432"/>
-    <contextParameter comment="" internalId="_XXNWioM0Eeu1GpOM_w4GSw" name="Modelisation_Server" prompt="Modelisation_Server?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="10.160.103.199"/>
-    <contextParameter comment="" internalId="_XXNWi4M0Eeu1GpOM_w4GSw" name="Modelisation_Schema" prompt="Modelisation_Schema?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="modelisation"/>
+    <contextParameter comment="" internalId="_XXNWhYM0Eeu1GpOM_w4GSw" name="Modelisation_Login" prompt="Modelisation_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_XXNWhoM0Eeu1GpOM_w4GSw" name="Modelisation_Database" prompt="Modelisation_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Modelisation"/>
+    <contextParameter comment="" internalId="_XXNWh4M0Eeu1GpOM_w4GSw" name="Modelisation_Password" prompt="Modelisation_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:8QSiqcPh1sJjauVePRK9xjgePTxqwJOX0+EkxXfOmLW5WmrwpjPoO7jIYuk="/>
+    <contextParameter comment="" internalId="_XXNWiIM0Eeu1GpOM_w4GSw" name="Modelisation_AdditionalParams" prompt="Modelisation_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_XXNWiYM0Eeu1GpOM_w4GSw" name="Modelisation_Port" prompt="Modelisation_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter comment="" internalId="_XXNWioM0Eeu1GpOM_w4GSw" name="Modelisation_Server" prompt="Modelisation_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.160.103.199"/>
+    <contextParameter comment="" internalId="_XXNWi4M0Eeu1GpOM_w4GSw" name="Modelisation_Schema" prompt="Modelisation_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="modelisation"/>
     <contextParameter comment="" internalId="_XXNWjIM0Eeu1GpOM_w4GSw" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" internalId="_XXNWjYM0Eeu1GpOM_w4GSw" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_XXNWjoM0Eeu1GpOM_w4GSw" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:jjSJoqdEtXvPXk1Y0ebug7Q9EtkfU6QaVVWYkL0Sg4T0F4exsLYShWWKo30="/>
+    <contextParameter comment="" internalId="_XXNWjoM0Eeu1GpOM_w4GSw" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:a5huKV64wO8LlO/6GvaLqb9ewzUMLaVHuK7Zv/PjF5e6UqL7qLiI2t0J5LU="/>
     <contextParameter comment="" internalId="_XXNWj4M0Eeu1GpOM_w4GSw" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
     <contextParameter comment="" internalId="_XXNWkIM0Eeu1GpOM_w4GSw" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" internalId="_XXNWkYM0Eeu1GpOM_w4GSw" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
@@ -40,7 +40,7 @@
     <contextParameter comment="" internalId="_XXNWk4M0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Schema" prompt="Postgres_Talend_Logs_Schema?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="talend"/>
     <contextParameter comment="" internalId="_XXNWlIM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Server" prompt="Postgres_Talend_Logs_Server?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="10.160.103.199"/>
     <contextParameter comment="" internalId="_XXNWlYM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Database" prompt="Postgres_Talend_Logs_Database?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_XXNWloM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:uDovsYOSn/YNchu5fhf/kI4C2SbmKS1m33PuEktyu3MQbC9d4HDD0Xk64Es="/>
+    <contextParameter comment="" internalId="_XXNWloM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:SJSwec11M6gxOARPLHY72R4a0hEs6G38tXZEsFcU+SaXpgSAY5nBN4lR/fk="/>
     <contextParameter comment="" internalId="_XXNWl4M0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Port" prompt="Postgres_Talend_Logs_Port?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="5432"/>
     <contextParameter comment="" internalId="_XXNWmIM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Login" prompt="Postgres_Talend_Logs_Login?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
     <contextParameter comment="" internalId="_XXNWmYM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_AdditionalParams" prompt="Postgres_Talend_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value=""/>
@@ -88,7 +88,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:hjhmNc/bIxk1Yc0iSg8IT2/GitNu4NcTKxDfNzEA"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:dwuyfETKYwNslrZInv8KizQi/uwp9zpWd7UNmOl+"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -125,7 +125,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.Postgres_Talend_Logs_AdditionalParams"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Postgres_Talend_Logs_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Postgres_Talend_Logs_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:FJuQUxCo8DXxDWcAof+sav5JPpcDXV9hIv60TlEJNdUMNyxyRGt57kQs3tTt8RW3wbnU74Mqk+9KbjHdwQMYoWo="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mG/dcLBAkZkz9DC9brzsRkWz+gZ9jE2d8RjSkOw09q0hV8h4h5G1IMspywYFOuIDgqRC69Ebh00iK92pdN79bqs="/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;talend_stat&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;talend_log&quot;"/>
@@ -166,7 +166,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.Postgres_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Postgres_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:S8NXsYkXRulci+NN0k6ryCKChnyGXhBvVhO3tDYHn5JdMyi4ycEF8USGMno16W9kcqklEY0="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:kagtdHqE1ocFZYdL/6QdmJsY61Ah8I6NgMh1OuKcbHA5BlC1/gm53SEkJLOFGggJ3AdCi1Y="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -192,13 +192,13 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="context.Postgres_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="USER" show="false" value="context.Postgres_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:1poRYJh4MwhIYt0j0uCZ0PJ7TpiQTrKYHPxib4IRadsiBf03FK1HCdbwnIOJG0JwP2bEp1g="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:HbQdKE3HLLefry49+jNc8nNsKqc5KM/CtrbXynFQPQ191hRHjByzoMYhg9HgesBIuJsXmNY="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f41021&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIITM\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIMCU\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LILOCN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LILOTN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIPBIN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIGLPT\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LILOTS\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LILRCJ\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIPQOH\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIPBCK\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIPREQ\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQWBO\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIOT1P\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIOT2P\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIOT1A\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIHCOM\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIPCOM\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIFCOM\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIFUN1\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQOWO\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQTTR\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQTIN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQONL\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQTRI\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQTRO\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LINCDJ\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQTY1\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQTY2\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIURAB\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIURRF\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIURAT\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIURCD\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIJOBN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIPID\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIUPMJ\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIUSER\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LITDAY\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIURDT\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQTO1\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQTO2\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIHCMS\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIPJCM\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIPJDM\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LISCMS\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LISIBW\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LISOBW\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LISQOH\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LISQWO\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LISREQ\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LISWHC\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LISWSC\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LICHDF\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIWPDF\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LICFGSID\&quot;&#13;&#10;FROM \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;&#13;&#10;WHERE \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIPQOH\&quot; &lt;&gt; '0'&#13;&#10;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIITM\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIMCU\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LILOCN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LILOTN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIPBIN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIGLPT\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LILOTS\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LILRCJ\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIPQOH\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIPBCK\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIPREQ\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQWBO\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIOT1P\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIOT2P\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIOT1A\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIHCOM\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIPCOM\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIFCOM\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIFUN1\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQOWO\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQTTR\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQTIN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQONL\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQTRI\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQTRO\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LINCDJ\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQTY1\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQTY2\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIURAB\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIURRF\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIURAT\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIURCD\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIJOBN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIPID\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIUPMJ\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIUSER\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LITDAY\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIURDT\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQTO1\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIQTO2\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIHCMS\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIPJCM\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIPJDM\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LISCMS\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LISIBW\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LISOBW\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LISQOH\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LISQWO\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LISREQ\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LISWHC\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LISWSC\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LICHDF\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIWPDF\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LICFGSID\&quot;&#13;&#10;FROM \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;&#13;&#10;WHERE \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f41021\&quot;.\&quot;LIPQOH\&quot; &lt;&gt; 0&#13;&#10;&quot;"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -321,169 +321,61 @@
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="f41021" name="tDBInput_1">
-      <column comment="" key="true" length="23" name="LIITM" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="12" name="LIMCU" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="20" name="LILOCN" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="30" name="LILOTN" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIPBIN" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="4" name="LIGLPT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LILOTS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="6" name="LILRCJ" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIPQOH" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIPBCK" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIPREQ" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="32" name="LIQWBO" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIOT1P" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIOT2P" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIOT1A" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIHCOM" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIPCOM" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIFCOM" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIFUN1" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIQOWO" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIQTTR" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIQTIN" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIQONL" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIQTRI" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIQTRO" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LINCDJ" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIQTY1" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIQTY2" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIURAB" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="15" name="LIURRF" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIURAT" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2" name="LIURCD" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="LIJOBN" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="LIPID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="6" name="LIUPMJ" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="LIUSER" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LITDAY" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="6" name="LIURDT" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIQTO1" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIQTO2" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIHCMS" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIPJCM" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIPJDM" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LISCMS" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LISIBW" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LISOBW" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LISQOH" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LISQWO" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LISREQ" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LISWHC" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LISWSC" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LICHDF" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="LIWPDF" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="32" name="LICFGSID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
+    <metadata connector="FLOW" name="tDBInput_1">
+      <column comment="" defaultValue="" key="false" length="8" name="LIITM" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="LIMCU" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="LILOCN" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="LILOTN" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="LIPBIN" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="LIGLPT" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="LILOTS" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="13" name="LILRCJ" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIPQOH" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIPBCK" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIPREQ" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIQWBO" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIOT1P" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIOT2P" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIOT1A" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIHCOM" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIPCOM" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIFCOM" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIFUN1" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIQOWO" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIQTTR" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIQTIN" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIQONL" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIQTRI" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIQTRO" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="13" name="LINCDJ" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIQTY1" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIQTY2" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="LIURAB" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIURRF" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIURAT" nullable="true" originalLength="-1" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="LIURCD" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="LIJOBN" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="LIPID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="13" name="LIUPMJ" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="LIUSER" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="6" name="LITDAY" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="13" name="LIURDT" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIQTO1" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIQTO2" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIHCMS" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIPJCM" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LIPJDM" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LISCMS" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LISIBW" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LISOBW" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LISQOH" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LISQWO" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LISREQ" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LISWHC" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="LISWSC" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="LICHDF" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="LIWPDF" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="32" name="LICFGSID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="512" posY="288">
@@ -509,7 +401,7 @@
       <column comment="" key="false" length="21" name="prixachat" nullable="true" pattern="" precision="5" sourceType="VARCHAR" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="codedevise" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="codedevise" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="23" name="quantite" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -520,28 +412,28 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties/>
       <varTables name="Var" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="&quot;10WL&quot;.equals(row1.LIMCU) ? &quot;STOCK&quot; : &quot;10CO&quot;.equals(row1.LIMCU) ? &quot;CONSIG&quot; : null " name="typestock" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;10WL&quot;.equals(StringHandling.TRIM(row1.LIMCU)) ? &quot;STOCK&quot; : &quot;10CO&quot;.equals(StringHandling.TRIM(row1.LIMCU)) ? &quot;CONSIG&quot; : null " name="typestock" nullable="true" type="id_String"/>
       </varTables>
-      <outputTables name="out1" sizeState="INTERMEDIATE">
+      <outputTables activateExpressionFilter="true" columnNameFilter="" expressionFilter="! Relational.ISNULL(Var.typestock)" name="out1" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="&quot;JDE&quot;" name="source" nullable="true" type="id_String"/>
         <mapperTableEntries expression="&quot;00010&quot;" name="codesociete" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.COLITM " name="codearticle" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="Relational.ISNULL(row2.COUNCS  ) ? row2.COUNCS   : row2.COUNCS.divide(new BigDecimal(10000)) " name="prixachat" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Relational.ISNULL(row2.COUNCS) || row2.COUNCS.compareTo(new BigDecimal(0)) ? row2.COUNCS : row2.COUNCS.divide(new BigDecimal(10000)) " name="prixachat" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries expression="&quot;EUR&quot;" name="codedevise" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="Relational.ISNULL(row1.LIPQOH) ? row1.LIPQOH     : row1.LIPQOH.divide(new BigDecimal(10000)) " name="quantite" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Relational.ISNULL(row1.LIPQOH) || row1.LIPQOH.compareTo(new BigDecimal(0)) ? row1.LIPQOH  : row1.LIPQOH.divide(new BigDecimal(10000)) " name="quantite" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries expression="Var.typestock " name="typestock" nullable="true" type="id_String"/>
         <mapperTableEntries expression="String.valueOf(TalendDate.getPartOfDate(&quot;YEAR&quot;,TalendDate.getCurrentDate())) " name="annee" nullable="true" type="id_String"/>
         <mapperTableEntries expression="StringHandling.RIGHT(&quot;0&quot; +  String.valueOf(TalendDate.getPartOfDate(&quot;MONTH&quot;,TalendDate.getCurrentDate())+1) ,2) " name="mois" nullable="true" type="id_String"/>
       </outputTables>
       <inputTables activateColumnNameFilter="true" columnNameFilter="" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="LIITM" type="id_String"/>
-        <mapperTableEntries name="LIMCU" nullable="true" type="id_String"/>
+        <mapperTableEntries name="LIITM" type="id_BigDecimal"/>
+        <mapperTableEntries name="LIMCU" type="id_String"/>
         <mapperTableEntries name="LILOCN" type="id_String"/>
         <mapperTableEntries name="LILOTN" type="id_String"/>
         <mapperTableEntries name="LIPBIN" nullable="true" type="id_String"/>
         <mapperTableEntries name="LIGLPT" nullable="true" type="id_String"/>
         <mapperTableEntries name="LILOTS" nullable="true" type="id_String"/>
-        <mapperTableEntries name="LILRCJ" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="LILRCJ" nullable="true" type="id_Date"/>
         <mapperTableEntries name="LIPQOH" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="LIPBCK" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="LIPREQ" nullable="true" type="id_BigDecimal"/>
@@ -559,7 +451,7 @@
         <mapperTableEntries name="LIQONL" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="LIQTRI" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="LIQTRO" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries name="LINCDJ" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="LINCDJ" nullable="true" type="id_Date"/>
         <mapperTableEntries name="LIQTY1" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="LIQTY2" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="LIURAB" nullable="true" type="id_BigDecimal"/>
@@ -568,10 +460,10 @@
         <mapperTableEntries name="LIURCD" nullable="true" type="id_String"/>
         <mapperTableEntries name="LIJOBN" nullable="true" type="id_String"/>
         <mapperTableEntries name="LIPID" nullable="true" type="id_String"/>
-        <mapperTableEntries name="LIUPMJ" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="LIUPMJ" nullable="true" type="id_Date"/>
         <mapperTableEntries name="LIUSER" nullable="true" type="id_String"/>
         <mapperTableEntries name="LITDAY" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries name="LIURDT" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="LIURDT" nullable="true" type="id_Date"/>
         <mapperTableEntries name="LIQTO1" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="LIQTO2" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="LIHCMS" nullable="true" type="id_BigDecimal"/>
@@ -631,13 +523,13 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="context.Postgres_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="USER" show="false" value="context.Postgres_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ZGZM0W2VtWld1IXHRQ3v2c8v2pw0seTB6iSEgGlyrxLGeYWFBvkUz8BSQgtv77cWpIHG87k="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:55HFJLf0RnEvZS9xnLtboLjoZYU56JpDG8CsGscJbPd0uOqUjhJyHN0Z9KlQ6g7AVIXNV2I="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f4105&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COITM\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COLITM\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COAITM\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COMCU\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COLOCN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COLOTN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COLOTG\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COLEDG\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COUNCS\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COCSPO\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COCSIN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COURCD\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COURDT\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COURAT\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COURAB\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COURRF\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COUSER\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COPID\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COJOBN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COUPMJ\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COTDAY\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COCCFL\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COCRCS\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COOSTC\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COSTOC\&quot;&#13;&#10;FROM \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;&#13;&#10;WHERE  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COLEDG\&quot;='02'&#13;&#10;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COITM\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COLITM\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COAITM\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COMCU\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COLOCN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COLOTN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COLOTG\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COLEDG\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COUNCS\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COCSPO\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COCSIN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COURCD\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COURDT\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COURAT\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COURAB\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COURRF\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COUSER\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COPID\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COJOBN\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COUPMJ\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COTDAY\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COCCFL\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COCRCS\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COOSTC\&quot;, &#13;&#10;  \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COSTOC\&quot;&#13;&#10;FROM \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;&#13;&#10;WHERE TRIM( \&quot;&quot;+context.Postgres_Database+&quot;\&quot;.\&quot;&quot;+context.Postgres_Schema+&quot;\&quot;.\&quot;f4105\&quot;.\&quot;COLEDG\&quot;)='02'&#13;&#10;&quot;"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -783,7 +675,7 @@
   <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_dnczsAeQEeqlibJAbnRRoA"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_qt8hoIM0Eeu1GpOM_w4GSw"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
@@ -793,9 +685,9 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Modelisation_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Modelisation_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:CsVowrSPnsYnt4G/HEAU9Eta2VQpQm2CmQAsLYIdQ6oxFrQzkfq9JuoAOYP4eue9SnR8s92Vgfh5"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:McJngYwe4+M9g3OvMnQs5fzKX+W4RJd9CPmNoGKRlxtX4CHq3b9HXK9MGQBlsfZmrMGHzMDEeXQK"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;fait_consolidation_stock&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" value="false"/>
     <elementParameter field="CHECK" name="SPATIAL_INDEX" show="false" value="false"/>
@@ -877,7 +769,7 @@
       <column comment="" key="false" length="21" name="prixachat" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="codedevise" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="codedevise" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="23" name="quantite" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -894,7 +786,7 @@
       <column comment="" key="false" length="21" name="prixachat" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="codedevise" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="codedevise" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="23" name="quantite" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
@@ -908,7 +800,7 @@
   <node componentName="tPostgresqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_1"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_dnczsAeQEeqlibJAbnRRoA"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_qt8hoIM0Eeu1GpOM_w4GSw"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
@@ -918,7 +810,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Modelisation_Schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
     <elementParameter field="TEXT" name="USER" value="context.Modelisation_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:PJlTfUYPuazMohvD1wdhreTOmgZcwVeRp3Bz8V91cOzOwOMuBVX6TgUPRVOoUFoF2EOTEXNyNK4n"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:/nJ7xvkfzW5muK3NrES9hEi98LzeHpkXklG4J+oPfYY86W4IFYBMakXns7XpKfKwvuKe7RAPamxj"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1004,13 +896,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c3a394f5-d5c4-429a-a931-c02cd7b3fda3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>l5RGd1UshZ9g7CQvmM8K4k20/UMyALFOnfzU2L14ctUHgUT3yas1D+JMGSI1cLP8PpS8aI6o/tAF&#13;
-c8U0YW5g6A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6bb986cb-4943-4f55-82e5-3113b5e35747"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>n0WnZCAtQtdCHPx533XK39Axomj2dsLby8QAqpg98t2dOT1MVDrJUrP5Z38xltN3WSENblZOTYv4&#13;
-lU1EDk5F/Q==</DigestValue></Reference></SignedInfo><SignatureValue>Lmh4cTyRK6TbPW5ojO+W/iEGgt2RAsX//Qq8GmVP7+CzEcLfUQzbeK7aIdCfDE/tvHMW3rPIxQPq&#13;
-tr69PhRlX8tCGQ176pjTsaKBVdyqSadfNgldnHtVuOTPHObk7tzcKS3VjlJUl1T7s7zur6fzJhEV&#13;
-cBLv3MfHS8QuymvCci1lTG3N5Wbs6G+HyEElBw8uiqHRAZYyKiwzmZCUPVbBRegN2FWAxChWv5cD&#13;
-FNy6kTpFfCI23j+5m7zF32FAJ49KhUCoTjqcqwHgRlajPQWOiC/N2YkbCinnQrnT3q+kgylTcIE0&#13;
-TtuMgp9wW6lFloAZqB3X/bjBWKP+krjz4dLhpw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b523a977-e3f2-46dd-ad0e-c7e0c721b0b8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>xjt9Tu264wKXAh7/qoRr0Sm79cQyu1W7/85p8PM1PNlDrO9hVBv1wTYjYEK1CBFkaXffSl/slmL7&#13;
+ZKILBytKAw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_91967d7f-d398-460a-b860-338366ae68b6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1zgYHbK77+KnfAuMAx4qhrZLmRhDRdx/UYs287RTg9ILoM9v6UKpdtLHRMZaCayEF1zC9IABBIDb&#13;
+Kn/UtZGwCA==</DigestValue></Reference></SignedInfo><SignatureValue>pft2mAT/YLUCJAryKxN+zY5wepzcv6Vh95T+/SifXX+REVQQDlozH1tMAmn8rEA2Pzx5kMrsn9zs&#13;
+Fqa/oGLgYf6X2bCbwwYsPaZyFmFITjKpQVaW2SSHNEoItqPxd0qYAOt3v/mnBYgpyHPUmJ0umdlD&#13;
+D4EV9qjTcdDURxTahK7UJQ64zwV5TZ/mZoJ+nKU3E0fleKrhX7Db1QMoa0T5XlMn+mUka7FY1YWy&#13;
+WDX5EFCy7fBYTzrdgplK4rBkzrOVQk+c5lkTZmyrRTRkdsMyh/dovufvqfNEkPhXSAXPLruQI9+9&#13;
+89mtTEGtr4VwJG/xm9+0mu/ER5sMhOYM3ooqjQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1032,4 +924,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6bb986cb-4943-4f55-82e5-3113b5e35747" Target="#_c3a394f5-d5c4-429a-a931-c02cd7b3fda3"><Timestamp>2021-03-12 13:10:49</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_91967d7f-d398-460a-b860-338366ae68b6" Target="#_b523a977-e3f2-46dd-ad0e-c7e0c721b0b8"><Timestamp>2021-03-12 17:33:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
