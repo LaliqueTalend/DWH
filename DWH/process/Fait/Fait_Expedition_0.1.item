@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="PROD" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="PROD">
-    <contextParameter comment="" internalId="_XneAAIM0Eeu1GpOM_w4GSw" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_XneAAYM0Eeu1GpOM_w4GSw" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
-    <contextParameter comment="" internalId="_XneAAoM0Eeu1GpOM_w4GSw" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
-    <contextParameter comment="" internalId="_XneAA4M0Eeu1GpOM_w4GSw" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_XneABIM0Eeu1GpOM_w4GSw" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="crpdta"/>
-    <contextParameter comment="" internalId="_XneABYM0Eeu1GpOM_w4GSw" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_XneABoM0Eeu1GpOM_w4GSw" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:CE2VZkYM2fTl+sRu1AsmoGTReiuxyE1Gw1UKsnaTaqXMVvKMS8WJ81QLyls="/>
-    <contextParameter comment="" internalId="_XneAB4M0Eeu1GpOM_w4GSw" name="Modelisation_Login" prompt="Modelisation_Login?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_XneACIM0Eeu1GpOM_w4GSw" name="Modelisation_Database" prompt="Modelisation_Database?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="Modelisation"/>
-    <contextParameter comment="" internalId="_XneACYM0Eeu1GpOM_w4GSw" name="Modelisation_Password" prompt="Modelisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:0bqzH4spH8H+c6hQROc2ShnRHBnnlHRFe+unKAslHWH0Zy7Cx1OxVCM8JUU="/>
-    <contextParameter comment="" internalId="_XneACoM0Eeu1GpOM_w4GSw" name="Modelisation_AdditionalParams" prompt="Modelisation_AdditionalParams?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_XneAC4M0Eeu1GpOM_w4GSw" name="Modelisation_Port" prompt="Modelisation_Port?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="5432"/>
-    <contextParameter comment="" internalId="_XneADIM0Eeu1GpOM_w4GSw" name="Modelisation_Server" prompt="Modelisation_Server?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="10.160.103.199"/>
-    <contextParameter comment="" internalId="_XneADYM0Eeu1GpOM_w4GSw" name="Modelisation_Schema" prompt="Modelisation_Schema?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="modelisation"/>
-    <contextParameter comment="" internalId="_XneADoM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Schema" prompt="Postgres_Talend_Logs_Schema?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="talend"/>
-    <contextParameter comment="" internalId="_XneAD4M0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Server" prompt="Postgres_Talend_Logs_Server?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="10.160.103.199"/>
-    <contextParameter comment="" internalId="_XneAEIM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Database" prompt="Postgres_Talend_Logs_Database?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_XneAEYM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:vJWnFV0Ws4odZMGm+NFqUIrwwPOexBrLocnDhDRGedRvW1xfxcz/KAZhuC4="/>
-    <contextParameter comment="" internalId="_XneAEoM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Port" prompt="Postgres_Talend_Logs_Port?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="5432"/>
-    <contextParameter comment="" internalId="_XneAE4M0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Login" prompt="Postgres_Talend_Logs_Login?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_XneAFIM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_AdditionalParams" prompt="Postgres_Talend_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WY_z0IV7EeutcYr0Nfj-JA" name="Modelisation_AdditionalParams" prompt="Modelisation_AdditionalParams?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WY_z0YV7EeutcYr0Nfj-JA" name="Modelisation_Database" prompt="Modelisation_Database?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="Modelisation"/>
+    <contextParameter comment="" internalId="_WY_z0oV7EeutcYr0Nfj-JA" name="Modelisation_Login" prompt="Modelisation_Login?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WY_z04V7EeutcYr0Nfj-JA" name="Modelisation_Password" prompt="Modelisation_Password?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_Password" value="enc:system.encryption.key.v1:rL8kyBOHQKDJpSpRyGVW/pbpANSuTfUph1NlJKz0rmYaL88ep/OFi5kizR0="/>
+    <contextParameter comment="" internalId="_WY_z1IV7EeutcYr0Nfj-JA" name="Modelisation_Port" prompt="Modelisation_Port?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="5432"/>
+    <contextParameter comment="" internalId="_WY_z1YV7EeutcYr0Nfj-JA" name="Modelisation_Schema" prompt="Modelisation_Schema?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="modelisation"/>
+    <contextParameter comment="" internalId="_WY_z1oV7EeutcYr0Nfj-JA" name="Modelisation_Server" prompt="Modelisation_Server?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="10.160.103.199"/>
+    <contextParameter comment="" internalId="_WZAa4IV7EeutcYr0Nfj-JA" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WZAa4YV7EeutcYr0Nfj-JA" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WZAa4oV7EeutcYr0Nfj-JA" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WZAa44V7EeutcYr0Nfj-JA" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:kDfhHCvGTtNqM2rkPPLWemoS/HbauDLCxxUFmo9enIk5aWSG2oefULqZA44="/>
+    <contextParameter comment="" internalId="_WZAa5IV7EeutcYr0Nfj-JA" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
+    <contextParameter comment="" internalId="_WZAa5YV7EeutcYr0Nfj-JA" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="crpdta"/>
+    <contextParameter comment="" internalId="_WZAa5oV7EeutcYr0Nfj-JA" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
+    <contextParameter comment="" internalId="_WZBB8IV7EeutcYr0Nfj-JA" name="Postgres_Talend_Logs_AdditionalParams" prompt="Postgres_Talend_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WZBB8YV7EeutcYr0Nfj-JA" name="Postgres_Talend_Logs_Database" prompt="Postgres_Talend_Logs_Database?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WZBB8oV7EeutcYr0Nfj-JA" name="Postgres_Talend_Logs_Login" prompt="Postgres_Talend_Logs_Login?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WZBB84V7EeutcYr0Nfj-JA" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:UlAIgwzIhR3Ob899KcJVfAv1jvl1NZ8ZHnlv74pEkMh2r8A8DGi5B9kfZaE="/>
+    <contextParameter comment="" internalId="_WZBB9IV7EeutcYr0Nfj-JA" name="Postgres_Talend_Logs_Port" prompt="Postgres_Talend_Logs_Port?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="5432"/>
+    <contextParameter comment="" internalId="_WZBB9YV7EeutcYr0Nfj-JA" name="Postgres_Talend_Logs_Schema" prompt="Postgres_Talend_Logs_Schema?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="talend"/>
+    <contextParameter comment="" internalId="_WZBB9oV7EeutcYr0Nfj-JA" name="Postgres_Talend_Logs_Server" prompt="Postgres_Talend_Logs_Server?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="10.160.103.199"/>
   </context>
   <context confirmationNeeded="false" name="DEV">
-    <contextParameter comment="" internalId="_XneAFYM0Eeu1GpOM_w4GSw" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_XneAFoM0Eeu1GpOM_w4GSw" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
-    <contextParameter comment="" internalId="_XneAF4M0Eeu1GpOM_w4GSw" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
-    <contextParameter comment="" internalId="_XneAGIM0Eeu1GpOM_w4GSw" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_XneAGYM0Eeu1GpOM_w4GSw" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="crpdta"/>
-    <contextParameter comment="" internalId="_XneAGoM0Eeu1GpOM_w4GSw" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_XnfOIIM0Eeu1GpOM_w4GSw" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:HSV2W9aAvlqqaumzupQNMKlOID7KWVon5duZjjJwNpKa23q3JLiJvrKN09U="/>
-    <contextParameter comment="" internalId="_XnfOIYM0Eeu1GpOM_w4GSw" name="Modelisation_Login" prompt="Modelisation_Login?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_XnfOIoM0Eeu1GpOM_w4GSw" name="Modelisation_Database" prompt="Modelisation_Database?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="Modelisation"/>
-    <contextParameter comment="" internalId="_XnfOI4M0Eeu1GpOM_w4GSw" name="Modelisation_Password" prompt="Modelisation_Password?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_Password" value="enc:system.encryption.key.v1:ES+vIkFgMaR6+7QbX8EaI68TB0g51KtAKERIPF0R/GwzJU9M+1I+duZZjVk="/>
-    <contextParameter comment="" internalId="_XnfOJIM0Eeu1GpOM_w4GSw" name="Modelisation_AdditionalParams" prompt="Modelisation_AdditionalParams?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_XnfOJYM0Eeu1GpOM_w4GSw" name="Modelisation_Port" prompt="Modelisation_Port?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="5432"/>
-    <contextParameter comment="" internalId="_XnfOJoM0Eeu1GpOM_w4GSw" name="Modelisation_Server" prompt="Modelisation_Server?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="10.160.103.199"/>
-    <contextParameter comment="" internalId="_XnfOJ4M0Eeu1GpOM_w4GSw" name="Modelisation_Schema" prompt="Modelisation_Schema?" promptNeeded="false" repositoryContextId="_Am9RYEf5EeqPAJ3B0zREfw" type="id_String" value="modelisation"/>
-    <contextParameter comment="" internalId="_XnfOKIM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Schema" prompt="Postgres_Talend_Logs_Schema?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="talend"/>
-    <contextParameter comment="" internalId="_XnfOKYM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Server" prompt="Postgres_Talend_Logs_Server?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="10.160.103.199"/>
-    <contextParameter comment="" internalId="_XnfOKoM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Database" prompt="Postgres_Talend_Logs_Database?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_XnfOK4M0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:0ZYAVyw8KdACe6pi4i7yzXKhyFpF30ydjPywsjJGiASHmY0oYQJw2/8fK2s="/>
-    <contextParameter comment="" internalId="_XnfOLIM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Port" prompt="Postgres_Talend_Logs_Port?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="5432"/>
-    <contextParameter comment="" internalId="_XnfOLYM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_Login" prompt="Postgres_Talend_Logs_Login?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
-    <contextParameter comment="" internalId="_XnfOLoM0Eeu1GpOM_w4GSw" name="Postgres_Talend_Logs_AdditionalParams" prompt="Postgres_Talend_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WZBB94V7EeutcYr0Nfj-JA" name="Modelisation_AdditionalParams" prompt="Modelisation_AdditionalParams?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WZBB-IV7EeutcYr0Nfj-JA" name="Modelisation_Database" prompt="Modelisation_Database?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="Modelisation"/>
+    <contextParameter comment="" internalId="_WZBB-YV7EeutcYr0Nfj-JA" name="Modelisation_Login" prompt="Modelisation_Login?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WZBB-oV7EeutcYr0Nfj-JA" name="Modelisation_Password" prompt="Modelisation_Password?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_Password" value="enc:system.encryption.key.v1:IpM48EDwrcQHsFiDgc/b0CIjCh6fzdLnBP4DdNRXPOitoizbNOKC8Lv/lsk="/>
+    <contextParameter comment="" internalId="_WZBB-4V7EeutcYr0Nfj-JA" name="Modelisation_Port" prompt="Modelisation_Port?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="5432"/>
+    <contextParameter comment="" internalId="_WZBB_IV7EeutcYr0Nfj-JA" name="Modelisation_Schema" prompt="Modelisation_Schema?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="modelisation"/>
+    <contextParameter comment="" internalId="_WZBB_YV7EeutcYr0Nfj-JA" name="Modelisation_Server" prompt="Modelisation_Server?" promptNeeded="false" repositoryContextId="_D6j7EIM1Eeu1GpOM_w4GSw" type="id_String" value="10.160.103.199"/>
+    <contextParameter comment="" internalId="_WZBB_oV7EeutcYr0Nfj-JA" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WZBB_4V7EeutcYr0Nfj-JA" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WZBCAIV7EeutcYr0Nfj-JA" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WZBpAIV7EeutcYr0Nfj-JA" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_Password" value="enc:system.encryption.key.v1:mr1mSUYtllAu/+ddIsQNVR4MazaSkApq+k5gN5Lv19byZBDQSeW99qjgaQA="/>
+    <contextParameter comment="" internalId="_WZBpAYV7EeutcYr0Nfj-JA" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="5432"/>
+    <contextParameter comment="" internalId="_WZBpAoV7EeutcYr0Nfj-JA" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="crpdta"/>
+    <contextParameter comment="" internalId="_WZBpA4V7EeutcYr0Nfj-JA" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_TiwG4DFZEeqxTqTSvH9EqA" type="id_String" value="10.160.103.199"/>
+    <contextParameter comment="" internalId="_WZBpBIV7EeutcYr0Nfj-JA" name="Postgres_Talend_Logs_AdditionalParams" prompt="Postgres_Talend_Logs_AdditionalParams?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_WZBpBYV7EeutcYr0Nfj-JA" name="Postgres_Talend_Logs_Database" prompt="Postgres_Talend_Logs_Database?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WZBpBoV7EeutcYr0Nfj-JA" name="Postgres_Talend_Logs_Login" prompt="Postgres_Talend_Logs_Login?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="datawarehouse"/>
+    <contextParameter comment="" internalId="_WZBpB4V7EeutcYr0Nfj-JA" name="Postgres_Talend_Logs_Password" prompt="Postgres_Talend_Logs_Password?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_Password" value="enc:system.encryption.key.v1:zCV5hAUqE6EaL1pSdNkAZAjI32JCQ7UsvlTkawqwspP3M3gbrdt2YXi2flQ="/>
+    <contextParameter comment="" internalId="_WZBpCIV7EeutcYr0Nfj-JA" name="Postgres_Talend_Logs_Port" prompt="Postgres_Talend_Logs_Port?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="5432"/>
+    <contextParameter comment="" internalId="_WZBpCYV7EeutcYr0Nfj-JA" name="Postgres_Talend_Logs_Schema" prompt="Postgres_Talend_Logs_Schema?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="talend"/>
+    <contextParameter comment="" internalId="_WZBpCoV7EeutcYr0Nfj-JA" name="Postgres_Talend_Logs_Server" prompt="Postgres_Talend_Logs_Server?" promptNeeded="false" repositoryContextId="_DRFUsCjqEeuiZL3FWMWX7A" type="id_String" value="10.160.103.199"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -88,7 +88,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:XKXs511jAM3Cpux8rAkNpQMF81WNRcklGeR0OJyY"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:zHnT9N6NhSWdImrMPMeb7DE4dDb6KvmTdXEucV4z"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -125,7 +125,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.Postgres_Talend_Logs_AdditionalParams"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Postgres_Talend_Logs_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Postgres_Talend_Logs_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Ypm76SncvOWFRx7Il0Plo9RfB6Gl2O/BueosUoaqcH92JqoY+xPvxdXoWjzNIT4nJxwXQcQkGA5TeA++VEZ9J7U="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lyL3y5PbNYL/OQf313FjMN6WdLvPL3HiLfSBsExtyCVlnAFgAbbq3vzEkjjF6XyprkxL2d7Ytv7lnKrNNyQTiWw="/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;talend_stat&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;talend_log&quot;"/>
@@ -166,7 +166,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.Postgres_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Postgres_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:DYBDwJe3FYpvc/VrZ6hTieyqwBi/cHdaBwcszF93XnDj5juo1/GgLYupBoY9p3upU38Qt5s="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:/98Er0gYPcURJsJ7Rl/VETsYYxkq+eWcGcBnV3jiN4pcCdiNmylPmGELgXtoCzYJl0N+2QQ="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -179,7 +179,7 @@
     <elementParameter field="TEXT" name="LABEL" value="Postgres"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="288">
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_4"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_MC4UwAFxEeqyKvuObbcQGw"/>
@@ -192,7 +192,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;datawarehouse&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;CRPDTA&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;datawarehouse&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:qacCrnkFYQ84dHoMaP+9i2olXyBN6BR4sz/ePqvR1CiB0Hg4HL3SUlnd+M5iPA=="/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:xPiZ9BBMAi2Mlr0MNMWIy/7Utdgr5aAzNV01zF8FN2f8P+eGE18pzKztspo4UQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f4215&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -361,232 +361,84 @@
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="F4215" name="tDBInput_4">
-      <column comment="" key="true" length="20" name="XHSHPN" nullable="false" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2" name="XHSSTS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="15" name="XHPNID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="18" name="XHHLCF" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="5" name="XHPKCD" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2" name="XHWGQ" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="20" name="XHWGTS" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2" name="XHWGTU" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2" name="XHIDQ1" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="17" name="XHID1" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2" name="XHIDQ2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="17" name="XHID2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="3" name="XHMOT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="35" name="XHROTE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2" name="XHEQCD" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="4" name="XHEQIN" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="XHEQNB" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2" name="XHASNA" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="6" name="XHASND" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="XHASNT" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="12" name="XHMCU" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="12" name="XHNMCU" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="XHORGN" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="1" name="XHSRCO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="1" name="XHBPFG" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="9" name="XHAEXP" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_Float" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="9" name="XHECST" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_Float" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="9" name="XHDRQJ" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="XHDRQT" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="6" name="XHRSDJ" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="XHRSDT" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="1" name="XHPDOV" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="XHAN8" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="XHSHAN" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="40" name="XHCTY1" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="3" name="XHADDS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="12" name="XHADDZ" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="3" name="XHCTR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="3" name="XHZON" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="3" name="XHSCT1" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="3" name="XHSCT2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="3" name="XHSCT3" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="XHCAR1" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="XHCAR2" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="XHCAR3" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="1" name="XHILEL" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="3" name="XHFRTH" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="8" name="XHFRSC" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="1" name="XHDLLV" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="1" name="XHRSLT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="1" name="XHBFSD" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="XHDSTN" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2" name="XHUMD1" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="XHNRTS" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="XHUSER" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="XHPID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="XHJOBN" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="6" name="XHUPMJ" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="XHTDAY" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="40" name="XHCTYO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="3" name="XHADSO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="12" name="XHADZO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="3" name="XHCTRO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="3" name="XHSC1O" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="3" name="XHSC2O" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="3" name="XHSC3O" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="XHAETC" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="3" name="XHETRSC" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="3" name="XHETRC" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2" name="XHURCD" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="6" name="XHURDT" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="XHURAT" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="XHURAB" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="15" name="XHURRF" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
+    <metadata connector="FLOW" name="tDBInput_4">
+      <column comment="" defaultValue="" key="false" length="8" name="XHSHPN" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="XHSSTS" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="XHPNID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="XHHLCF" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="XHPKCD" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="XHWGQ" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="XHWGTS" nullable="true" originalLength="-1" pattern="" precision="4" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="XHWGTU" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="XHIDQ1" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="XHID1" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="XHIDQ2" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="XHID2" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="XHMOT" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="35" name="XHROTE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="XHEQCD" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="4" name="XHEQIN" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="XHEQNB" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="XHASNA" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="13" name="XHASND" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="7" name="XHASNT" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="12" name="XHMCU" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="12" name="XHNMCU" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="XHORGN" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="XHSRCO" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="XHBPFG" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="XHAEXP" nullable="true" originalLength="-1" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="XHECST" nullable="true" originalLength="-1" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="13" name="XHDRQJ" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="6" name="XHDRQT" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="13" name="XHRSDJ" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="6" name="XHRSDT" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="XHPDOV" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="XHAN8" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="XHSHAN" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="25" name="XHCTY1" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="XHADDS" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="12" name="XHADDZ" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="XHCTR" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="XHZON" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="XHSCT1" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="XHSCT2" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="XHSCT3" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="XHCAR1" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="XHCAR2" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="XHCAR3" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="XHILEL" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="XHFRTH" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="XHFRSC" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="XHDLLV" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="XHRSLT" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="XHBFSD" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="XHDSTN" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="XHUMD1" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="XHNRTS" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="XHUSER" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="XHPID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="XHJOBN" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="13" name="XHUPMJ" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="6" name="XHTDAY" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="25" name="XHCTYO" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="XHADSO" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="12" name="XHADZO" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="XHCTRO" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="XHSC1O" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="XHSC2O" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="XHSC3O" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="XHAETC" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="XHETRSC" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="XHETRC" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="XHURCD" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="13" name="XHURDT" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="XHURAT" nullable="true" originalLength="-1" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="XHURAB" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="XHURRF" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="160">
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_MC4UwAFxEeqyKvuObbcQGw"/>
@@ -599,9 +451,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="context.Postgres_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="USER" show="false" value="context.Postgres_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:MNPREzZP6x1t32utL/4VGOeBNdtCMP18MpILUx+62zTiuIixMMLq94WgWc/IzMg5Tm2F4qc="/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_MC4UwAFxEeqyKvuObbcQGw - f4620"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:29AX4/cOvbtyhemI7BWLAiZr+xX78FmU7UGFL4FIiQ16G05MjQ1aG3i+zggA+V+6qsxfFAY="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;f4620&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -752,205 +602,75 @@
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="f4620" name="tDBInput_1">
-      <column key="true" length="10" name="CDUKID" nullable="false" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDCROS" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDCRID" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDITM" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="30" name="CDLOT" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="2" name="CDUOM" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDDOCO" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="2" name="CDDCTO" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="5" name="CDKCOO" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDLNID" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="3" name="CDSFXO" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="2" name="CDCRSS" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="12" name="CDMCU" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDTQTY" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDWEIT" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDSHPN" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDRSSN" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="40" name="CDCTSN" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="5" name="CDSNTY" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="1" name="CDRFIDF" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDOSEQ" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="18" name="CDPLT" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="18" name="CDPAK" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="14" name="CDSCCN" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="2" name="CDSCUM" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDSCCQ" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDITWT" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="13" name="CDUPCN" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="2" name="CDUPUM" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDUPQT" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDCNV5" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDPTSK" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="5" name="CDEQTY" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDMAXW" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDGWEI" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDGRWT" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDAWGT" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="2" name="CDUWUM" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDLGTS" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDWTHS" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDHGTS" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="2" name="CDLUOM" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="2" name="CDURCD" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="6" name="CDURDT" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDURAT" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDURAB" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="15" name="CDURRF" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDUSER" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDPID" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDJOBN" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="6" name="CDUPMJ" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDTDAY" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="25" name="CDCEQT" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDCTNI" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="25" name="CDASID" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="3" name="CDLDTAI" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="1" name="CDCSOC" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="1" name="CDEXCN" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="5" name="CDPKCD" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="15" name="CDPSJOBNO" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="15" name="CDJOBSQ" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="6" name="CDDELBATCH" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="1" name="CDPRFCTN" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDCTNNUM" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column key="false" length="10" name="CDCTNLT" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
+    <metadata connector="FLOW" name="tDBInput_1">
+      <column comment="" defaultValue="" key="false" length="15" name="CDUKID" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CDCROS" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CDCRID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="CDITM" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="CDLOT" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="CDUOM" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="CDDOCO" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="CDDCTO" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="CDKCOO" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="12" name="CDLNID" nullable="true" originalLength="-1" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CDSFXO" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="CDCRSS" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="12" name="CDMCU" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CDTQTY" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CDWEIT" nullable="true" originalLength="-1" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="CDSHPN" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="CDRSSN" nullable="true" originalLength="-1" pattern="" precision="1" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="40" name="CDCTSN" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="CDSNTY" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="CDRFIDF" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="4" name="CDOSEQ" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="18" name="CDPLT" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="18" name="CDPAK" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="14" name="CDSCCN" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="CDSCUM" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CDSCCQ" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CDITWT" nullable="true" originalLength="-1" pattern="" precision="4" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="13" name="CDUPCN" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="CDUPUM" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CDUPQT" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CDCNV5" nullable="true" originalLength="-1" pattern="" precision="7" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="CDPTSK" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="CDEQTY" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CDMAXW" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CDGWEI" nullable="true" originalLength="-1" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CDGRWT" nullable="true" originalLength="-1" pattern="" precision="4" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CDAWGT" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="CDUWUM" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CDLGTS" nullable="true" originalLength="-1" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CDWTHS" nullable="true" originalLength="-1" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CDHGTS" nullable="true" originalLength="-1" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="CDLUOM" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="CDURCD" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="13" name="CDURDT" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CDURAT" nullable="true" originalLength="-1" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="CDURAB" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CDURRF" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="CDUSER" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="CDPID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="CDJOBN" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="13" name="CDUPMJ" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="6" name="CDTDAY" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="25" name="CDCEQT" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="CDCTNI" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="25" name="CDASID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="CDLDTAI" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="CDCSOC" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="CDEXCN" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="CDPKCD" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CDPSJOBNO" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CDJOBSQ" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="6" name="CDDELBATCH" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="CDPRFCTN" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="4" name="CDCTNNUM" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="4" name="CDCTNLT" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="352" posY="288">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="416" posY="288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_2"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
@@ -964,12 +684,12 @@
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="out1">
+    <metadata connector="FLOW" name="fait_expedition">
       <column comment="" key="false" length="10" name="source" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="numexpedition" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" key="false" length="8" name="numexpedition" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="statutexpedition" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="2" name="statutexpedition" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="15" name="codeclientlivre" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -981,31 +701,31 @@
       <column comment="" key="false" length="12" name="depotsexpedition" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="14" name="prixtotal" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_Float" usefulColumn="true">
+      <column comment="" key="false" length="21" name="prixtotal" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="14" name="couttotal" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_Float" usefulColumn="true">
+      <column comment="" key="false" length="21" name="couttotal" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="datedemande" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="8" name="datedemande" nullable="true" pattern="" precision="-1" sourceType="NUMERIC" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="14" name="poidsexpedition" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" key="false" length="21" name="poidsexpedition" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="idcarton" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="idcarton" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="codearticletechnique" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="8" name="codearticletechnique" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="numerocommande" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="8" name="numerocommande" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="2" name="typecommande" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="numeroligne" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="12" name="numeroligne" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="2" name="statuscarton" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -1014,34 +734,34 @@
       <column key="false" length="12" name="magasin" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="quantite" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="quantite" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="40" name="sscccarton" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="quantiteUPC" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="quantiteUPC" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="5" name="codecarton" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="poidsarticle" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="poidsarticle" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="poidscarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="poidscarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="2" name="unitepoids" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="longueurcarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="longueurcarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="largeurcarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="largeurcarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="hauteurcarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="hauteurcarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="2" name="unitedimention" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -1052,42 +772,42 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables name="Var" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="Numeric.sequence(row2.XHSHPN.toString(),1,1) " name="id" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="Numeric.sequence(f4215.XHSHPN.toString(),1,1) " name="id" nullable="true" type="id_Integer"/>
       </varTables>
-      <outputTables activateExpressionFilter="true" expressionFilter="Relational.ISNULL(row2.XHSSTS) ? true : (Double.parseDouble(row2.XHSSTS) &lt; 99d )" name="out1" sizeState="INTERMEDIATE">
+      <outputTables activateExpressionFilter="true" expressionFilter="Relational.ISNULL(f4215.XHSSTS) ? true : ((f4215.XHSSTS).compareTo(new BigDecimal(99)) &lt;0 )" name="fait_expedition" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="&quot;JDE&quot; " name="source" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.XHSHPN  " name="numexpedition" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row2.XHSSTS  " name="statutexpedition" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.XHPNID  " name="codeclientlivre" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.XHMCU  " name="centrecouts" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.XHNMCU  " name="depotsexpedition" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="Relational.ISNULL(Var.id) || Var.id == 1 ? (row2.XHAEXP != 0 ?row2.XHAEXP/100 : row2.XHAEXP) : null " name="prixtotal" nullable="true" type="id_Float"/>
-        <mapperTableEntries expression="Relational.ISNULL(Var.id) || Var.id == 1 ? (row2.XHECST != 0 ? row2.XHECST/100 : row2.XHECST) : null " name="couttotal" nullable="true" type="id_Float"/>
-        <mapperTableEntries expression="Relational.ISNULL(row2.XHDRQJ) ? null : TalendDate.formatDate(&quot;yyyyMMdd&quot;,row2.XHDRQJ)  " name="datedemande" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="Relational.ISNULL(Var.id) || Var.id == 1 ? (row2.XHWGTS.compareTo(new BigDecimal(0)) == 0 ? row2.XHWGTS : row2.XHWGTS.divide(new BigDecimal (10000),9,0)) : null " name="poidsexpedition" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row1.CDCRID  " name="idcarton" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row1.CDITM  " name="codearticletechnique" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row1.CDDOCO  " name="numerocommande" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row1.CDDCTO  " name="typecommande" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.CDLNID  " name="numeroligne" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row1.CDCRSS  " name="statuscarton" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.CDMCU  " name="magasin" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="Relational.ISNULL(row1.CDTQTY) || (row1.CDTQTY.compareTo(new BigDecimal (0)) == 0) ? row1.CDTQTY : row1.CDTQTY.divide(new BigDecimal(10000),9,0)  " name="quantite" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row1.CDCTSN  " name="sscccarton" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="Relational.ISNULL(row1.CDUPQT) || (row1.CDUPQT.compareTo(new BigDecimal (0)) == 0) ? row1.CDUPQT : row1.CDUPQT.divide(new BigDecimal(10000),9,0)  " name="quantiteUPC" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row1.CDEQTY  " name="codecarton" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="Relational.ISNULL(row1.CDGWEI) || (row1.CDGWEI.compareTo(new BigDecimal (0)) == 0) ? row1.CDGWEI : row1.CDGWEI.divide(new BigDecimal(100),9,0)  " name="poidsarticle" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="Relational.ISNULL(row1.CDGRWT) || (row1.CDGRWT.compareTo(new BigDecimal (0)) == 0) ? row1.CDGRWT : row1.CDGRWT.divide(new BigDecimal(10000),9,0)  " name="poidscarton" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row1.CDUWUM  " name="unitepoids" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="Relational.ISNULL(row1.CDLGTS) || (row1.CDLGTS.compareTo(new BigDecimal (0)) == 0) ? row1.CDLGTS : row1.CDLGTS.divide(new BigDecimal(100),9,0)  " name="longueurcarton" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="Relational.ISNULL(row1.CDWTHS) || (row1.CDWTHS.compareTo(new BigDecimal (0)) == 0) ? row1.CDWTHS : row1.CDWTHS.divide(new BigDecimal(100),9,0) " name="largeurcarton" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="Relational.ISNULL(row1.CDHGTS) || (row1.CDHGTS.compareTo(new BigDecimal (0)) == 0) ? row1.CDHGTS : row1.CDHGTS.divide(new BigDecimal(100),9,0)  " name="hauteurcarton" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row1.CDLUOM  " name="unitedimention" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.CDURCD  " name="statuscolisage" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="f4215.XHSHPN  " name="numexpedition" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="f4215.XHSSTS  " name="statutexpedition" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="f4215.XHPNID  " name="codeclientlivre" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="f4215.XHMCU  " name="centrecouts" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="f4215.XHNMCU  " name="depotsexpedition" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Relational.ISNULL(Var.id) || Var.id == 1 ? (Relational.ISNULL(f4215.XHAEXP) || f4215.XHAEXP.compareTo(new BigDecimal(0)) == 0 ? f4215.XHAEXP : f4215.XHAEXP.divide(new BigDecimal(100))) : null " name="prixtotal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Relational.ISNULL(Var.id) || Var.id == 1 ? (Relational.ISNULL(f4215.XHECST) || f4215.XHECST.compareTo(new BigDecimal(0)) == 0 ? f4215.XHECST : f4215.XHECST.divide(new BigDecimal(100))) : null " name="couttotal" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Relational.ISNULL(f4215.XHDRQJ) ? null : TalendDate.formatDate(&quot;yyyyMMdd&quot;,f4215.XHDRQJ)  " name="datedemande" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Relational.ISNULL(Var.id) || Var.id == 1 ? (Relational.ISNULL(f4215.XHWGTS) || f4215.XHWGTS.compareTo(new BigDecimal(0)) == 0 ? f4215.XHWGTS : f4215.XHWGTS.divide(new BigDecimal((10000),9,0)) : null " name="poidsexpedition" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="f4620.CDCRID  " name="idcarton" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="f4620.CDITM  " name="codearticletechnique" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="f4620.CDDOCO  " name="numerocommande" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="f4620.CDDCTO  " name="typecommande" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="f4620.CDLNID  " name="numeroligne" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="f4620.CDCRSS  " name="statuscarton" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="f4620.CDMCU  " name="magasin" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Relational.ISNULL(f4620.CDTQTY) || (f4620.CDTQTY.compareTo(new BigDecimal (0)) == 0) ? f4620.CDTQTY : f4620.CDTQTY.divide(new BigDecimal(10000),9,0)  " name="quantite" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="f4620.CDCTSN  " name="sscccarton" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Relational.ISNULL(f4620.CDUPQT) || (f4620.CDUPQT.compareTo(new BigDecimal (0)) == 0) ? f4620.CDUPQT : f4620.CDUPQT.divide(new BigDecimal(10000),9,0)  " name="quantiteUPC" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="f4620.CDEQTY  " name="codecarton" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Relational.ISNULL(f4620.CDGWEI) || (f4620.CDGWEI.compareTo(new BigDecimal (0)) == 0) ? f4620.CDGWEI : f4620.CDGWEI.divide(new BigDecimal(100),9,0)  " name="poidsarticle" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Relational.ISNULL(f4620.CDGRWT) || (f4620.CDGRWT.compareTo(new BigDecimal (0)) == 0) ? f4620.CDGRWT : f4620.CDGRWT.divide(new BigDecimal(10000),9,0)  " name="poidscarton" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="f4620.CDUWUM  " name="unitepoids" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Relational.ISNULL(f4620.CDLGTS) || (f4620.CDLGTS.compareTo(new BigDecimal (0)) == 0) ? f4620.CDLGTS : f4620.CDLGTS.divide(new BigDecimal(100),9,0)  " name="longueurcarton" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Relational.ISNULL(f4620.CDWTHS) || (f4620.CDWTHS.compareTo(new BigDecimal (0)) == 0) ? f4620.CDWTHS : f4620.CDWTHS.divide(new BigDecimal(100),9,0) " name="largeurcarton" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Relational.ISNULL(f4620.CDHGTS) || (f4620.CDHGTS.compareTo(new BigDecimal (0)) == 0) ? f4620.CDHGTS : f4620.CDHGTS.divide(new BigDecimal(100),9,0)  " name="hauteurcarton" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="f4620.CDLUOM  " name="unitedimention" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="f4620.CDURCD  " name="statuscolisage" nullable="true" type="id_String"/>
       </outputTables>
-      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row2" sizeState="INTERMEDIATE">
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="f4215" sizeState="INTERMEDIATE">
         <mapperTableEntries name="XHSHPN" type="id_BigDecimal"/>
         <mapperTableEntries name="XHSSTS" nullable="true" type="id_String"/>
         <mapperTableEntries name="XHPNID" nullable="true" type="id_String"/>
@@ -1106,18 +826,18 @@
         <mapperTableEntries name="XHEQIN" nullable="true" type="id_String"/>
         <mapperTableEntries name="XHEQNB" nullable="true" type="id_String"/>
         <mapperTableEntries name="XHASNA" nullable="true" type="id_String"/>
-        <mapperTableEntries name="XHASND" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="XHASND" nullable="true" type="id_Date"/>
         <mapperTableEntries name="XHASNT" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="XHMCU" nullable="true" type="id_String"/>
         <mapperTableEntries name="XHNMCU" nullable="true" type="id_String"/>
         <mapperTableEntries name="XHORGN" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="XHSRCO" nullable="true" type="id_String"/>
         <mapperTableEntries name="XHBPFG" nullable="true" type="id_String"/>
-        <mapperTableEntries name="XHAEXP" nullable="true" type="id_Float"/>
-        <mapperTableEntries name="XHECST" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="XHAEXP" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="XHECST" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="XHDRQJ" nullable="true" type="id_Date"/>
         <mapperTableEntries name="XHDRQT" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries name="XHRSDJ" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="XHRSDJ" nullable="true" type="id_Date"/>
         <mapperTableEntries name="XHRSDT" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="XHPDOV" nullable="true" type="id_String"/>
         <mapperTableEntries name="XHAN8" nullable="true" type="id_BigDecimal"/>
@@ -1145,7 +865,7 @@
         <mapperTableEntries name="XHUSER" nullable="true" type="id_String"/>
         <mapperTableEntries name="XHPID" nullable="true" type="id_String"/>
         <mapperTableEntries name="XHJOBN" nullable="true" type="id_String"/>
-        <mapperTableEntries name="XHUPMJ" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="XHUPMJ" nullable="true" type="id_Date"/>
         <mapperTableEntries name="XHTDAY" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="XHCTYO" nullable="true" type="id_String"/>
         <mapperTableEntries name="XHADSO" nullable="true" type="id_String"/>
@@ -1158,12 +878,12 @@
         <mapperTableEntries name="XHETRSC" nullable="true" type="id_String"/>
         <mapperTableEntries name="XHETRC" nullable="true" type="id_String"/>
         <mapperTableEntries name="XHURCD" nullable="true" type="id_String"/>
-        <mapperTableEntries name="XHURDT" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="XHURDT" nullable="true" type="id_Date"/>
         <mapperTableEntries name="XHURAT" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="XHURAB" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="XHURRF" nullable="true" type="id_String"/>
       </inputTables>
-      <inputTables activateCondensedTool="true" columnNameFilter="" lookupMode="LOAD_ONCE" matchingMode="ALL_MATCHES" name="row1" sizeState="INTERMEDIATE">
+      <inputTables activateCondensedTool="true" columnNameFilter="" lookupMode="LOAD_ONCE" matchingMode="ALL_MATCHES" name="f4620" sizeState="INTERMEDIATE">
         <mapperTableEntries name="CDUKID" type="id_BigDecimal"/>
         <mapperTableEntries name="CDCROS" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="CDCRID" nullable="true" type="id_BigDecimal"/>
@@ -1179,7 +899,7 @@
         <mapperTableEntries name="CDMCU" nullable="true" type="id_String"/>
         <mapperTableEntries name="CDTQTY" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="CDWEIT" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries expression="row2.XHSHPN " name="CDSHPN" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="f4215.XHSHPN " name="CDSHPN" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="CDRSSN" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="CDCTSN" nullable="true" type="id_String"/>
         <mapperTableEntries name="CDSNTY" nullable="true" type="id_String"/>
@@ -1207,14 +927,14 @@
         <mapperTableEntries name="CDHGTS" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="CDLUOM" nullable="true" type="id_String"/>
         <mapperTableEntries name="CDURCD" nullable="true" type="id_String"/>
-        <mapperTableEntries name="CDURDT" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="CDURDT" nullable="true" type="id_Date"/>
         <mapperTableEntries name="CDURAT" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="CDURAB" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="CDURRF" nullable="true" type="id_String"/>
         <mapperTableEntries name="CDUSER" nullable="true" type="id_String"/>
         <mapperTableEntries name="CDPID" nullable="true" type="id_String"/>
         <mapperTableEntries name="CDJOBN" nullable="true" type="id_String"/>
-        <mapperTableEntries name="CDUPMJ" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="CDUPMJ" nullable="true" type="id_Date"/>
         <mapperTableEntries name="CDTDAY" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries name="CDCEQT" nullable="true" type="id_String"/>
         <mapperTableEntries name="CDCTNI" nullable="true" type="id_BigDecimal"/>
@@ -1232,10 +952,10 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="288">
+  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_2"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_dnczsAeQEeqlibJAbnRRoA"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_qt8hoIM0Eeu1GpOM_w4GSw"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
@@ -1245,7 +965,7 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Modelisation_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Modelisation_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:7AHKDX19Ehya5sdrRUUYPELJk38WJCcTY+c5DXvxffgVr+DnMQOsl+HylPWJgAuWqPu63/M8YKwb"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:/A598ZfAx2wrBFliWk+4YIA0GQWAIeS+zr0BfKfPUx1wRNLNwU6IT5041yUoG9M0Y8PsmRJylTN2"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;fait_expedition&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1422,10 +1142,10 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_2">
       <column comment="" key="false" length="10" name="source" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="numexpedition" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" key="false" length="8" name="numexpedition" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="statutexpedition" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="2" name="statutexpedition" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="15" name="codeclientlivre" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -1437,31 +1157,31 @@
       <column comment="" key="false" length="12" name="depotsexpedition" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="14" name="prixtotal" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_Float" usefulColumn="true">
+      <column comment="" key="false" length="21" name="prixtotal" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="14" name="couttotal" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_Float" usefulColumn="true">
+      <column comment="" key="false" length="21" name="couttotal" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="datedemande" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="8" name="datedemande" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="14" name="poidsexpedition" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" key="false" length="21" name="poidsexpedition" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="idcarton" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="idcarton" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="codearticletechnique" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="8" name="codearticletechnique" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="numerocommande" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="8" name="numerocommande" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="2" name="typecommande" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="numeroligne" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="12" name="numeroligne" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="2" name="statuscarton" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -1470,34 +1190,34 @@
       <column key="false" length="12" name="magasin" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="quantite" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="quantite" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="40" name="sscccarton" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="quantiteUPC" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="quantiteUPC" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="5" name="codecarton" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="poidsarticle" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="poidsarticle" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="poidscarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="poidscarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="2" name="unitepoids" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="longueurcarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="longueurcarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="largeurcarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="largeurcarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="hauteurcarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="hauteurcarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="2" name="unitedimention" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -1509,10 +1229,10 @@
     </metadata>
     <metadata connector="REJECT" name="REJECT">
       <column comment="" key="false" length="10" name="source" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="numexpedition" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" key="false" length="8" name="numexpedition" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="statutexpedition" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="2" name="statutexpedition" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="15" name="codeclientlivre" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -1524,31 +1244,31 @@
       <column comment="" key="false" length="12" name="depotsexpedition" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="14" name="prixtotal" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_Float" usefulColumn="true">
+      <column comment="" key="false" length="21" name="prixtotal" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="14" name="couttotal" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_Float" usefulColumn="true">
+      <column comment="" key="false" length="21" name="couttotal" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="datedemande" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="8" name="datedemande" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="14" name="poidsexpedition" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" key="false" length="21" name="poidsexpedition" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="idcarton" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="idcarton" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="codearticletechnique" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="8" name="codearticletechnique" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="numerocommande" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="8" name="numerocommande" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="2" name="typecommande" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="numeroligne" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="12" name="numeroligne" nullable="true" pattern="" precision="0" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="2" name="statuscarton" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -1557,34 +1277,34 @@
       <column key="false" length="12" name="magasin" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="quantite" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="quantite" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="40" name="sscccarton" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="quantiteUPC" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="quantiteUPC" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="5" name="codecarton" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="poidsarticle" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="poidsarticle" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="poidscarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="poidscarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="2" name="unitepoids" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="longueurcarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="longueurcarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="largeurcarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="largeurcarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="10" name="hauteurcarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
+      <column key="false" length="15" name="hauteurcarton" nullable="true" pattern="" precision="5" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column key="false" length="2" name="unitedimention" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -1600,17 +1320,17 @@
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tDBInput_4">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
   </connection>
-  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tDBInput_4" offsetLabelX="0" offsetLabelY="0" source="tDBInput_4" target="tMap_2">
+  <connection connectorName="FLOW" label="f4215" lineStyle="0" metaname="tDBInput_4" offsetLabelX="0" offsetLabelY="0" source="tDBInput_4" target="tMap_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="f4215"/>
   </connection>
-  <connection connectorName="FLOW" label="row1" lineStyle="8" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_2">
+  <connection connectorName="FLOW" label="f4620" lineStyle="8" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="f4620"/>
   </connection>
-  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tDBOutput_2">
+  <connection connectorName="FLOW" label="fait_expedition" lineStyle="0" metaname="fait_expedition" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tDBOutput_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out1"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="fait_expedition"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
@@ -1622,13 +1342,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_104df0b3-4122-40d0-bdb7-c9a5f10cacd3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>sUGhh1gVWMWx7To33pgHkstwjzSj+bzljac3JLlOJh2SZ5qMYuF6dAGDxPcg5xxHFGwbh7UQMEGs&#13;
-Ow5HxlxwWw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1bf0d74e-5b17-41db-99b6-2a2e97f0b1eb"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Q1FYm4soA25c6ikSrbfVj3rVufUnRwheoPmxUakC+4dm6Ox0bGbcKLFN4+1zybMaptzocy6brx23&#13;
-mSrWNH2BBA==</DigestValue></Reference></SignedInfo><SignatureValue>ouhBQGUH38nK9nj2/iP1Hf/NNhA5xEPL1DWE1/y2K6TYN5AcwXBWU/cwTN2aTdVnN36TGgzj+cEM&#13;
-Ny9iwaxgEgWfCenwyD86Y6vX2x6e8II4/F3KKwu0j1LRFYVYe9SBVBNnb3BZMEH1UC4lqNEqQE07&#13;
-sukxnwWPo7RfJAbh8emX0BqRIssqafQgXg7jFn0BP+f8uh6HuC9qwWbzxaQCrxbWZ2UUSlvWZd9d&#13;
-bIZrQFNk5mUfY2tdhwnQI9KKEhsK4xIFH7ZOlAi9xQ6eXHUeBzsx00KyUQoVtcpD+HxPRdT6IqFi&#13;
-+zS6oqLDFm1qUkiEPk/DL2kYz6SRa8uxn7+zmQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_88d6ad70-dfb1-4f6e-8f4b-adbb4aca02e9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>XzFUG5R4GEnKVNNLiqEC3Zr3SxXoGTUrFPNnKdlZlOSjgMUEQ8GHQudavj9my8YCMmlbF4vragwQ&#13;
++p3tyyOHzw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_849e4874-6066-4da9-96d8-27360445dfe8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>autugWIu7ENv+usHNKjRd3FG143YkUa3JpAd6AwgxuXxZVInrjJLS8guqw0loebmgmOS92EFMP3d&#13;
+/r70pVD8gg==</DigestValue></Reference></SignedInfo><SignatureValue>OE7qH0jhLnc1/+GWqpwzsl7rtYPx6dSmRYbXrYkYnE7g089nFZfQYUChyHQZSwC+O05YdRMpbXL9&#13;
+Z2eX0ZDC2TuPT7u8IeusxeLm3jmobrMosii4LY4csSzwbCMqtIRcXL1xmNxEV7/sx9qVNMyH2t3K&#13;
+h05Kfm+J0UFiWo+8e7fEUWLWJ/aPeca3WBevm06moWYo7Xvov9qOXJvNRu9dhfglLPJxnYVCFql2&#13;
+bRt0KKgoPCMBewDXw0byoUU81OTvVrv2wqGz2jYLlLF7MuCGmAZ3MtZ1o45IxUCBc3Rs2fM1u0dy&#13;
+FtzsRMssGKwfOEkohk/5Sp1caOoVJNcCokG2aw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1650,4 +1370,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1bf0d74e-5b17-41db-99b6-2a2e97f0b1eb" Target="#_104df0b3-4122-40d0-bdb7-c9a5f10cacd3"><Timestamp>2021-03-12 13:10:51</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_849e4874-6066-4da9-96d8-27360445dfe8" Target="#_88d6ad70-dfb1-4f6e-8f4b-adbb4aca02e9"><Timestamp>2021-03-15 10:43:59</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
